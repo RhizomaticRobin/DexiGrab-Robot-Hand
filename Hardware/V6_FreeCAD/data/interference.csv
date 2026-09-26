@@ -1,0 +1,48 @@
+assembly,checker pair (AABB hit),verdict,max penetration (mm),where / explanation
+top,Proximal Phalanx Bone_V02 <1> x Metacarpal Bone_V02 <1>,not real,0,index J2 knuckle: tongue 9.4 mm in 10.2 mm clevis; pin 4.5 in bore 6.8; 0.3 mm end gaps
+top,Proximal Phalanx Bone_V02 <1> x Distal Phalanx Bone_V02 <1>,not real,0,index J3 knuckle
+top,Metacarpal Bone_V02 <1> x Base Bone 1_V02 <1>,not real,0,index J1 knuckle
+top,Base Bone 1_V02 <2> x Metacarpal Bone_V02 <2>,not real,0,middle J1 knuckle
+top,Base Bone 1_V02 <3> x Metacarpal Bone_V02 <3>,not real,0,pinky base vs ring metacarpal: neighbouring fingers; AABB artefact of 10-15 deg splay
+top,Base Bone 1_V02 <3> x Metacarpal Bone_V02_pinky <1>,not real,0,pinky J1 knuckle
+top,Base Bone 1_V02 <4> x Metacarpal Bone_V02 <3>,not real,0,ring J1 knuckle
+top,Metacarpal Bone_V02 <2> x Proximal Phalanx Bone_V02_middlefinger <1>,not real,0,middle J2 knuckle
+top,Proximal Phalanx Bone_V02_middlefinger <1> x Distal Phalanx Bone_V02 <2>,not real,0,middle J3 knuckle
+top,Metacarpal Bone_V02 <3> x Proximal Phalanx Bone_V02 <2>,not real,0,ring J2 knuckle
+top,Proximal Phalanx Bone_V02 <2> x Distal Phalanx Bone_V02 <3>,not real,0,ring J3 knuckle
+top,Proximal Phalanx Bone_V02 <2> x Metacarpal Bone_V02_pinky <1>,not real,0,ring proximal vs pinky metacarpal: neighbouring fingers; AABB artefact
+top,Proximal Phalanx Bone_V02_pinky <1> x Distal Phalanx Bone_V02 <4>,not real,0,pinky J3 knuckle
+top,Proximal Phalanx Bone_V02_pinky <1> x Metacarpal Bone_V02_pinky <1>,not real,0,pinky J2 knuckle
+top,Distal Phalanx Bone_V02 <5> x Proximal Phalanx Bone_V02 <3>,not real,0,thumb R6 knuckle
+top,Metacarpal Bone_V02 <4> x Proximal Phalanx Bone_V02 <3>,not real,0,thumb R5 knuckle
+top,Metacarpal Bone_V02 <4> x third_thumb_hinge <1>,not real,0,thumb R4 (third-hinge cross bore in metacarpal clevis)
+top,Metacarpal Bone_V02 <4> x second_thumb_hinge <1>,not real,0,near but clear
+top,third_thumb_hinge <1> x second_thumb_hinge <1>,not real,0,thumb R3 roll shaft in its bore
+Palm_rigid,driver_side_palm_cover3 <1> x Shell1 <1>,touching,0.02,1 sample point
+Palm_rigid,driver_side_palm_cover3 <1> x Base Bone 1.2_V02_pointerfinger_and_thumb_attachment <1>,REAL,1.0,the three bracket straps of cover3 sink 0.7-1.0 mm into the palm (+Z) face of the index palm bone along x = 24-75 mm of the bone
+Palm_rigid,driver_side_palm_cover3 <1> x cover_back <1>,touching,0.1,2 sample points
+Palm_rigid,Shell1 <1> x driver_side_palm_cover2 <1>,REAL,2.2,cover2's outer wall and Shell1's side wall overlap 1.9-2.2 mm along most of cover2's length
+Palm_rigid,Shell1 <1> x Base Bone 1.2_V02_ringfing <1>,not real,0,palm bone sits inside the shell cavity
+Palm_rigid,Shell1 <1> x Base Bone 1.2_V02_pinky <1>,not real,0,
+Palm_rigid,Shell1 <1> x Base Bone 1.2_V02_middlefinger <1>,not real,0,
+Palm_rigid,Shell1 <1> x Base Bone 1.2_V02_pointerfinger_and_thumb_attachment <1>,not real,0,
+Palm_rigid,Shell1 <1> x cover_back <1>,not real,0,cover_back shares Shell1's frame (pure translation)
+Palm_rigid,driver_side_palm_cover2 <1> x Base Bone 1.2_V02_ringfing <1>,not real,0,
+Palm_rigid,driver_side_palm_cover2 <1> x Base Bone 1.2_V02_pinky <1>,not real,0,
+Palm_rigid,Base Bone 1.2_V02_ringfing <1> x Base Bone 1.2_V02_pinky <1>,not real,0,palm bones fan 0/5/10/15 deg; AABB artefact
+Palm_rigid,Base Bone 1.2_V02_ringfing <1> x Base Bone 1.2_V02_middlefinger <1>,not real,0,
+Palm_rigid,Base Bone 1.2_V02_middlefinger <1> x Base Bone 1.2_V02_pointerfinger_and_thumb_attachment <1>,not real,0,
+Palm_Deformable,Palm2 <1..3> x Palm1 / Palm2_2 / Palm3_2 / Palm_pinky (6 hits),not real,0,0.6 mm webs meet the strips edge to edge
+Palm_Deformable,Palm2 <1..3> x palm_bone_flex <1>/<2> (6 hits),not real,0,
+Palm_Deformable,Palm1 / Palm2_2 / Palm3_2 / Palm_pinky x palm_bone_flex <1>/<2> (8 hits),not real,0,
+Palm_Deformable,Palm2_2 <1> x Palm3_2 <1>; Palm3_2 <1> x Palm_pinky <1>,not real,0,
+Palm_Deformable,palm_bone_flex <1> x palm_bone_flex <2>,REAL (duplicate),full overlap,two instances of the same part at an identical transform
+Palm_bone1,Palm_bone1 <1> x Palm_bone1 <4>,junk,0,<1> is a 0.006 mm3 import sliver lying on the surface of segment <4>
+Assem5,hand_pulley_wheel_thumb <1> x first_thumb_hinge <1>,REAL,2.2,the hub's lobe runs 1.0-2.2 mm into the underside of the yoke (rigid pair; press-fit or modelling error?)
+extra (not checked by the tool),Palm3_2 <1> x Base Bone 1.2_V02_ringfing <1>,REAL,2.5,0.6 mm web layer of the strip runs ~2.5 mm into the proximal end wall of the ring palm bone
+extra (not checked by the tool),palm_bone_flex <1> x Base Bone 1.2_V02_ringfing <1>,REAL,2.5,same web level; proximal end wall of the ring palm bone
+extra (not checked by the tool),palm_bone_flex <1> x Base Bone 1.2_V02_pinky <1>,REAL,2.8,same web level; proximal end wall of the pinky palm bone
+extra (not checked by the tool),Palm2 <1>/<2> x middle/ring palm bones,touching,0.14,web edges in their 0.6 mm slots
+extra (not checked by the tool),palm bone J0 clevis x Base Bone 1_V02 (4 fingers),not real,0,
+extra (not checked by the tool),thumb yoke/hub/second/third/metacarpal x cover3 and index palm bone,not real,0,
+extra (not checked by the tool),Shell2 (other document) x Shell1,see report,1.3-1.9 in Shell1's frame,as placed Shell2 hangs ~6 mm below Shell1 (gap); in the shared design frame it would overlap by 1.3-1.9 mm

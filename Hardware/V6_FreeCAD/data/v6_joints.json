@@ -1,0 +1,122 @@
+{
+ "Revolute 2": {
+  "lo": -93.0,
+  "hi": -23.0,
+  "rest": -58.0,
+  "note": "thumb roll (third_thumb_hinge <-> second_thumb_hinge). Flex stack re-clocked about R3 for opposition (Leap fit); passive -35/+35 about the rest (extended from -83..-33 after the Leap re-fits: 15 % of frames at -83, 8 % at -33); hard stops 5 deg outside (-98 / -18) from the roll keeper groove. Tendon entry at the gimbal centre is a fan over the whole range. Rest is the rom_sweep/Leap value (theta0 + sign*rotation), not the atan2 re-measure (+66.8). Instance placements: mod_thumb.placements()."
+ },
+ "Revolute 5": {
+  "lo": -85.0,
+  "hi": 75.0,
+  "rest": -43.48,
+  "note": "thumb yaw (cover3 <-> D-coupler/carrier). Negative travel extended -70 -> -75 -> -85 (Leap re-fit: 6 % of frames at the -75 stop); hard stops 2.5 deg outside (-87.5 / +77.5) from the yaw keeper groove; carrier checked clear of cover3 and the index wrist segment at pitch 0/-45/-90."
+ },
+ "Revolute 16": {
+  "frames": {
+   "Metacarpal Bone_V02 <1>": {
+    "origin": [
+     51.1,
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "note": "index J2: metacarpal J2 connector moved +11.60 mm (V6.1 proportions)"
+ },
+ "Revolute 17": {
+  "frames": {
+   "Proximal Phalanx Bone_V02 <1>": {
+    "origin": [
+     37.0,
+     0.0,
+     -0.0
+    ]
+   }
+  },
+  "note": "index J3: proximal distal-end connector moved -12.20 mm (V6.1 proportions)"
+ },
+ "Revolute 13": {
+  "frames": {
+   "Metacarpal Bone_V02 <2>": {
+    "origin": [
+     58.1,
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "note": "middle J2: metacarpal J2 connector moved +18.60 mm (V6.1 proportions)"
+ },
+ "Revolute 14": {
+  "frames": {
+   "Proximal Phalanx Bone_V02_middlefinger <1>": {
+    "origin": [
+     43.1,
+     0.0,
+     -0.0
+    ]
+   }
+  },
+  "note": "middle J3: proximal distal-end connector moved -14.10 mm (V6.1 proportions)"
+ },
+ "Revolute 11": {
+  "frames": {
+   "Metacarpal Bone_V02 <3>": {
+    "origin": [
+     57.0,
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "note": "ring J2: metacarpal J2 connector moved +17.50 mm (V6.1 proportions)"
+ },
+ "Revolute 12": {
+  "frames": {
+   "Proximal Phalanx Bone_V02 <2>": {
+    "origin": [
+     35.3,
+     0.0,
+     -0.0
+    ]
+   }
+  },
+  "note": "ring J3: proximal distal-end connector moved -13.90 mm (V6.1 proportions)"
+ },
+ "Revolute 9": {
+  "frames": {
+   "Metacarpal Bone_V02_pinky <1>": {
+    "origin": [
+     40.4,
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "note": "pinky J2: metacarpal J2 connector moved +7.90 mm (V6.1 proportions)"
+ },
+ "Revolute 10": {
+  "frames": {
+   "Proximal Phalanx Bone_V02_pinky <1>": {
+    "origin": [
+     32.5,
+     0.0,
+     -0.0
+    ]
+   }
+  },
+  "note": "pinky J3: proximal distal-end connector moved -6.70 mm (V6.1 proportions)"
+ },
+ "Revolute 6": {
+  "frames": {
+   "Proximal Phalanx Bone_V02 <3>": {
+    "origin": [
+     40.5,
+     0.0,
+     -0.0
+    ]
+   }
+  },
+  "note": "thumb R6: proximal distal-end connector moved -8.70 mm (V6.1 proportions)"
+ }
+}

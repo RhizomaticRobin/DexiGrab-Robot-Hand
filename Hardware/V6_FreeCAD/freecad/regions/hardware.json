@@ -1,0 +1,184 @@
+[
+ {
+  "part": "palm_index",
+  "frame": "local",
+  "box": [
+   86.69,
+   -7.5,
+   -2.61,
+   91.91,
+   10.9,
+   2.61
+  ],
+  "what": "J0 index M2x16 SHCS + M2 nyloc: counterbore, hole, nut pocket, and nut + screw tip standing 3.4 mm out of the back lug (+0.2); keep clear"
+ },
+ {
+  "part": "palm_index",
+  "frame": "local",
+  "box": [
+   87.2,
+   -17.5,
+   -2.1,
+   91.4,
+   -7.5,
+   2.1
+  ],
+  "what": "J0 index: straight 1.5 mm hex-key approach to the cap screw from the palm side (10 mm); keep open"
+ },
+ {
+  "part": "palm_middle",
+  "frame": "local",
+  "box": [
+   86.69,
+   -7.5,
+   -2.61,
+   91.91,
+   10.9,
+   2.61
+  ],
+  "what": "J0 middle M2x16 SHCS + M2 nyloc: counterbore, hole, nut pocket, and nut + screw tip standing 3.4 mm out of the back lug (+0.2); keep clear"
+ },
+ {
+  "part": "palm_middle",
+  "frame": "local",
+  "box": [
+   87.2,
+   -17.5,
+   -2.1,
+   91.4,
+   -7.5,
+   2.1
+  ],
+  "what": "J0 middle: straight 1.5 mm hex-key approach to the cap screw from the palm side (10 mm); keep open"
+ },
+ {
+  "part": "palm_ring",
+  "frame": "local",
+  "box": [
+   86.69,
+   -7.5,
+   -2.61,
+   91.91,
+   10.9,
+   2.61
+  ],
+  "what": "J0 ring M2x16 SHCS + M2 nyloc: counterbore, hole, nut pocket, and nut + screw tip standing 3.4 mm out of the back lug (+0.2); keep clear"
+ },
+ {
+  "part": "palm_ring",
+  "frame": "local",
+  "box": [
+   87.2,
+   -17.5,
+   -2.1,
+   91.4,
+   -7.5,
+   2.1
+  ],
+  "what": "J0 ring: straight 1.5 mm hex-key approach to the cap screw from the palm side (10 mm); keep open"
+ },
+ {
+  "part": "palm_pinky",
+  "frame": "local",
+  "box": [
+   86.69,
+   -7.5,
+   -2.61,
+   91.91,
+   10.9,
+   2.61
+  ],
+  "what": "J0 pinky M2x16 SHCS + M2 nyloc: counterbore, hole, nut pocket, and nut + screw tip standing 3.4 mm out of the back lug (+0.2); keep clear"
+ },
+ {
+  "part": "palm_pinky",
+  "frame": "local",
+  "box": [
+   87.2,
+   -17.5,
+   -2.1,
+   91.4,
+   -7.5,
+   2.1
+  ],
+  "what": "J0 pinky: straight 1.5 mm hex-key approach to the cap screw from the palm side (10 mm); keep open"
+ },
+ {
+  "part": "palm_index",
+  "frame": "local",
+  "box": [
+   66.75,
+   -7.75,
+   -0.89,
+   71.96,
+   -0.55,
+   4.33
+  ],
+  "what": "V5_BRK_I1 M2x5 SHCS + M2 hex (m2x5_assemb-13/M2 x 0.4mm Thread 5mm LONG SOCKET HEAD CAP SCREW.step-1) fastener: head, hole, nut pocket, tip (+0.2); keep clear"
+ },
+ {
+  "part": "palm_index",
+  "frame": "local",
+  "box": [
+   67.26,
+   -17.75,
+   -0.38,
+   71.46,
+   -7.75,
+   3.82
+  ],
+  "what": "V5_BRK_I1 M2x5 SHCS + M2 hex (m2x5_assemb-13/M2 x 0.4mm Thread 5mm LONG SOCKET HEAD CAP SCREW.step-1) straight 10 mm hex-key approach; keep open"
+ },
+ {
+  "part": "palm_index",
+  "frame": "local",
+  "box": [
+   44.42,
+   -7.75,
+   -1.26,
+   49.64,
+   -0.55,
+   3.96
+  ],
+  "what": "V5_BRK_I2 M2x5 SHCS + M2 hex (m2x5_assemb-11/M2 x 0.4mm Thread 5mm LONG SOCKET HEAD CAP SCREW.step-1) fastener: head, hole, nut pocket, tip (+0.2); keep clear"
+ },
+ {
+  "part": "palm_index",
+  "frame": "local",
+  "box": [
+   44.93,
+   -17.75,
+   -0.75,
+   49.13,
+   -7.75,
+   3.45
+  ],
+  "what": "V5_BRK_I2 M2x5 SHCS + M2 hex (m2x5_assemb-11/M2 x 0.4mm Thread 5mm LONG SOCKET HEAD CAP SCREW.step-1) straight 10 mm hex-key approach; keep open"
+ },
+ {
+  "part": "palm_index",
+  "frame": "local",
+  "box": [
+   25.37,
+   -7.75,
+   -0.95,
+   30.58,
+   -0.55,
+   4.27
+  ],
+  "what": "V5_BRK_I3 M2x5 SHCS + M2 hex (m2x5_assemb-12/M2 x 0.4mm Thread 5mm LONG SOCKET HEAD CAP SCREW.step-1) fastener: head, hole, nut pocket, tip (+0.2); keep clear"
+ },
+ {
+  "part": "palm_index",
+  "frame": "local",
+  "box": [
+   25.87,
+   -17.75,
+   -0.44,
+   30.07,
+   -7.75,
+   3.76
+  ],
+  "what": "V5_BRK_I3 M2x5 SHCS + M2 hex (m2x5_assemb-12/M2 x 0.4mm Thread 5mm LONG SOCKET HEAD CAP SCREW.step-1) straight 10 mm hex-key approach; keep open"
+ }
+]

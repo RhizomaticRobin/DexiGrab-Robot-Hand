@@ -1,0 +1,144 @@
+[
+ {
+  "name": "yaw_keeper",
+  "type": "M2x14 SHCS",
+  "nut": "M2 nyloc",
+  "nut_offset": 10.4,
+  "position": [
+   -170.4965,
+   29.8389,
+   -18.3
+  ],
+  "axis": [
+   1,
+   0,
+   0
+  ],
+  "frame": "world",
+  "note": "R1 yaw bearing keeper: chord through the cover3 turret, runs in the turntable rim groove (lift retention + yaw hard stops). Fixed to cover3."
+ },
+ {
+  "name": "R2_pin",
+  "type": "M2x8 SHCS",
+  "nut": "M2 nyloc",
+  "nut_offset": 2.0,
+  "position": [
+   -175.0106,
+   30.2691,
+   -0.4677
+  ],
+  "axis": [
+   0.7249,
+   -0.6888,
+   0.0
+  ],
+  "frame": "world",
+  "note": "R2 +s trunnion: clamped in the carrier arm (nyloc in the inner-face pocket); the 3.2 mm tip past the nut IS the pivot pin in the cross (blind dia 2.4 hole). Length is intentional."
+ },
+ {
+  "name": "R3_keeper",
+  "type": "M2x14 SHCS",
+  "nut": "M2 hex",
+  "nut_offset": 12.0,
+  "position": [
+   -158.1833,
+   19.8146,
+   3.1187
+  ],
+  "axis": [
+   -0.7249,
+   0.6888,
+   -0.0
+  ],
+  "frame": "world",
+  "note": "R3 roll keeper: across the gimbal cross, runs in the roll-shaft groove (axial retention + roll hard stops). Fixed to the cross; head on the -s face, hex nut on the +s face."
+ },
+ {
+  "name": "R4_bolt",
+  "type": "M2x14 SHCS",
+  "nut": "M2 nyloc",
+  "nut_offset": 9.5,
+  "position": [
+   -155.8314,
+   34.5685,
+   4.1727
+  ],
+  "axis": [
+   0.3341,
+   -0.3216,
+   -0.886
+  ],
+  "frame": "world",
+  "note": "R4 pivot: thumb metacarpal cheeks + roll-shaft tongue (J0-style through-bolt)."
+ },
+ {
+  "name": "R5_bolt",
+  "type": "M2x16 SHCS",
+  "nut": "M2 nyloc",
+  "nut_offset": 11.0,
+  "position": [
+   -133.7865,
+   57.7644,
+   4.2917
+  ],
+  "axis": [
+   0.3341,
+   -0.3216,
+   -0.886
+  ],
+  "frame": "world",
+  "note": "R5 pivot: thumb metacarpal distal clevis + thumb proximal tongue (J0-style through-bolt)."
+ },
+ {
+  "name": "R6_bolt",
+  "type": "M2x16 SHCS",
+  "nut": "M2 nyloc",
+  "nut_offset": 11.0,
+  "position": [
+   -101.3054,
+   84.3781,
+   -5.5075
+  ],
+  "axis": [
+   -0.3341,
+   0.3216,
+   0.886
+  ],
+  "frame": "world",
+  "note": "R6 pivot: thumb distal clevis + thumb proximal tongue (J0-style through-bolt)."
+ },
+ {
+  "name": "T3_mount_1",
+  "type": "M1.6x3 SHCS",
+  "nut": null,
+  "position": [
+   -169.7965,
+   21.0389,
+   -23.5
+  ],
+  "axis": [
+   0,
+   0,
+   -1
+  ],
+  "frame": "world",
+  "note": "T3 N20 gearbox face to the cup floor (tapped M1.6 holes of the gearbox front plate; if absent, glue the gearbox face to the floor)."
+ },
+ {
+  "name": "T3_mount_2",
+  "type": "M1.6x3 SHCS",
+  "nut": null,
+  "position": [
+   -160.7965,
+   21.0389,
+   -23.5
+  ],
+  "axis": [
+   0,
+   0,
+   -1
+  ],
+  "frame": "world",
+  "note": "T3 N20 gearbox face to the cup floor (tapped M1.6 holes of the gearbox front plate; if absent, glue the gearbox face to the floor)."
+ }
+]

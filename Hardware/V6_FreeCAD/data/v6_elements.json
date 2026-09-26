@@ -1,0 +1,22 @@
+{
+ "version_V1": "4937a5efeda8569587332ba0",
+ "feature_studios": {
+  "pillars": "7211fc09b06675010f2f8d59",
+  "thumb": "e877180229e96feb95a37fd2",
+  "actuation": "7c36337e96556f16d78cbdc7",
+  "electronics": "78f55e8ea0cb41c089f041c1",
+  "shells": "2af77b1c832be8e05822625e",
+  "hardware": "7c20d888d844935f77d2659d"
+ },
+ "imports": {
+  "n20": "ERR Client error '400 Bad Request' for url 'https://cad.onshape.com/api/v9/translations/d/a5cbba9347bd00ff4914f7d3/w/94ad79647333aa8fe41498ac'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+  "m2x5": "ERR Client error '400 Bad Request' for url 'https://cad.onshape.com/api/v9/translations/d/a5cbba9347bd00ff4914f7d3/w/94ad79647333aa8fe41498ac'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+  "m2x8": "ERR Client error '400 Bad Request' for url 'https://cad.onshape.com/api/v9/translations/d/a5cbba9347bd00ff4914f7d3/w/94ad79647333aa8fe41498ac'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+  "m2x10": "ERR Client error '400 Bad Request' for url 'https://cad.onshape.com/api/v9/translations/d/a5cbba9347bd00ff4914f7d3/w/94ad79647333aa8fe41498ac'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+  "m2x12": "ERR Client error '400 Bad Request' for url 'https://cad.onshape.com/api/v9/translations/d/a5cbba9347bd00ff4914f7d3/w/94ad79647333aa8fe41498ac'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+  "m2x14": "ERR Client error '400 Bad Request' for url 'https://cad.onshape.com/api/v9/translations/d/a5cbba9347bd00ff4914f7d3/w/94ad79647333aa8fe41498ac'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+  "m2x16": "ERR Client error '400 Bad Request' for url 'https://cad.onshape.com/api/v9/translations/d/a5cbba9347bd00ff4914f7d3/w/94ad79647333aa8fe41498ac'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+  "m2nut": "ERR Client error '400 Bad Request' for url 'https://cad.onshape.com/api/v9/translations/d/a5cbba9347bd00ff4914f7d3/w/94ad79647333aa8fe41498ac'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+  "m2washer": "ERR Client error '400 Bad Request' for url 'https://cad.onshape.com/api/v9/translations/d/a5cbba9347bd00ff4914f7d3/w/94ad79647333aa8fe41498ac'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+ }
+}

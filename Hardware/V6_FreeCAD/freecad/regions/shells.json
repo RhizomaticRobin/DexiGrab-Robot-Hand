@@ -1,0 +1,106 @@
+[
+ {
+  "part": "world",
+  "frame": "world",
+  "box": [
+   -193.2,
+   -94.9,
+   -83.4,
+   -57.1,
+   35.2,
+   -3.4
+  ],
+  "what": "shells: Shell1 bowl + Shell2 cap + retention stacks incl. the roll envelope -1..+15 deg (tilt +-1) of Shell2 about the palm axis (D y-axis = Shell1 local y-axis). Keep everything else out of r 53..80 mm from that axis"
+ },
+ {
+  "part": "shell1",
+  "frame": "local",
+  "box": [
+   -44,
+   -68,
+   62,
+   45,
+   -52,
+   71
+  ],
+  "what": "spherical bearing: land on Shell1 (sphere R70 about C=(0,-60,0), theta -36..38 deg) under the Shell2 seat (R70.2)"
+ },
+ {
+  "part": "shell1",
+  "frame": "local",
+  "box": [
+   -20.0,
+   -102.0,
+   58.0,
+   14.8,
+   -88.0,
+   77.9
+  ],
+  "what": "retention stud 1 (y -95) + its slot sweep in Shell2 + slider washer / O-ring / cap washer / M2x8 on top of Shell2"
+ },
+ {
+  "part": "shell1",
+  "frame": "local",
+  "box": [
+   -19.7,
+   -27.0,
+   58.0,
+   14.5,
+   -13.0,
+   76.5
+  ],
+  "what": "retention stud 2 (y -20) + slot sweep + stack"
+ },
+ {
+  "part": "shell1",
+  "frame": "local",
+  "box": [
+   -57,
+   -108,
+   36,
+   -38,
+   5,
+   52
+  ],
+  "what": "Shell1 pinky rim rebate over cover2 dorsal wall end (0.2 all round) + 2x M2x8 Shell1->cover2 (cover2 local x -62, -22). cover2 wall end must stay a 4.5 mm plate ending flat at local z -24.5"
+ },
+ {
+  "part": "shell1",
+  "frame": "local",
+  "box": [
+   36,
+   -73,
+   60,
+   64,
+   -28,
+   80
+  ],
+  "what": "INTERFACE for the cover3 owners (thumb, fixes): Shell2 lip straddles cover3 dorsal wall end over D y -72..-30 (faces NT.p 53.97 / 58.47, wall-end top <= lemon + 7.6..8.6 mm). Keep that wall end as is; Shell2 follows cover3 in roll through it"
+ },
+ {
+  "part": "shell1",
+  "frame": "local",
+  "box": [
+   26,
+   -121,
+   15,
+   64,
+   0,
+   72
+  ],
+  "what": "thumb-side seam: cover3 + thumb (thumb group) roll -1..+15 deg against Shell1 + cover_back (pinky group); Shell1 edge and cover_back end pulled back 2.8 mm. No wires, clips or boards across this seam (it opens by up to ~17 mm)"
+ },
+ {
+  "part": "shell1",
+  "frame": "local",
+  "box": [
+   -40,
+   -126,
+   38,
+   31,
+   -110,
+   58
+  ],
+  "what": "cover_back <-> Shell1: 2x M1.6x12 + M1.6 hex at Shell1's wrist bosses; heads in cover_back's outer face"
+ }
+]

@@ -1,0 +1,23 @@
+finger,joint,parent part,child part,axis point X,Y,Z (mm),axis dir x,y,z,range deg (+ = toward palm/+Z for flexion joints)
+index,J0,Base Bone 1.2_V02_pointerfinger_and_thumb_attachment <1>,Base Bone 1_V02 <1>,-71.8,-0.2,-0.5,0.001,-0.0,1.0,-20..+20 (clevis stop); ~+-10 before touching a neighbour finger (2D estimate)
+index,J1,Base Bone 1_V02 <1>,Metacarpal Bone_V02 <1>,-53.5,-0.3,-0.5,0.002,1.0,-0.0,-2.5..+93
+index,J2,Metacarpal Bone_V02 <1>,Proximal Phalanx Bone_V02 <1>,-21.5,-0.3,-0.5,0.002,1.0,-0.0,-3..+93
+index,J3,Proximal Phalanx Bone_V02 <1>,Distal Phalanx Bone_V02 <1>,20.2,-0.3,-0.5,0.001,1.0,0.001,-3..+94
+middle,J0,Base Bone 1.2_V02_middlefinger <1>,Base Bone 1_V02 <2>,-71.8,-25.6,-0.5,0.001,-0.0,1.0,-20..+20 (clevis stop); ~+-10 before touching a neighbour finger (2D estimate)
+middle,J1,Base Bone 1_V02 <2>,Metacarpal Bone_V02 <2>,-53.6,-27.2,-0.5,0.089,0.996,0.0,-2.5..+93
+middle,J2,Metacarpal Bone_V02 <2>,Proximal Phalanx Bone_V02_middlefinger <1>,-21.7,-30.0,-0.5,0.089,0.996,0.0,-3..+93
+middle,J3,Proximal Phalanx Bone_V02_middlefinger <1>,Distal Phalanx Bone_V02 <2>,27.8,-34.4,-0.5,0.088,0.996,0.0,-3..+94
+ring,J0,Base Bone 1.2_V02_ringfing <1>,Base Bone 1_V02 <4>,-75.0,-50.7,-0.5,0.001,-0.0,1.0,-20..+20 (clevis stop); ~+-10 before touching a neighbour finger (2D estimate)
+ring,J1,Base Bone 1_V02 <4>,Metacarpal Bone_V02 <3>,-57.0,-53.9,-0.5,0.175,0.985,-0.0,-2.5..+93
+ring,J2,Metacarpal Bone_V02 <3>,Proximal Phalanx Bone_V02 <2>,-25.5,-59.5,-0.5,0.175,0.985,-0.0,-3..+93
+ring,J3,Proximal Phalanx Bone_V02 <2>,Distal Phalanx Bone_V02 <3>,15.6,-66.8,-0.5,0.174,0.985,0.0,-3..+94
+pinky,J0,Base Bone 1.2_V02_pinky <1>,Base Bone 1_V02 <3>,-80.4,-75.5,-0.5,0.0,-0.001,1.0,-20..+20 (clevis stop); ~+-10 before touching a neighbour finger (2D estimate)
+pinky,J1,Base Bone 1_V02 <3>,Metacarpal Bone_V02_pinky <1>,-62.7,-80.2,-0.5,0.26,0.966,-0.0,-2.5..+93
+pinky,J2,Metacarpal Bone_V02_pinky <1>,Proximal Phalanx Bone_V02_pinky <1>,-38.6,-86.7,-0.5,0.26,0.966,-0.0,-3..+93
+pinky,J3,Proximal Phalanx Bone_V02_pinky <1>,Distal Phalanx Bone_V02 <4>,-8.0,-95.0,-0.5,0.26,0.966,0.0,-3..+94
+thumb,R1 yaw,driver_side_palm_cover3 (Palm_rigid),Assem5 (hand_pulley_wheel_thumb + first_thumb_hinge),-165.3,21.0,-17.6,-0.003,-0.001,1.0,"<=-100 (away from index, no stop found) .. +30 (metacarpal meets cover3 by +40)"
+thumb,R2 pitch,first_thumb_hinge,second_thumb_hinge,-165.3,20.9,-0.5,-0.725,0.689,-0.001,-60..+20 free; stops between -60/-90 (palm side) and +20/+40 (back side)
+thumb,R3 roll,second_thumb_hinge,third_thumb_hinge,-165.3,21.0,-0.5,0.689,0.724,-0.003,-10..+18
+thumb,R4,third_thumb_hinge,Metacarpal Bone_V02 <4>,-154.0,32.9,-0.5,-0.725,0.689,0.0,about -110..+100 (no stop before)
+thumb,R5,Metacarpal Bone_V02 <4>,Proximal Phalanx Bone_V02 <3>,-132.0,56.1,-0.5,-0.725,0.689,0.0,-3..+93
+thumb,R6,Proximal Phalanx Bone_V02 <3>,Distal Phalanx Bone_V02 <5>,-103.3,86.3,-0.5,-0.725,0.689,0.0,-3..+94

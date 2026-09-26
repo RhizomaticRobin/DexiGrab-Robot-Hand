@@ -1,0 +1,186 @@
+cut_tool,model,hidden,convex,centre_os,hosts
+motor_cav_tolerances-1,motor_cav_tolerances,True,False,-164.85 -52.84 -0.64,Palm_bone1-1 (153 on-surface verts); palm_bone_flex-1 (7 on-surface verts)
+motor_cav_tolerances-2,motor_cav_tolerances,True,False,-139.24 -59.70 -0.64,Base Bone 1.2_V02_pinky-1 (160 on-surface verts); Palm_pinky-1 (30 on-surface verts)
+motor_cav_tolerances-3,motor_cav_tolerances,True,False,-100.74 -70.02 -0.64,Base Bone 1.2_V02_pinky-1 (171 on-surface verts); Palm_pinky-1 (31 on-surface verts)
+motor_cav_tolerances-4,motor_cav_tolerances,True,False,-119.99 -64.86 -0.64,Base Bone 1.2_V02_pinky-1 (149 on-surface verts); Palm_pinky-1 (30 on-surface verts)
+motor_cav_tolerances-5,motor_cav_tolerances,True,False,-115.41 -43.59 -0.64,Base Bone 1.2_V02_ringfing-1 (147 on-surface verts); Palm3_2-1 (45 on-surface verts)
+motor_cav_tolerances-6,motor_cav_tolerances,True,False,-95.78 -47.05 -0.64,Base Bone 1.2_V02_ringfing-1 (159 on-surface verts); Palm3_2-1 (44 on-surface verts)
+motor_cav_tolerances-7,motor_cav_tolerances,True,False,-161.14 -35.53 -0.64,Palm_bone1-1 (152 on-surface verts); palm_bone_flex-1 (16 on-surface verts)
+motor_cav_tolerances-9,motor_cav_tolerances,True,False,-135.04 -40.13 -0.64,Base Bone 1.2_V02_ringfing-1 (152 on-surface verts); Palm3_2-1 (44 on-surface verts)
+motor_cav_tolerances-10,motor_cav_tolerances,True,False,-92.95 -0.25 -0.64,Base Bone 1.2_V02_pointerfinger_and_thumb_attachment-1 (148 on-surface verts); Palm1-1 (41 on-surface verts)
+motor_cav_tolerances-11,motor_cav_tolerances,True,False,-158.77 -17.97 -0.76,Palm_bone1-1 (146 on-surface verts); palm_bone_flex-1 (12 on-surface verts)
+motor_cav_tolerances-12,motor_cav_tolerances,True,False,-132.55 -20.26 -0.64,Base Bone 1.2_V02_middlefinger-2 (154 on-surface verts); Palm2_2-1 (44 on-surface verts)
+motor_cav_tolerances-13,motor_cav_tolerances,True,False,-112.88 -0.25 -0.64,Base Bone 1.2_V02_pointerfinger_and_thumb_attachment-1 (156 on-surface verts); Palm1-1 (38 on-surface verts)
+motor_cav_tolerances-14,motor_cav_tolerances,True,False,-92.84 -23.74 -0.64,Base Bone 1.2_V02_middlefinger-2 (155 on-surface verts); Palm2_2-1 (46 on-surface verts)
+motor_cav_tolerances-15,motor_cav_tolerances,True,False,-132.81 -0.25 -0.64,Base Bone 1.2_V02_pointerfinger_and_thumb_attachment-1 (150 on-surface verts); Palm1-1 (39 on-surface verts)
+motor_cav_tolerances-16,motor_cav_tolerances,True,False,-112.70 -22.00 -0.64,Base Bone 1.2_V02_middlefinger-2 (150 on-surface verts); Palm2_2-1 (46 on-surface verts)
+motor_cav_tolerances-17,motor_cav_tolerances,True,False,-159.32 -0.25 -0.64,Palm_bone1-1 (152 on-surface verts); palm_bone_flex-1 (9 on-surface verts)
+string_3dhole1-1,string_3dhole1,True,False,-6.65 -0.06 -4.78,Base Bone 1_V02-1 (903 on-surface verts); Distal Phalanx Bone_V02-2 (499 on-surface verts); Metacarpal Bone_V02-1 (303 on-surface verts)
+string_3dhole2-2,string_3dhole2,True,False,-4.83 -31.03 -4.71,Base Bone 1_V02-7 (898 on-surface verts); Metacarpal Bone_V02-3 (303 on-surface verts); Distal Phalanx Bone_V02-4 (14 on-surface verts); Base Bone 1_V02-10 (14 on-surface verts)
+string_3dhole1-2,string_3dhole1,True,False,-33.75 -87.77 -4.78,Distal Phalanx Bone_V02-6 (499 on-surface verts); Base Bone 1.2_V02_pinky-1 (30 on-surface verts)
+side_and_knuckle_stringholes-1,side_and_knuckle_stringholes,True,False,-85.39 -76.23 -4.57,Base Bone 1.2_V02_pinky-1 (816 on-surface verts)
+side_and_knuckle_stringholes-2,side_and_knuckle_stringholes,True,False,-80.10 -51.79 -4.10,Base Bone 1.2_V02_ringfing-1 (917 on-surface verts)
+side_and_knuckle_stringholes-3,side_and_knuckle_stringholes,True,False,-76.90 -27.11 -4.15,Base Bone 1.2_V02_middlefinger-2 (934 on-surface verts)
+side_and_knuckle_stringholes-4,side_and_knuckle_stringholes,True,False,-76.69 -2.27 -4.04,Base Bone 1.2_V02_pointerfinger_and_thumb_attachment-1 (879 on-surface verts)
+shell_molder_block-1,shell_molder_block,True,True,-118.16 30.75 -17.33,"driver_side_palm_cover3-1 (1644 on-surface verts, 1462 inside); Metacarpal Bone_V02_thumb-1 (189 on-surface verts, 7492 inside); Shell2-1 (135 on-surface verts, 0 inside); Battery_case-1/Shell1-1 (119 on-surface verts, 0 inside); Assem2^Robotic Hand_V5-1/second_thumb_hinge-1 (59 on-surface verts, 2316 inside); thumb_ball_joint_cap-1 (49 on-surface verts, 369 inside); cover_back-1 (36 on-surface verts, 0 inside); Assem2^Robotic Hand_V5-1/third_thumb_hinge-1 (33 on-surface verts, 4005 inside); Assem2^Robotic Hand_V5-1/Proximal Phalanx Bone_V02-1 (4 on-surface verts, 0 inside)"
+shell_molder_block-2,shell_molder_block,True,True,-132.07 -93.72 -17.33,"driver_side_palm_cover2-1 (198 on-surface verts, 0 inside); Battery_case-1/Shell1-1 (124 on-surface verts, 0 inside); cover_back-1 (39 on-surface verts, 0 inside)"
+first_thumb_hinge_cav-1,first_thumb_hinge_cav,True,False,-165.48 21.59 0.49,Assem2^Robotic Hand_V5-1/first_thumb_hinge-1 (38 on-surface verts); Assem2^Robotic Hand_V5-1/first_thumb_hinge-2 (38 on-surface verts)
+Battery_case-1/cav_battery_FINAL_6v_28mAh-1,cav_battery_FINAL_6v_28mAh,False,True,-123.49 -31.65 -52.99,"Battery_case-1/battery_cover_better-1 (301 on-surface verts, 0 inside); Battery_case-1/Shell1-1 (128 on-surface verts, 0 inside)"
+Battery_case-1/m2x5_batt_assemb-1/m2_nut_cav-1,m2_nut_cav,False,True,-81.11 -52.51 -60.07,"Battery_case-1/Shell1-1 (97 on-surface verts, 0 inside)"
+Battery_case-1/m2x5_batt_assemb-1/m2_screwhead_cav-1,m2_screwhead_cav,False,True,-82.46 -50.80 -54.67,"Battery_case-1/battery_cover_better-1 (136 on-surface verts, 0 inside)"
+Battery_case-1/m2x5_batt_assemb-1/batt_cov_hole_for_allen-1,batt_cov_hole_for_allen,True,True,-83.91 -48.97 -48.87,(none found)
+Battery_case-1/m2x5_batt_assemb-1/m2_hole_cav_battcover-1,m2_hole_cav_battcover,False,True,-81.62 -51.87 -58.05,"Battery_case-1/battery_cover_better-1 (259 on-surface verts, 0 inside); Battery_case-1/Shell1-1 (125 on-surface verts, 0 inside)"
+Battery_case-1/m2x5_batt_assemb-2/m2_nut_cav-1,m2_nut_cav,False,True,-104.05 -69.61 -55.60,"Battery_case-1/Shell1-1 (97 on-surface verts, 0 inside)"
+Battery_case-1/m2x5_batt_assemb-2/m2_screwhead_cav-1,m2_screwhead_cav,False,True,-104.52 -66.26 -50.85,"Battery_case-1/battery_cover_better-1 (133 on-surface verts, 0 inside)"
+Battery_case-1/m2x5_batt_assemb-2/batt_cov_hole_for_allen-1,batt_cov_hole_for_allen,True,True,-105.04 -62.67 -45.76,"Battery_case-1/battery_cover_better-1 (197 on-surface verts, 0 inside)"
+Battery_case-1/m2x5_batt_assemb-2/m2_hole_cav_battcover-1,m2_hole_cav_battcover,False,True,-104.23 -68.36 -53.83,"Battery_case-1/battery_cover_better-1 (259 on-surface verts, 0 inside); Battery_case-1/Shell1-1 (128 on-surface verts, 0 inside)"
+Battery_case-1/m2x5_batt_assemb-3/m2_nut_cav-1,m2_nut_cav,False,True,-151.93 -63.31 -56.85,"Battery_case-1/Shell1-1 (94 on-surface verts, 0 inside)"
+Battery_case-1/m2x5_batt_assemb-3/m2_screwhead_cav-1,m2_screwhead_cav,False,True,-150.85 -60.16 -52.06,"Battery_case-1/battery_cover_better-1 (134 on-surface verts, 0 inside)"
+Battery_case-1/m2x5_batt_assemb-3/batt_cov_hole_for_allen-1,batt_cov_hole_for_allen,True,True,-149.69 -56.79 -46.93,"Battery_case-1/battery_cover_better-1 (185 on-surface verts, 0 inside)"
+Battery_case-1/m2x5_batt_assemb-3/m2_hole_cav_battcover-1,m2_hole_cav_battcover,False,True,-151.53 -62.13 -55.06,"Battery_case-1/battery_cover_better-1 (268 on-surface verts, 0 inside); Battery_case-1/Shell1-1 (123 on-surface verts, 0 inside)"
+Battery_case-1/m2x5_batt_assemb-4/m2_nut_cav-1,m2_nut_cav,False,True,-169.39 -40.88 -62.39,"Battery_case-1/Shell1-1 (96 on-surface verts, 0 inside)"
+Battery_case-1/m2x5_batt_assemb-4/m2_screwhead_cav-1,m2_screwhead_cav,False,True,-167.93 -39.54 -56.90,"Battery_case-1/battery_cover_better-1 (136 on-surface verts, 0 inside)"
+Battery_case-1/m2x5_batt_assemb-4/batt_cov_hole_for_allen-1,batt_cov_hole_for_allen,True,True,-166.36 -38.11 -51.03,(none found)
+Battery_case-1/m2x5_batt_assemb-4/m2_hole_cav_battcover-1,m2_hole_cav_battcover,False,True,-168.85 -40.38 -60.34,"Battery_case-1/battery_cover_better-1 (262 on-surface verts, 0 inside); Battery_case-1/Shell1-1 (128 on-surface verts, 0 inside)"
+Battery_case-1/m2x5_batt_assemb-5/m2_nut_cav-1,m2_nut_cav,False,True,-94.94 -0.40 -55.36,"Battery_case-1/Shell1-1 (23 on-surface verts, 42 inside)"
+Battery_case-1/m2x5_batt_assemb-5/m2_screwhead_cav-1,m2_screwhead_cav,False,True,-96.27 -3.54 -50.64,"Battery_case-1/battery_cover_better-1 (134 on-surface verts, 0 inside)"
+Battery_case-1/m2x5_batt_assemb-5/batt_cov_hole_for_allen-1,batt_cov_hole_for_allen,True,True,-97.70 -6.91 -45.57,"Battery_case-1/battery_cover_better-1 (186 on-surface verts, 0 inside)"
+Battery_case-1/m2x5_batt_assemb-5/m2_hole_cav_battcover-1,m2_hole_cav_battcover,False,True,-95.44 -1.57 -53.60,"Battery_case-1/battery_cover_better-1 (251 on-surface verts, 0 inside); Battery_case-1/Shell1-1 (121 on-surface verts, 0 inside)"
+Battery_case-1/m2x5_batt_assemb-6/m2_nut_cav-1,m2_nut_cav,False,True,-77.21 -22.82 -59.97,"Battery_case-1/Shell1-1 (23 on-surface verts, 43 inside)"
+Battery_case-1/m2x5_batt_assemb-6/m2_screwhead_cav-1,m2_screwhead_cav,False,True,-78.96 -24.16 -54.57,"Battery_case-1/battery_cover_better-1 (138 on-surface verts, 0 inside)"
+Battery_case-1/m2x5_batt_assemb-6/batt_cov_hole_for_allen-1,batt_cov_hole_for_allen,True,True,-80.83 -25.60 -48.79,(none found)
+Battery_case-1/m2x5_batt_assemb-6/m2_hole_cav_battcover-1,m2_hole_cav_battcover,False,True,-77.86 -23.32 -57.96,"Battery_case-1/battery_cover_better-1 (266 on-surface verts, 0 inside); Battery_case-1/Shell1-1 (122 on-surface verts, 0 inside)"
+Battery_case-1/m2x5_batt_assemb-7/m2_nut_cav-1,m2_nut_cav,False,True,-142.82 5.91 -56.61,"Battery_case-1/Shell1-1 (23 on-surface verts, 44 inside)"
+Battery_case-1/m2x5_batt_assemb-7/m2_screwhead_cav-1,m2_screwhead_cav,False,True,-142.59 2.56 -51.85,"Battery_case-1/battery_cover_better-1 (131 on-surface verts, 0 inside)"
+Battery_case-1/m2x5_batt_assemb-7/batt_cov_hole_for_allen-1,batt_cov_hole_for_allen,True,True,-142.35 -1.03 -46.74,"Battery_case-1/battery_cover_better-1 (194 on-surface verts, 0 inside)"
+Battery_case-1/m2x5_batt_assemb-7/m2_hole_cav_battcover-1,m2_hole_cav_battcover,False,True,-142.74 4.66 -54.83,"Battery_case-1/battery_cover_better-1 (263 on-surface verts, 0 inside); Battery_case-1/Shell1-1 (127 on-surface verts, 0 inside)"
+Battery_case-1/m2x5_batt_assemb-8/m2_nut_cav-1,m2_nut_cav,False,True,-165.49 -11.20 -62.28,"Battery_case-1/Shell1-1 (77 on-surface verts, 0 inside)"
+Battery_case-1/m2x5_batt_assemb-8/m2_screwhead_cav-1,m2_screwhead_cav,False,True,-164.42 -12.91 -56.81,"Battery_case-1/battery_cover_better-1 (136 on-surface verts, 0 inside)"
+Battery_case-1/m2x5_batt_assemb-8/batt_cov_hole_for_allen-1,batt_cov_hole_for_allen,True,True,-163.28 -14.74 -50.95,(none found)
+Battery_case-1/m2x5_batt_assemb-8/m2_hole_cav_battcover-1,m2_hole_cav_battcover,False,True,-165.09 -11.84 -60.24,"Battery_case-1/battery_cover_better-1 (259 on-surface verts, 0 inside); Battery_case-1/Shell1-1 (120 on-surface verts, 0 inside)"
+Battery_case-1/Shell1cavforbatt-1,Shell1cavforbatt,True,False,-125.34 -31.19 -36.39,Battery_case-1/Shell1-1 (153 on-surface verts); cover_back-1 (50 on-surface verts); Battery_case-1/battery_cover_better-1 (8 on-surface verts); driver_side_palm_cover2-1 (6 on-surface verts)
+driver_cav-1,driver_cav,True,True,-92.58 -83.08 -10.89,"Base Bone 1.2_V02_pinky-1 (185 on-surface verts, 0 inside)"
+capit_cav-1,capit_cav,False,True,-88.04 -81.58 -4.81,"Base Bone 1.2_V02_pinky-1 (207 on-surface verts, 0 inside)"
+capit_cav-2,capit_cav,False,True,-95.76 -79.51 -4.89,"Base Bone 1.2_V02_pinky-1 (282 on-surface verts, 0 inside)"
+capit_cav-3,capit_cav,False,True,-135.76 -68.79 -4.81,"Base Bone 1.2_V02_pinky-1 (82 on-surface verts, 0 inside)"
+capit_cav-4,capit_cav,False,True,-143.48 -66.72 -4.89,"Base Bone 1.2_V02_pinky-1 (90 on-surface verts, 0 inside); Palm_pinky-1 (5 on-surface verts, 0 inside)"
+capit_cav-5,capit_cav,False,True,-159.62 -62.40 -4.81,"Base Bone 1.2_V02_pinky-1 (88 on-surface verts, 0 inside)"
+capit_cav-6,capit_cav,False,True,-167.34 -60.33 -4.89,"Base Bone 1.2_V02_pinky-1 (44 on-surface verts, 0 inside)"
+capit_cav-7,capit_cav,False,True,-111.90 -75.18 -4.81,"Base Bone 1.2_V02_pinky-1 (67 on-surface verts, 0 inside)"
+capit_cav-8,capit_cav,False,True,-119.62 -73.11 -4.89,"Base Bone 1.2_V02_pinky-1 (88 on-surface verts, 0 inside)"
+capit_cav-15,capit_cav,False,True,-181.54 -26.15 -32.49,(none found)
+capit_cav-16,capit_cav,False,True,-180.50 -18.23 -32.57,(none found)
+m2x5_assemb-5/m2_nut_cav-1,m2_nut_cav,False,True,-139.12 -59.80 1.47,"Base Bone 1.2_V02_pinky-1 (120 on-surface verts, 0 inside)"
+m2x5_assemb-5/m2_screwhead_cav-1,m2_screwhead_cav,False,True,-139.12 -59.80 6.48,"driver_side_palm_cover2-1 (86 on-surface verts, 0 inside)"
+m2x5_assemb-5/m2_hole_cav-1,m2_hole_cav,False,True,-139.12 -59.80 0.23,"Base Bone 1.2_V02_pinky-1 (224 on-surface verts, 0 inside); driver_side_palm_cover2-1 (61 on-surface verts, 0 inside)"
+m2x5_assemb-6/m2_nut_cav-1,m2_nut_cav,False,True,-100.97 -71.16 1.47,"Base Bone 1.2_V02_pinky-1 (120 on-surface verts, 0 inside)"
+m2x5_assemb-6/m2_screwhead_cav-1,m2_screwhead_cav,False,True,-100.97 -71.16 6.48,"driver_side_palm_cover2-1 (86 on-surface verts, 0 inside)"
+m2x5_assemb-6/m2_hole_cav-1,m2_hole_cav,False,True,-100.97 -71.16 0.23,"Base Bone 1.2_V02_pinky-1 (215 on-surface verts, 0 inside); driver_side_palm_cover2-1 (61 on-surface verts, 0 inside)"
+m2x5_assemb-9/m2_nut_cav-1,m2_nut_cav,False,True,-120.43 -65.81 1.47,"Base Bone 1.2_V02_pinky-1 (120 on-surface verts, 0 inside)"
+m2x5_assemb-9/m2_screwhead_cav-1,m2_screwhead_cav,False,True,-120.43 -65.81 6.48,"driver_side_palm_cover2-1 (86 on-surface verts, 0 inside)"
+m2x5_assemb-9/m2_hole_cav-1,m2_hole_cav,False,True,-120.43 -65.81 0.23,"Base Bone 1.2_V02_pinky-1 (225 on-surface verts, 0 inside); driver_side_palm_cover2-1 (61 on-surface verts, 0 inside)"
+m2x5_assemb-10/m2_nut_cav-1,m2_nut_cav,False,True,-158.15 -54.04 1.47,"Base Bone 1.2_V02_pinky-1 (116 on-surface verts, 0 inside)"
+m2x5_assemb-10/m2_screwhead_cav-1,m2_screwhead_cav,False,True,-158.15 -54.04 6.48,"driver_side_palm_cover2-1 (86 on-surface verts, 0 inside)"
+m2x5_assemb-10/m2_hole_cav-1,m2_hole_cav,False,True,-158.15 -54.04 0.23,"Base Bone 1.2_V02_pinky-1 (228 on-surface verts, 0 inside); driver_side_palm_cover2-1 (61 on-surface verts, 0 inside)"
+m2x5_assemb-11/m2_nut_cav-1,m2_nut_cav,False,True,-114.15 1.10 1.47,"Base Bone 1.2_V02_pointerfinger_and_thumb_attachment-1 (110 on-surface verts, 0 inside)"
+m2x5_assemb-11/m2_screwhead_cav-1,m2_screwhead_cav,False,True,-114.15 1.10 6.48,"driver_side_palm_cover3-1 (81 on-surface verts, 0 inside)"
+m2x5_assemb-11/m2_hole_cav-1,m2_hole_cav,False,True,-114.15 1.10 0.23,"Base Bone 1.2_V02_pointerfinger_and_thumb_attachment-1 (202 on-surface verts, 0 inside); driver_side_palm_cover3-1 (56 on-surface verts, 0 inside)"
+m2x5_assemb-12/m2_nut_cav-1,m2_nut_cav,False,True,-133.20 1.41 1.47,"Base Bone 1.2_V02_pointerfinger_and_thumb_attachment-1 (110 on-surface verts, 0 inside)"
+m2x5_assemb-12/m2_screwhead_cav-1,m2_screwhead_cav,False,True,-133.20 1.41 6.48,"driver_side_palm_cover3-1 (81 on-surface verts, 0 inside)"
+m2x5_assemb-12/m2_hole_cav-1,m2_hole_cav,False,True,-133.20 1.41 0.23,"Base Bone 1.2_V02_pointerfinger_and_thumb_attachment-1 (216 on-surface verts, 0 inside); driver_side_palm_cover3-1 (55 on-surface verts, 0 inside)"
+m2x5_assemb-13/m2_nut_cav-1,m2_nut_cav,False,True,-91.82 1.47 1.47,"Base Bone 1.2_V02_pointerfinger_and_thumb_attachment-1 (108 on-surface verts, 0 inside)"
+m2x5_assemb-13/m2_screwhead_cav-1,m2_screwhead_cav,False,True,-91.82 1.47 6.48,"driver_side_palm_cover3-1 (81 on-surface verts, 0 inside)"
+m2x5_assemb-13/m2_hole_cav-1,m2_hole_cav,False,True,-91.82 1.47 0.23,"Base Bone 1.2_V02_pointerfinger_and_thumb_attachment-1 (188 on-surface verts, 0 inside); driver_side_palm_cover3-1 (56 on-surface verts, 0 inside)"
+m2x10_assemb-1/m2_nut_cav-1,m2_nut_cav,False,True,-82.00 -82.24 -9.89,(none found)
+m2x10_assemb-1/m2_screwhead_cav-1,m2_screwhead_cav,False,True,-84.08 -90.01 -9.89,"driver_side_palm_cover2-1 (87 on-surface verts, 0 inside)"
+m2x10_assemb-1/m2_hole_cav-1,m2_hole_cav,False,True,-82.98 -85.91 -9.89,"driver_side_palm_cover2-1 (70 on-surface verts, 0 inside)"
+m2x10_assemb-2/m2_nut_cav-1,m2_nut_cav,False,True,-105.86 -75.85 -9.89,(none found)
+m2x10_assemb-2/m2_screwhead_cav-1,m2_screwhead_cav,False,True,-107.94 -83.62 -9.89,"driver_side_palm_cover2-1 (85 on-surface verts, 0 inside)"
+m2x10_assemb-2/m2_hole_cav-1,m2_hole_cav,False,True,-106.84 -79.51 -9.89,"driver_side_palm_cover2-1 (66 on-surface verts, 0 inside)"
+m2x10_assemb-3/m2_nut_cav-1,m2_nut_cav,False,True,-129.72 -69.46 -9.89,(none found)
+m2x10_assemb-3/m2_screwhead_cav-1,m2_screwhead_cav,False,True,-131.80 -77.23 -9.89,"driver_side_palm_cover2-1 (86 on-surface verts, 0 inside)"
+m2x10_assemb-3/m2_hole_cav-1,m2_hole_cav,False,True,-130.70 -73.12 -9.89,"driver_side_palm_cover2-1 (66 on-surface verts, 0 inside)"
+m2x10_assemb-4/m2_nut_cav-1,m2_nut_cav,False,True,-153.58 -63.06 -9.89,(none found)
+m2x10_assemb-4/m2_screwhead_cav-1,m2_screwhead_cav,False,True,-155.66 -70.83 -9.89,"driver_side_palm_cover2-1 (82 on-surface verts, 0 inside)"
+m2x10_assemb-4/m2_hole_cav-1,m2_hole_cav,False,True,-154.56 -66.73 -9.89,"driver_side_palm_cover2-1 (66 on-surface verts, 0 inside)"
+m2x10_assemb-5/m2_nut_cav-1,m2_nut_cav,False,True,-91.69 11.20 -9.89,(none found)
+m2x10_assemb-5/m2_screwhead_cav-1,m2_screwhead_cav,False,True,-91.69 19.25 -9.89,"driver_side_palm_cover3-1 (90 on-surface verts, 0 inside)"
+m2x10_assemb-5/m2_hole_cav-1,m2_hole_cav,False,True,-91.69 15.00 -9.89,"driver_side_palm_cover3-1 (65 on-surface verts, 0 inside)"
+m2x10_assemb-6/m2_nut_cav-1,m2_nut_cav,False,True,-116.39 11.20 -9.89,(none found)
+m2x10_assemb-6/m2_screwhead_cav-1,m2_screwhead_cav,False,True,-116.39 19.25 -9.89,"driver_side_palm_cover3-1 (84 on-surface verts, 0 inside)"
+m2x10_assemb-6/m2_hole_cav-1,m2_hole_cav,False,True,-116.39 15.00 -9.89,"driver_side_palm_cover3-1 (65 on-surface verts, 0 inside)"
+m2x10_assemb-7/m2_nut_cav-1,m2_nut_cav,False,True,-141.09 11.20 -9.89,(none found)
+m2x10_assemb-7/m2_screwhead_cav-1,m2_screwhead_cav,False,True,-141.09 19.25 -9.89,"driver_side_palm_cover3-1 (84 on-surface verts, 0 inside)"
+m2x10_assemb-7/m2_hole_cav-1,m2_hole_cav,False,True,-141.09 15.00 -9.89,"driver_side_palm_cover3-1 (64 on-surface verts, 0 inside)"
+m1_screw_assemb-1/m1_head_cav-1,m1_head_cav,True,True,-181.00 9.61 -47.32,"cover_back-1 (235 on-surface verts, 0 inside); Battery_case-1/Shell1-1 (38 on-surface verts, 0 inside)"
+m1_screw_assemb-1/m1_hole_cav-1,m1_hole_cav,False,True,-173.06 8.56 -47.32,"Battery_case-1/Shell1-1 (114 on-surface verts, 0 inside)"
+m1_hole_cav-2,m1_hole_cav,False,True,-190.00 -46.39 -28.33,"cover_back-1 (240 on-surface verts, 0 inside)"
+m1_hole_cav-3,m1_hole_cav,False,True,-175.50 -9.94 -55.86,"Battery_case-1/Shell1-1 (81 on-surface verts, 0 inside)"
+m1_head_cav-3,m1_head_cav,True,True,-183.43 -8.89 -55.86,"cover_back-1 (272 on-surface verts, 0 inside); Battery_case-1/Shell1-1 (38 on-surface verts, 0 inside)"
+m1_screw_assemb-2/m1_head_cav-1,m1_head_cav,True,True,-191.05 5.02 -10.44,(none found)
+m1_screw_assemb-2/m1_hole_cav-1,m1_hole_cav,False,True,-183.12 3.98 -10.44,"cover_back-1 (237 on-surface verts, 0 inside)"
+m1_screw_assemb-4/m1_head_cav-1,m1_head_cav,True,True,-189.61 -55.86 -46.68,"cover_back-1 (220 on-surface verts, 0 inside); Battery_case-1/Shell1-1 (39 on-surface verts, 0 inside)"
+m1_screw_assemb-4/m1_hole_cav-1,m1_hole_cav,False,True,-181.68 -56.90 -46.68,"Battery_case-1/Shell1-1 (154 on-surface verts, 0 inside)"
+m1_screw_assemb-5/m1_head_cav-1,m1_head_cav,True,True,-186.66 -33.41 -56.88,"cover_back-1 (238 on-surface verts, 0 inside); Battery_case-1/Shell1-1 (39 on-surface verts, 0 inside)"
+m1_screw_assemb-5/m1_hole_cav-1,m1_hole_cav,False,True,-178.73 -34.46 -56.88,"Battery_case-1/Shell1-1 (111 on-surface verts, 0 inside)"
+m1_nut_cav-1,m1_nut_cav,False,True,-181.28 -56.95 -46.68,"Battery_case-1/Shell1-1 (85 on-surface verts, 0 inside)"
+m1_nut_cav-2,m1_nut_cav,False,True,-178.33 -34.51 -56.88,"Battery_case-1/Shell1-1 (74 on-surface verts, 0 inside)"
+m1_nut_cav-3,m1_nut_cav,False,True,-182.72 3.92 -10.44,"cover_back-1 (166 on-surface verts, 0 inside)"
+usb_cav-1,usb_cav,True,True,-182.10 11.97 -21.35,(none found)
+m2_hole_cav-1,m2_hole_cav,True,True,-190.25 -7.82 -21.77,(none found)
+m2x5_assemb-15/m2_nut_cav-1,m2_nut_cav,False,True,-151.62 -0.05 1.47,"Base Bone 1.2_V02_pointerfinger_and_thumb_attachment-1 (119 on-surface verts, 0 inside)"
+m2x5_assemb-15/m2_screwhead_cav-1,m2_screwhead_cav,False,True,-151.62 -0.05 6.48,"Assem2^Robotic Hand_V5-1/first_thumb_hinge-1 (66 on-surface verts, 28 inside); Assem2^Robotic Hand_V5-1/first_thumb_hinge-2 (66 on-surface verts, 28 inside)"
+m2x5_assemb-15/m2_hole_cav-1,m2_hole_cav,False,True,-151.62 -0.05 0.23,"Base Bone 1.2_V02_pointerfinger_and_thumb_attachment-1 (188 on-surface verts, 0 inside); Assem2^Robotic Hand_V5-1/first_thumb_hinge-1 (32 on-surface verts, 0 inside); Assem2^Robotic Hand_V5-1/first_thumb_hinge-2 (32 on-surface verts, 0 inside)"
+m1_head_cav-4,m1_head_cav,True,True,-197.93 -45.35 -28.33,(none found)
+m1_nut_cav-6,m1_nut_cav,False,True,-189.36 -46.48 -28.33,"cover_back-1 (166 on-surface verts, 0 inside)"
+m1_screw_assemb-6/m1_head_cav-1,m1_head_cav,True,True,-4.42 1.15 -0.53,(none found)
+m1_screw_assemb-6/m1_hole_cav-1,m1_hole_cav,False,True,3.51 0.10 -0.53,(none found)
+m1_screw_assemb-7/m1_head_cav-1,m1_head_cav,True,True,-4.42 1.15 -0.53,(none found)
+m1_screw_assemb-7/m1_hole_cav-1,m1_hole_cav,False,True,3.51 0.10 -0.53,(none found)
+m1_nut_cav-7,m1_nut_cav,False,True,-175.10 -9.99 -55.86,"Battery_case-1/Shell1-1 (64 on-surface verts, 0 inside)"
+m1_nut_cav-8,m1_nut_cav,False,True,-172.66 8.51 -47.32,"Battery_case-1/Shell1-1 (78 on-surface verts, 0 inside)"
+m1_head_cav-5,m1_head_cav,True,True,-186.66 -33.41 -56.88,"cover_back-1 (238 on-surface verts, 0 inside); Battery_case-1/Shell1-1 (39 on-surface verts, 0 inside)"
+m1_head_cav-6,m1_head_cav,True,True,-189.61 -55.86 -46.68,"cover_back-1 (220 on-surface verts, 0 inside); Battery_case-1/Shell1-1 (39 on-surface verts, 0 inside)"
+m2_screwhead_cav-2,m2_screwhead_cav,False,True,-180.23 -12.20 -27.50,(none found)
+m2_nut_cav-2,m2_nut_cav,False,True,-185.33 -11.53 -27.50,"cover_back-1 (168 on-surface verts, 0 inside)"
+m2_hole_cav_short-1,m2_hole_cav_short,False,True,-182.96 -11.84 -27.50,"cover_back-1 (243 on-surface verts, 0 inside)"
+driver_hole-1,driver_hole,True,True,-183.64 -11.25 -31.50,"cover_back-1 (122 on-surface verts, 0 inside)"
+driver_hole-2,driver_hole,True,True,-183.64 -11.25 -34.50,"cover_back-1 (123 on-surface verts, 0 inside)"
+driver_hole-3,driver_hole,True,True,-183.64 -11.25 -31.50,"cover_back-1 (122 on-surface verts, 0 inside)"
+driver_hole-4,driver_hole,True,True,-183.97 -13.72 -22.16,"cover_back-1 (114 on-surface verts, 0 inside)"
+driver_hole-5,driver_hole,True,True,-183.96 -13.72 -19.83,"cover_back-1 (115 on-surface verts, 0 inside)"
+driver_hole-6,driver_hole,True,True,-183.96 -13.71 -17.50,"cover_back-1 (121 on-surface verts, 0 inside)"
+driver_hole-7,driver_hole,True,True,-183.97 -13.72 -24.50,"cover_back-1 (124 on-surface verts, 0 inside)"
+driver_hole-8,driver_hole,True,True,-186.05 -29.58 -22.15,"cover_back-1 (114 on-surface verts, 0 inside)"
+driver_hole-9,driver_hole,True,True,-186.05 -29.58 -19.82,"cover_back-1 (119 on-surface verts, 0 inside)"
+driver_hole-10,driver_hole,True,True,-186.05 -29.58 -17.48,"cover_back-1 (119 on-surface verts, 0 inside)"
+driver_hole-11,driver_hole,True,True,-186.05 -29.58 -24.48,"cover_back-1 (122 on-surface verts, 0 inside)"
+m1_screw_assemb_copy-1/m1_head_cav-1,m1_head_cav,False,True,-174.69 33.45 -10.90,"Assem2^Robotic Hand_V5-1/second_thumb_hinge-1 (139 on-surface verts, 0 inside)"
+m1_screw_assemb_copy-1/m1_hole_cav-1,m1_hole_cav,False,True,-174.69 33.45 -2.90,"Assem2^Robotic Hand_V5-1/second_thumb_hinge-1 (131 on-surface verts, 0 inside)"
+m1_screw_assemb_copy-1/m1_nut_cav-1,m1_nut_cav,False,True,-174.69 33.45 -4.80,"Assem2^Robotic Hand_V5-1/second_thumb_hinge-1 (118 on-surface verts, 0 inside)"
+Mirrorm1_screw_assemb_copy-3/Mirrorm1_head_cav-1,Mirrorm1_head_cav,False,True,-158.71 27.68 5.52,"Assem2^Robotic Hand_V5-1/third_thumb_hinge-1 (15 on-surface verts, 40 inside)"
+Mirrorm1_screw_assemb_copy-3/Mirrorm1_hole_cav-1,Mirrorm1_hole_cav,False,True,-158.71 27.68 -2.48,(none found)
+Mirrorm1_screw_assemb_copy-3/Mirrorm1_nut_cav-1,Mirrorm1_nut_cav,False,True,-158.71 27.68 -0.58,(none found)
+Mirrorm1_screw_assemb_fingies-1/Mirrorm1_head_cav-1,Mirrorm1_head_cav,False,True,48.17 -0.25 -0.52,"Distal Phalanx Bone_V02-2 (378 on-surface verts, 0 inside)"
+Mirrorm1_screw_assemb_fingies-1/Mirrorm1_hole_cav-1,Mirrorm1_hole_cav,False,True,40.17 -0.25 -0.52,"Distal Phalanx Bone_V02-2 (61 on-surface verts, 0 inside)"
+Mirrorm1_screw_assemb_fingies-1/Mirrorm1_nut_cav-1,Mirrorm1_nut_cav,False,True,42.07 -0.25 -0.52,"Distal Phalanx Bone_V02-2 (84 on-surface verts, 0 inside)"
+Mirrorm1_screw_assemb_fingies-1/m1_nutopening_insertion_cav-1,m1_nutopening_insertion_cav,False,True,42.07 8.29 -1.12,"Distal Phalanx Bone_V02-2 (39 on-surface verts, 0 inside)"
+Mirrorm1_screw_assemb_fingies-2/Mirrorm1_head_cav-1,Mirrorm1_head_cav,False,True,43.55 -35.67 -0.52,(none found)
+Mirrorm1_screw_assemb_fingies-2/Mirrorm1_hole_cav-1,Mirrorm1_hole_cav,False,True,51.52 -36.37 -0.52,(none found)
+Mirrorm1_screw_assemb_fingies-2/Mirrorm1_nut_cav-1,Mirrorm1_nut_cav,False,True,49.63 -36.20 -0.52,"Distal Phalanx Bone_V02-4 (84 on-surface verts, 0 inside)"
+Mirrorm1_screw_assemb_fingies-2/m1_nutopening_insertion_cav-1,m1_nutopening_insertion_cav,False,True,50.38 -27.69 -1.12,"Distal Phalanx Bone_V02-4 (39 on-surface verts, 0 inside)"
+Mirrorm1_screw_assemb_fingies-3/Mirrorm1_head_cav-1,Mirrorm1_head_cav,False,True,31.18 -69.44 -0.52,(none found)
+Mirrorm1_screw_assemb_fingies-3/Mirrorm1_hole_cav-1,Mirrorm1_hole_cav,False,True,39.06 -70.83 -0.52,(none found)
+Mirrorm1_screw_assemb_fingies-3/Mirrorm1_nut_cav-1,Mirrorm1_nut_cav,False,True,37.19 -70.50 -0.52,"Distal Phalanx Bone_V02-5 (84 on-surface verts, 0 inside)"
+Mirrorm1_screw_assemb_fingies-3/m1_nutopening_insertion_cav-1,m1_nutopening_insertion_cav,False,True,38.67 -62.08 -1.12,"Distal Phalanx Bone_V02-5 (39 on-surface verts, 0 inside)"
+Mirrorm1_screw_assemb_fingies-4/Mirrorm1_head_cav-1,Mirrorm1_head_cav,False,True,7.37 -98.99 -0.52,(none found)
+Mirrorm1_screw_assemb_fingies-4/Mirrorm1_hole_cav-1,Mirrorm1_hole_cav,False,True,15.09 -101.06 -0.52,(none found)
+Mirrorm1_screw_assemb_fingies-4/Mirrorm1_nut_cav-1,Mirrorm1_nut_cav,False,True,13.26 -100.57 -0.52,"Distal Phalanx Bone_V02-6 (84 on-surface verts, 0 inside)"
+Mirrorm1_screw_assemb_fingies-4/m1_nutopening_insertion_cav-1,m1_nutopening_insertion_cav,False,True,15.47 -92.31 -1.12,"Distal Phalanx Bone_V02-6 (39 on-surface verts, 0 inside)"
+Mirrorm1_screw_assemb_fingies-5/Mirrorm1_head_cav-1,Mirrorm1_head_cav,False,True,-74.83 98.98 -1.52,"Assem2^Robotic Hand_V5-1/Distal Phalanx Bone_V02-1 (378 on-surface verts, 0 inside); Assem2^Robotic Hand_V5-1/Distal Phalanx Bone_V02-2 (378 on-surface verts, 0 inside)"
+Mirrorm1_screw_assemb_fingies-5/Mirrorm1_hole_cav-1,Mirrorm1_hole_cav,False,True,-80.92 93.80 -1.52,"Assem2^Robotic Hand_V5-1/Distal Phalanx Bone_V02-1 (61 on-surface verts, 0 inside); Assem2^Robotic Hand_V5-1/Distal Phalanx Bone_V02-2 (61 on-surface verts, 0 inside)"
+Mirrorm1_screw_assemb_fingies-5/Mirrorm1_nut_cav-1,Mirrorm1_nut_cav,False,True,-79.48 95.03 -1.52,"Assem2^Robotic Hand_V5-1/Distal Phalanx Bone_V02-1 (84 on-surface verts, 0 inside); Assem2^Robotic Hand_V5-1/Distal Phalanx Bone_V02-2 (84 on-surface verts, 0 inside)"
+Mirrorm1_screw_assemb_fingies-5/m1_nutopening_insertion_cav-1,m1_nutopening_insertion_cav,False,True,-85.01 101.54 -2.12,"Assem2^Robotic Hand_V5-1/Distal Phalanx Bone_V02-1 (39 on-surface verts, 0 inside); Assem2^Robotic Hand_V5-1/Distal Phalanx Bone_V02-2 (39 on-surface verts, 0 inside)"
+Mirrorm1_screw_assemb_copy-2/Mirrorm1_head_cav-1,Mirrorm1_head_cav,False,True,-174.69 33.45 7.85,"Assem2^Robotic Hand_V5-1/second_thumb_hinge-1 (134 on-surface verts, 0 inside)"
+Mirrorm1_screw_assemb_copy-2/Mirrorm1_hole_cav-1,Mirrorm1_hole_cav,False,True,-174.69 33.45 -0.15,"Assem2^Robotic Hand_V5-1/second_thumb_hinge-1 (131 on-surface verts, 0 inside)"
+Mirrorm1_screw_assemb_copy-2/Mirrorm1_nut_cav-1,Mirrorm1_nut_cav,False,True,-174.69 33.45 1.75,"Assem2^Robotic Hand_V5-1/second_thumb_hinge-1 (118 on-surface verts, 0 inside)"

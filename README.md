@@ -16,7 +16,7 @@ Well, here's where I might change your mind regarding that!
 ## Features
 
 - **Flexible TPU palm mechanics**, allowing for hybrid soft robotics that allow for actual grasping around curved objects in comparison to current traditional robotic palm mechanics
-- 19 motors allowing for **19 DOF hand dexerity**, 4 DOF for each finger and 3 DOF on the thumb
+- 20 motors allowing for **20 DOF hand dexterity**: 4 DOF for each finger and 4 on the thumb (yaw, pitch, base flexion, and a coupled middle/tip flexion). The V6 thumb-pitch motor is being added now.
 - Straightforward 3D printing and assembly with **only 5-10 3D printed parts** to be assembled together for more plug-and-play use dynamics
 - Mechanics and electronics **entirely constrained** inside the palm, allowing for full end-effector modularity with all current and future robotic manipulators
 - Full integration of https://flexitac.github.io as NEW FULLY ENCOMPASSING TOUCH SENSING for the grand cost of... 2 dollars and 59 cents!
@@ -25,6 +25,37 @@ Well, here's where I might change your mind regarding that!
   - Intel® RealSense™ Depth Camera D455
   - (https://flexitac.github.io)
   - Arduino Pro Mini for motor encoder data collection
+
+## V6 Hardware Redesign (in progress)
+
+<p>
+<img src="Hardware/V6_FreeCAD/images/v6_palm_iso.png" width="49%" alt="V6 palm side">
+<img src="Hardware/V6_FreeCAD/images/v6_back_iso.png" width="49%" alt="V6 back side">
+</p>
+
+V6 is a full engineering pass over the V5 hand, rebuilt as a scripted, fully checked FreeCAD model. See [`Hardware/V6_FreeCAD/`](Hardware/V6_FreeCAD/).
+
+- [x] **Straight N20 gearmotors with encoders** replace the discontinued worm motors, in a 2×2 magazine under each palm bone. There is room for every motor plug.
+- [x] **J0 finger joint:** an M2 cap screw and nyloc nut replace the hammered rod that cracked about 35 % of parts.
+- [x] **Palm bones:** PLA pillars through the flexible TPU palm, so the bones no longer split.
+- [x] **Stronger thumb:**
+  - a real yaw bearing, closed gimbal, and steel pins and bolts
+  - opposition tuned from Leap Motion recordings
+  - thumb motors seated and screwed into their original seat towers
+- [x] **Palm shells** with spherical freedom and elastic O-ring retention.
+- [x] **Full-hand [FlexiTac](https://flexitac.github.io) touch sensing:** 19 pads, 1421 taxels.
+- [x] **Human-proportioned fingers:** Leap Motion bone lengths × 1.25.
+- [x] **Fasteners and clearances:**
+  - screws and nuts modelled (final validation pending)
+  - 0.2 mm clearance wherever parts move
+  - the global audit finds no moving pair under 0.2 mm
+- [ ] **Electronics:**
+  - 10 motor drivers inside the hand
+  - a Mini Mega2560 PRO and 2× 6 V NiMH packs in a forearm pod
+  - an auto-routed wiring harness
+- [ ] **20th motor for thumb pitch**
+- [ ] **V6.2:** resting pinky and index splay
+- [ ] Final hardware validation and full range-of-motion audit
 
 ## AI & Simulation
 

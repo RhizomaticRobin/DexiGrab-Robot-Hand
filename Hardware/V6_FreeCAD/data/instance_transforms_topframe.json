@@ -1,0 +1,1082 @@
+{
+ "MV4TwwhXWHG9KT8Dr": {
+  "assembly": "Robotic Hand_V5_simulacra",
+  "instance": "Proximal Phalanx Bone_V02 <1>",
+  "partId": "JFD",
+  "R_columns_local_xyz_in_world": [
+   [
+    1.0,
+    -0.00063,
+    0.00018
+   ],
+   [
+    0.00062,
+    1.0,
+    0.00082
+   ],
+   [
+    -0.00018,
+    -0.00082,
+    1.0
+   ]
+  ],
+  "t_mm": [
+   -29.007,
+   -0.305,
+   -0.533
+  ]
+ },
+ "MPe+44qzPZFg472Fx": {
+  "assembly": "Robotic Hand_V5_simulacra",
+  "instance": "Metacarpal Bone_V02 <1>",
+  "partId": "JFH",
+  "R_columns_local_xyz_in_world": [
+   [
+    1.0,
+    -0.00162,
+    0.00054
+   ],
+   [
+    0.00162,
+    1.0,
+    -0.0002
+   ],
+   [
+    -0.00054,
+    0.0002,
+    1.0
+   ]
+  ],
+  "t_mm": [
+   -61.011,
+   -0.254,
+   -0.533
+  ]
+ },
+ "MxuigqrQ+nIYfpPFL": {
+  "assembly": "Robotic Hand_V5_simulacra",
+  "instance": "Distal Phalanx Bone_V02 <1>",
+  "partId": "JFL",
+  "R_columns_local_xyz_in_world": [
+   [
+    -1.0,
+    0.00136,
+    0.00067
+   ],
+   [
+    -0.00136,
+    -1.0,
+    0.0
+   ],
+   [
+    0.00067,
+    -0.0,
+    1.0
+   ]
+  ],
+  "t_mm": [
+   49.479,
+   -0.381,
+   -0.533
+  ]
+ },
+ "M1HW+xrc9WRP0BdGm": {
+  "assembly": "Robotic Hand_V5_simulacra",
+  "instance": "Base Bone 1_V02 <1>",
+  "partId": "JFP",
+  "R_columns_local_xyz_in_world": [
+   [
+    -1.0,
+    0.0016,
+    0.0008
+   ],
+   [
+    -0.0016,
+    -1.0,
+    -6e-05
+   ],
+   [
+    0.0008,
+    -6e-05,
+    1.0
+   ]
+  ],
+  "t_mm": [
+   -45.999,
+   -0.279,
+   -0.533
+  ]
+ },
+ "MtINcIAF9ez/c8iOt": {
+  "assembly": "Robotic Hand_V5_simulacra",
+  "instance": "Base Bone 1_V02 <2>",
+  "partId": "JFP",
+  "R_columns_local_xyz_in_world": [
+   [
+    -0.99617,
+    0.08744,
+    0.00058
+   ],
+   [
+    -0.08744,
+    -0.99617,
+    0.0
+   ],
+   [
+    0.00058,
+    -5e-05,
+    1.0
+   ]
+  ],
+  "t_mm": [
+   -46.101,
+   -27.838,
+   -0.533
+  ]
+ },
+ "ML2j2R7mTuS86kGP8": {
+  "assembly": "Robotic Hand_V5_simulacra",
+  "instance": "Base Bone 1_V02 <3>",
+  "partId": "JFP",
+  "R_columns_local_xyz_in_world": [
+   [
+    -0.96581,
+    0.25925,
+    0.00038
+   ],
+   [
+    -0.25925,
+    -0.96581,
+    -0.00071
+   ],
+   [
+    0.00019,
+    -0.00078,
+    1.0
+   ]
+  ],
+  "t_mm": [
+   -55.474,
+   -82.169,
+   -0.533
+  ]
+ },
+ "MUDV4S7aKrn8cmmNL": {
+  "assembly": "Robotic Hand_V5_simulacra",
+  "instance": "Base Bone 1_V02 <4>",
+  "partId": "JFP",
+  "R_columns_local_xyz_in_world": [
+   [
+    -0.98463,
+    0.17468,
+    0.00068
+   ],
+   [
+    -0.17468,
+    -0.98463,
+    0.0
+   ],
+   [
+    0.00067,
+    -0.00012,
+    1.0
+   ]
+  ],
+  "t_mm": [
+   -49.606,
+   -55.22,
+   -0.533
+  ]
+ },
+ "ME5FIIo4Vo1dJ1ZY9": {
+  "assembly": "Robotic Hand_V5_simulacra",
+  "instance": "Metacarpal Bone_V02 <2>",
+  "partId": "JFH",
+  "R_columns_local_xyz_in_world": [
+   [
+    0.99607,
+    -0.08858,
+    0.00044
+   ],
+   [
+    0.08858,
+    0.99607,
+    0.0
+   ],
+   [
+    -0.00044,
+    4e-05,
+    1.0
+   ]
+  ],
+  "t_mm": [
+   -61.062,
+   -26.518,
+   -0.533
+  ]
+ },
+ "MlpCx/Ssg8kGbNEwJ": {
+  "assembly": "Robotic Hand_V5_simulacra",
+  "instance": "Proximal Phalanx Bone_V02_middlefinger <1>",
+  "partId": "JFT",
+  "R_columns_local_xyz_in_world": [
+   [
+    0.99614,
+    -0.08781,
+    0.00023
+   ],
+   [
+    0.08781,
+    0.99614,
+    0.0
+   ],
+   [
+    -0.00023,
+    2e-05,
+    1.0
+   ]
+  ],
+  "t_mm": [
+   -29.185,
+   -29.362,
+   -0.533
+  ]
+ },
+ "MwUIGWp4dBK4rb/pn": {
+  "assembly": "Robotic Hand_V5_simulacra",
+  "instance": "Distal Phalanx Bone_V02 <2>",
+  "partId": "JFL",
+  "R_columns_local_xyz_in_world": [
+   [
+    -0.99609,
+    0.0883,
+    0.00058
+   ],
+   [
+    -0.0883,
+    -0.99609,
+    0.0
+   ],
+   [
+    0.00058,
+    -5e-05,
+    1.0
+   ]
+  ],
+  "t_mm": [
+   56.998,
+   -36.982,
+   -0.533
+  ]
+ },
+ "MkErbilUb0cXzuCKO": {
+  "assembly": "Robotic Hand_V5_simulacra",
+  "instance": "Metacarpal Bone_V02 <3>",
+  "partId": "JFH",
+  "R_columns_local_xyz_in_world": [
+   [
+    0.98464,
+    -0.17462,
+    0.00037
+   ],
+   [
+    0.17462,
+    0.98464,
+    -0.00046
+   ],
+   [
+    -0.00028,
+    0.00051,
+    1.0
+   ]
+  ],
+  "t_mm": [
+   -64.389,
+   -52.603,
+   -0.533
+  ]
+ },
+ "M3+T0AFktQ6uGrAsx": {
+  "assembly": "Robotic Hand_V5_simulacra",
+  "instance": "Proximal Phalanx Bone_V02 <2>",
+  "partId": "JFD",
+  "R_columns_local_xyz_in_world": [
+   [
+    0.98466,
+    -0.17447,
+    0.00036
+   ],
+   [
+    0.17447,
+    0.98466,
+    0.00039
+   ],
+   [
+    -0.00042,
+    -0.00033,
+    1.0
+   ]
+  ],
+  "t_mm": [
+   -32.868,
+   -58.191,
+   -0.533
+  ]
+ },
+ "M5tUHSyx3wH/p3239": {
+  "assembly": "Robotic Hand_V5_simulacra",
+  "instance": "Distal Phalanx Bone_V02 <3>",
+  "partId": "JFL",
+  "R_columns_local_xyz_in_world": [
+   [
+    -0.98454,
+    0.17517,
+    0.00078
+   ],
+   [
+    -0.17517,
+    -0.98454,
+    0.00014
+   ],
+   [
+    0.00079,
+    -0.0,
+    1.0
+   ]
+  ],
+  "t_mm": [
+   44.425,
+   -71.907,
+   -0.533
+  ]
+ },
+ "MaG5LFjX6WIDROPGt": {
+  "assembly": "Robotic Hand_V5_simulacra",
+  "instance": "Proximal Phalanx Bone_V02_pinky <1>",
+  "partId": "JFX",
+  "R_columns_local_xyz_in_world": [
+   [
+    0.96561,
+    -0.26,
+    0.00042
+   ],
+   [
+    0.26,
+    0.96561,
+    0.00034
+   ],
+   [
+    -0.0005,
+    -0.00021,
+    1.0
+   ]
+  ],
+  "t_mm": [
+   -45.822,
+   -84.785,
+   -0.533
+  ]
+ },
+ "MpFn6F2takJFoBH/8": {
+  "assembly": "Robotic Hand_V5_simulacra",
+  "instance": "Distal Phalanx Bone_V02 <4>",
+  "partId": "JFL",
+  "R_columns_local_xyz_in_world": [
+   [
+    -0.96575,
+    0.25949,
+    0.0006
+   ],
+   [
+    -0.25949,
+    -0.96575,
+    1e-05
+   ],
+   [
+    0.00058,
+    -0.00014,
+    1.0
+   ]
+  ],
+  "t_mm": [
+   20.32,
+   -102.565,
+   -0.533
+  ]
+ },
+ "Mw10WToniJcXhxG0o": {
+  "assembly": "Robotic Hand_V5_simulacra",
+  "instance": "Metacarpal Bone_V02_pinky <1>",
+  "partId": "JFb",
+  "R_columns_local_xyz_in_world": [
+   [
+    0.96574,
+    -0.2595,
+    0.00054
+   ],
+   [
+    0.2595,
+    0.96574,
+    -0.0003
+   ],
+   [
+    -0.00045,
+    0.00043,
+    1.0
+   ]
+  ],
+  "t_mm": [
+   -69.977,
+   -78.283,
+   -0.533
+  ]
+ },
+ "MGo8i/r60DG5OflAX": {
+  "assembly": "Robotic Hand_V5_simulacra",
+  "instance": "Distal Phalanx Bone_V02 <5>",
+  "partId": "JFL",
+  "R_columns_local_xyz_in_world": [
+   [
+    -0.6892,
+    -0.72457,
+    0.00055
+   ],
+   [
+    0.72457,
+    -0.6892,
+    0.00033
+   ],
+   [
+    0.00014,
+    0.00063,
+    1.0
+   ]
+  ],
+  "t_mm": [
+   -83.134,
+   107.544,
+   -0.533
+  ]
+ },
+ "MooxBRe5kiQzmDG29": {
+  "assembly": "Robotic Hand_V5_simulacra",
+  "instance": "Metacarpal Bone_V02 <4>",
+  "partId": "JFH",
+  "R_columns_local_xyz_in_world": [
+   [
+    0.68893,
+    0.72483,
+    0.00034
+   ],
+   [
+    -0.72483,
+    0.68893,
+    0.00015
+   ],
+   [
+    -0.00012,
+    -0.00035,
+    1.0
+   ]
+  ],
+  "t_mm": [
+   -159.233,
+   27.432,
+   -0.533
+  ]
+ },
+ "MTDrWuZDMZDAKtuav": {
+  "assembly": "Robotic Hand_V5_simulacra",
+  "instance": "Proximal Phalanx Bone_V02 <3>",
+  "partId": "JFD",
+  "R_columns_local_xyz_in_world": [
+   [
+    0.68913,
+    0.72464,
+    0.00035
+   ],
+   [
+    -0.72464,
+    0.68913,
+    0.00033
+   ],
+   [
+    0.0,
+    -0.00048,
+    1.0
+   ]
+  ],
+  "t_mm": [
+   -137.211,
+   50.648,
+   -0.533
+  ]
+ },
+ "MBMgDdscB18rVvRIn": {
+  "assembly": "Robotic Hand_V5_simulacra",
+  "instance": "third_thumb_hinge <1>",
+  "partId": "JFf",
+  "R_columns_local_xyz_in_world": [
+   [
+    -0.05682,
+    0.0497,
+    -0.99715
+   ],
+   [
+    -0.68942,
+    -0.72435,
+    0.00318
+   ],
+   [
+    -0.72213,
+    0.68764,
+    0.07542
+   ]
+  ],
+  "t_mm": [
+   -171.831,
+   14.173,
+   -0.432
+  ]
+ },
+ "MKb96kXH+3rkDGOYm": {
+  "assembly": "Robotic Hand_V5_simulacra",
+  "instance": "second_thumb_hinge <1>",
+  "partId": "JFj",
+  "R_columns_local_xyz_in_world": [
+   [
+    0.68873,
+    0.72502,
+    0.0007
+   ],
+   [
+    -0.00101,
+    0.0,
+    1.0
+   ],
+   [
+    0.72502,
+    -0.68873,
+    0.00073
+   ]
+  ],
+  "t_mm": [
+   -161.849,
+   17.755,
+   -0.457
+  ]
+ },
+ "MuUaY1LFcfL6ve69s": {
+  "assembly": "Palm_rigid (identity in top level)",
+  "instance": "driver_side_palm_cover3 <1>",
+  "partId": "KFDB",
+  "R_columns_local_xyz_in_world": [
+   [
+    -1.0,
+    0.00032,
+    0.00029
+   ],
+   [
+    -0.00032,
+    -1.0,
+    0.0
+   ],
+   [
+    0.00029,
+    0.0,
+    1.0
+   ]
+  ],
+  "t_mm": [
+   -143.434,
+   15.748,
+   -21.387
+  ]
+ },
+ "MGK70bwwaLozxo0OT": {
+  "assembly": "Palm_rigid (identity in top level)",
+  "instance": "Shell1 <1>",
+  "partId": "KFHB",
+  "R_columns_local_xyz_in_world": [
+   [
+    0.13054,
+    0.99144,
+    -0.0
+   ],
+   [
+    0.99144,
+    -0.13054,
+    7e-05
+   ],
+   [
+    7e-05,
+    -1e-05,
+    -1.0
+   ]
+  ],
+  "t_mm": [
+   -65.761,
+   -38.227,
+   -3.404
+  ]
+ },
+ "MwSso9ztlgfZQeh+q": {
+  "assembly": "Palm_rigid (identity in top level)",
+  "instance": "driver_side_palm_cover2 <1>",
+  "partId": "KFLB",
+  "R_columns_local_xyz_in_world": [
+   [
+    0.96601,
+    -0.25851,
+    0.0
+   ],
+   [
+    0.25851,
+    0.96601,
+    -0.00048
+   ],
+   [
+    0.00012,
+    0.00047,
+    1.0
+   ]
+  ],
+  "t_mm": [
+   -104.775,
+   -80.848,
+   -21.387
+  ]
+ },
+ "MXHY7LPdK2PuTXpzK": {
+  "assembly": "Palm_rigid (identity in top level)",
+  "instance": "Base Bone 1.2_V02_ringfing <1>",
+  "partId": "KFPB",
+  "R_columns_local_xyz_in_world": [
+   [
+    0.9848,
+    -0.1737,
+    0.00021
+   ],
+   [
+    0.0002,
+    -4e-05,
+    -1.0
+   ],
+   [
+    0.1737,
+    0.9848,
+    0.0
+   ]
+  ],
+  "t_mm": [
+   -162.966,
+   -35.204,
+   -0.533
+  ]
+ },
+ "M52iHh6Sdsh5FqyWp": {
+  "assembly": "Palm_rigid (identity in top level)",
+  "instance": "Base Bone 1.2_V02_pinky <1>",
+  "partId": "KFTB",
+  "R_columns_local_xyz_in_world": [
+   [
+    0.96597,
+    -0.25865,
+    0.00018
+   ],
+   [
+    2e-05,
+    -0.00062,
+    -1.0
+   ],
+   [
+    0.25865,
+    0.96597,
+    -0.00059
+   ]
+  ],
+  "t_mm": [
+   -166.649,
+   -52.375,
+   -0.533
+  ]
+ },
+ "MusDF6UzCUsOJBd5l": {
+  "assembly": "Palm_rigid (identity in top level)",
+  "instance": "Base Bone 1.2_V02_middlefinger <1>",
+  "partId": "KFXB",
+  "R_columns_local_xyz_in_world": [
+   [
+    0.99618,
+    -0.08731,
+    0.00032
+   ],
+   [
+    0.00032,
+    0.0,
+    -1.0
+   ],
+   [
+    0.08731,
+    0.99618,
+    3e-05
+   ]
+  ],
+  "t_mm": [
+   -160.807,
+   -17.78,
+   -0.533
+  ]
+ },
+ "M+trzpMB6AhT1VUA8": {
+  "assembly": "Palm_rigid (identity in top level)",
+  "instance": "Base Bone 1.2_V02_pointerfinger_and_thumb_attachment <1>",
+  "partId": "KFbB",
+  "R_columns_local_xyz_in_world": [
+   [
+    1.0,
+    -0.0,
+    0.00026
+   ],
+   [
+    0.00026,
+    0.0,
+    -1.0
+   ],
+   [
+    0.0,
+    1.0,
+    0.0
+   ]
+  ],
+  "t_mm": [
+   -161.188,
+   -0.254,
+   -0.533
+  ]
+ },
+ "MXNZFnOFG6JoCQOnG": {
+  "assembly": "Palm_rigid (identity in top level)",
+  "instance": "cover_back <1>",
+  "partId": "KFfB",
+  "R_columns_local_xyz_in_world": [
+   [
+    0.13074,
+    0.99142,
+    -0.00014
+   ],
+   [
+    0.99142,
+    -0.13074,
+    -2e-05
+   ],
+   [
+    -4e-05,
+    -0.00013,
+    -1.0
+   ]
+  ],
+  "t_mm": [
+   -190.017,
+   -62.662,
+   -3.404
+  ]
+ },
+ "MDg4buQf4J3nwANGz": {
+  "assembly": "Palm_Deformable (identity in top level)",
+  "instance": "Palm2 <1>",
+  "partId": "JFr",
+  "R_columns_local_xyz_in_world": [
+   [
+    -0.13295,
+    -0.99112,
+    -0.00082
+   ],
+   [
+    0.99112,
+    -0.13295,
+    0.0
+   ],
+   [
+    -0.00011,
+    -0.00081,
+    1.0
+   ]
+  ],
+  "t_mm": [
+   -154.203,
+   -11.024,
+   -1.626
+  ]
+ },
+ "Mq4oJYuMTNcieQjYx": {
+  "assembly": "Palm_Deformable (identity in top level)",
+  "instance": "Palm2 <2>",
+  "partId": "JFr",
+  "R_columns_local_xyz_in_world": [
+   [
+    -0.21861,
+    -0.97581,
+    -0.0
+   ],
+   [
+    0.97581,
+    -0.21861,
+    0.0001
+   ],
+   [
+    -9e-05,
+    2e-05,
+    1.0
+   ]
+  ],
+  "t_mm": [
+   -155.778,
+   -28.956,
+   -1.626
+  ]
+ },
+ "M/KgIq25Yp3v4NNoz": {
+  "assembly": "Palm_Deformable (identity in top level)",
+  "instance": "Palm2 <3>",
+  "partId": "JFr",
+  "R_columns_local_xyz_in_world": [
+   [
+    0.12799,
+    0.99178,
+    -0.0
+   ],
+   [
+    0.99178,
+    -0.12799,
+    -0.00015
+   ],
+   [
+    -0.00015,
+    2e-05,
+    -1.0
+   ]
+  ],
+  "t_mm": [
+   -158.902,
+   -46.66,
+   -1.016
+  ]
+ },
+ "MCKkgC8LPpxTNIWIg": {
+  "assembly": "Palm_Deformable (identity in top level)",
+  "instance": "Palm1 <1>",
+  "partId": "JFv",
+  "R_columns_local_xyz_in_world": [
+   [
+    0.00013,
+    1.0,
+    0.00063
+   ],
+   [
+    -1.0,
+    0.00013,
+    0.0
+   ],
+   [
+    -0.0,
+    -0.00063,
+    1.0
+   ]
+  ],
+  "t_mm": [
+   -89.205,
+   -11.024,
+   -1.626
+  ]
+ },
+ "MoGTLpKe1lA4hj6V8": {
+  "assembly": "Palm_Deformable (identity in top level)",
+  "instance": "Palm2_2 <1>",
+  "partId": "JFz",
+  "R_columns_local_xyz_in_world": [
+   [
+    0.08723,
+    0.99619,
+    0.0
+   ],
+   [
+    -0.99619,
+    0.08723,
+    0.00018
+   ],
+   [
+    0.00017,
+    -2e-05,
+    1.0
+   ]
+  ],
+  "t_mm": [
+   -91.034,
+   -34.62,
+   -1.626
+  ]
+ },
+ "M8INhglUR3zPVJete": {
+  "assembly": "Palm_Deformable (identity in top level)",
+  "instance": "Palm3_2 <1>",
+  "partId": "JF3",
+  "R_columns_local_xyz_in_world": [
+   [
+    0.17357,
+    0.98482,
+    0.00065
+   ],
+   [
+    -0.98482,
+    0.17357,
+    0.0
+   ],
+   [
+    -0.00011,
+    -0.00064,
+    1.0
+   ]
+  ],
+  "t_mm": [
+   -94.894,
+   -57.963,
+   -1.626
+  ]
+ },
+ "MxX7qlXbLXoe/UDWC": {
+  "assembly": "Palm_Deformable (identity in top level)",
+  "instance": "Palm_pinky <1>",
+  "partId": "JF7",
+  "R_columns_local_xyz_in_world": [
+   [
+    0.25888,
+    0.96591,
+    0.0
+   ],
+   [
+    -0.96591,
+    0.25888,
+    0.00013
+   ],
+   [
+    0.00013,
+    -3e-05,
+    1.0
+   ]
+  ],
+  "t_mm": [
+   -100.0,
+   -77.978,
+   -1.626
+  ]
+ },
+ "M401F5UqM9+vg8s/K": {
+  "assembly": "Palm_Deformable (identity in top level)",
+  "instance": "palm_bone_flex <1>",
+  "partId": "JF/",
+  "R_columns_local_xyz_in_world": [
+   [
+    0.99249,
+    -0.12236,
+    0.0
+   ],
+   [
+    1e-05,
+    9e-05,
+    1.0
+   ],
+   [
+    -0.12236,
+    -0.99249,
+    9e-05
+   ]
+  ],
+  "t_mm": [
+   -165.176,
+   -25.908,
+   -1.016
+  ]
+ },
+ "MUKK537HLmL9Amh5m": {
+  "assembly": "Palm_Deformable (identity in top level)",
+  "instance": "palm_bone_flex <2>",
+  "partId": "JF/",
+  "R_columns_local_xyz_in_world": [
+   [
+    0.99249,
+    -0.12236,
+    0.0
+   ],
+   [
+    1e-05,
+    9e-05,
+    1.0
+   ],
+   [
+    -0.12236,
+    -0.99249,
+    9e-05
+   ]
+  ],
+  "t_mm": [
+   -165.176,
+   -25.908,
+   -1.016
+  ]
+ },
+ "MiUWGvr3MtSsZbL6K": {
+  "assembly": "Assem5 (rotated -47.15 deg about thumb R1 axis in top level)",
+  "instance": "hand_pulley_wheel_thumb <1>",
+  "partId": "KF3B",
+  "R_columns_local_xyz_in_world": [
+   [
+    -0.72609,
+    0.6876,
+    -0.00158
+   ],
+   [
+    0.6876,
+    0.72609,
+    0.00233
+   ],
+   [
+    0.00275,
+    0.00061,
+    -1.0
+   ]
+  ],
+  "t_mm": [
+   -165.344,
+   20.958,
+   -17.551
+  ]
+ },
+ "MW/7zJi6Xik7dHsBt": {
+  "assembly": "Assem5 (rotated -47.15 deg about thumb R1 axis in top level)",
+  "instance": "first_thumb_hinge <1>",
+  "partId": "KF7B",
+  "R_columns_local_xyz_in_world": [
+   [
+    0.6885,
+    0.72523,
+    0.0
+   ],
+   [
+    0.00087,
+    -0.00083,
+    -1.0
+   ],
+   [
+    -0.72523,
+    0.6885,
+    -0.0012
+   ]
+  ],
+  "t_mm": [
+   -170.776,
+   26.105,
+   -0.533
+  ]
+ }
+}

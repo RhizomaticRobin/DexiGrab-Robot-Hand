@@ -1,0 +1,134 @@
+[
+ {
+  "type": "M2x12 SHCS",
+  "nut": "M2 hex",
+  "position": [
+   -69.557,
+   -4.656,
+   -29.623
+  ],
+  "axis": [
+   -0.0,
+   0.0,
+   1.0
+  ],
+  "frame": "world",
+  "note": "index tray -> magazine (head in a 6 mm counterbore in the tray front block, nut side-loaded into the guide block)"
+ },
+ {
+  "type": "M2x12 SHCS",
+  "nut": "M2 hex",
+  "position": [
+   -69.949,
+   -30.158,
+   -29.623
+  ],
+  "axis": [
+   -0.0,
+   0.0,
+   1.0
+  ],
+  "frame": "world",
+  "note": "middle tray -> magazine (head in a 6 mm counterbore in the tray front block, nut side-loaded into the guide block)"
+ },
+ {
+  "type": "M2x12 SHCS",
+  "nut": "M2 hex",
+  "position": [
+   -73.559,
+   -55.441,
+   -29.623
+  ],
+  "axis": [
+   -0.0,
+   0.0,
+   1.0
+  ],
+  "frame": "world",
+  "note": "ring tray -> magazine (head in a 6 mm counterbore in the tray front block, nut side-loaded into the guide block)"
+ },
+ {
+  "type": "M2x12 SHCS",
+  "nut": "M2 hex",
+  "position": [
+   -79.358,
+   -80.313,
+   -29.623
+  ],
+  "axis": [
+   -0.0,
+   0.0,
+   1.0
+  ],
+  "frame": "world",
+  "note": "pinky tray -> magazine (head in a 6 mm counterbore in the tray front block, nut side-loaded into the guide block)"
+ },
+ {
+  "name": "T1_mount_1",
+  "type": "M1.6x3 SHCS",
+  "nut": null,
+  "position": [
+   -190.481,
+   21.682,
+   -23.2
+  ],
+  "axis": [
+   0.0,
+   0.0,
+   -1.0
+  ],
+  "frame": "world",
+  "note": "T1 N20 gearbox face to its cover3 seat floor (tapped M1.6 holes of the gearbox front plate, 9 mm apart; ISO 4762 head in a dia 3.6 x 1.8 counterbore; if the holes are absent, glue the face to the floor)"
+ },
+ {
+  "name": "T1_mount_2",
+  "type": "M1.6x3 SHCS",
+  "nut": null,
+  "position": [
+   -181.559,
+   20.498,
+   -23.2
+  ],
+  "axis": [
+   0.0,
+   0.0,
+   -1.0
+  ],
+  "frame": "world",
+  "note": "T1 N20 gearbox face to its cover3 seat floor (tapped M1.6 holes of the gearbox front plate, 9 mm apart; ISO 4762 head in a dia 3.6 x 1.8 counterbore; if the holes are absent, glue the face to the floor)"
+ },
+ {
+  "name": "T2_mount_1",
+  "type": "M1.6x3 SHCS",
+  "nut": null,
+  "position": [
+   -149.792,
+   30.617,
+   -24.8
+  ],
+  "axis": [
+   0.0,
+   0.0,
+   -1.0
+  ],
+  "frame": "world",
+  "note": "T2 N20 gearbox face to its cover3 seat floor (tapped M1.6 holes of the gearbox front plate, 9 mm apart; ISO 4762 head in a dia 3.6 x 1.8 counterbore; if the holes are absent, glue the face to the floor)"
+ },
+ {
+  "name": "T2_mount_2",
+  "type": "M1.6x3 SHCS",
+  "nut": null,
+  "position": [
+   -146.068,
+   22.423,
+   -24.8
+  ],
+  "axis": [
+   0.0,
+   0.0,
+   -1.0
+  ],
+  "frame": "world",
+  "note": "T2 N20 gearbox face to its cover3 seat floor (tapped M1.6 holes of the gearbox front plate, 9 mm apart; ISO 4762 head in a dia 3.6 x 1.8 counterbore; if the holes are absent, glue the face to the floor)"
+ }
+]

@@ -1,0 +1,389 @@
+{
+ "GM12": {
+  "file": "GM12-N20-双出轴-Motor.STEP (STEP product 'GM12-N20VA-Motor')",
+  "type": "N20 motor + WORM gearbox, output shaft PERPENDICULAR to the motor, dual-ended (双出轴 = dual output shaft)",
+  "encoder": "none: motor shaft (Ø1.0) ends at y=35.0 inside the rear cap (cap ends y=35.2); no magnet, PCB or Hall parts",
+  "products": [
+   "Engrenagem reta22-11",
+   "Engrenagem reta28-D",
+   "WHEEL",
+   "WORM",
+   "减速机支架",
+   "十字沉头螺丝",
+   "底部塑料盖子",
+   "电偶绝缘块",
+   "电刷",
+   "电耦片",
+   "磁铁",
+   "端子",
+   "绝缘垫片",
+   "轴",
+   "铁芯",
+   "马达外壳"
+  ],
+  "product_glossary": {
+   "M057-8Y01A": "N20 motor sub-assembly",
+   "马达外壳": "motor housing (can)",
+   "底部塑料盖子": "rear plastic end cap",
+   "端子": "terminal (x2)",
+   "轴": "motor shaft",
+   "磁铁": "magnet",
+   "铁芯": "armature core",
+   "电刷": "brush",
+   "电耦片": "commutator",
+   "电偶绝缘块": "insulating block",
+   "绝缘垫片": "insulating washer",
+   "减速机支架": "gearbox frame",
+   "十字沉头螺丝": "Phillips countersunk screw (x4)",
+   "WORM": "worm on the motor shaft",
+   "WHEEL": "worm wheel",
+   "Engrenagem reta22-11": "compound spur gear 22/11 (x2)",
+   "Engrenagem reta28-D": "output spur gear 28T on the D shaft"
+  },
+  "frame_note": "model frame = SolidWorks component frame; motor axis = +y (gearbox -> motor rear), output shaft = z",
+  "overall_extent_mm": {
+   "min": [
+    -17.973,
+    1.0,
+    -15.008
+   ],
+   "max": [
+    -5.973,
+    35.2,
+    14.992
+   ],
+   "size": [
+    12.0,
+    34.2,
+    30.0
+   ]
+  },
+  "can": {
+   "width_x": 11.99,
+   "across_flats_z": 10.0,
+   "y_range": [
+    18.6,
+    33.0
+   ],
+   "length": 14.4,
+   "end_cap_y_range": [
+    30.0,
+    35.2
+   ],
+   "motor_length_incl_cap": 16.6
+  },
+  "gearbox": {
+   "x": [
+    -17.973,
+    -5.973
+   ],
+   "y": [
+    1.0,
+    19.0
+   ],
+   "z": [
+    -5.508,
+    5.492
+   ],
+   "size_xyz": [
+    12.0,
+    18.0,
+    11.0
+   ]
+  },
+  "motor_axis": {
+   "dir_model": [
+    0,
+    1,
+    0
+   ],
+   "point_model": [
+    -11.973,
+    0.0,
+    -0.008
+   ],
+   "motor_shaft_diameter": 1.0,
+   "motor_shaft_y_range": [
+    13.4,
+    35.0
+   ]
+  },
+  "output_shaft": {
+   "dir_model": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "axis_point_model": [
+    -11.973,
+    4.96,
+    -0.008
+   ],
+   "diameter": 3.0,
+   "d_flat": [
+    [
+     1.0,
+     [
+      -0.0,
+      -1.0,
+      0.0
+     ]
+    ]
+   ],
+   "d_flat_note": "distance of the flat from the axis; 1.0 -> 2.5 mm across the flat; the flat runs the full length",
+   "z_range": [
+    -15.008,
+    14.992
+   ],
+   "total_length": 30.0,
+   "protrusion_each_side_beyond_gearbox": [
+    9.5,
+    9.5
+   ],
+   "offset_from_gearbox_front_face_y": 3.96,
+   "intersects_motor_axis": true,
+   "output_gear_tip_diameter": 5.576
+  },
+  "terminals": {
+   "centres_model": [
+    [
+     -15.073,
+     33.575,
+     -0.008
+    ],
+    [
+     -8.873,
+     33.575,
+     -0.008
+    ]
+   ],
+   "size": "0.4 x 2.0 mm tabs with Ø1.0 hole",
+   "exit": "rear face of the motor (+y end, y=31.95..35.2), 6.2 mm apart along x"
+  },
+  "ref_points_model": {
+   "gearbox_front_centre": [
+    -11.973,
+    1.0,
+    -0.008
+   ],
+   "output_shaft_centre": [
+    -11.973,
+    4.96,
+    -0.008
+   ],
+   "output_shaft_end_plus_z": [
+    -11.973,
+    4.96,
+    14.992
+   ],
+   "output_shaft_end_minus_z": [
+    -11.973,
+    4.96,
+    -15.008
+   ],
+   "can_centre": [
+    -11.973,
+    25.8,
+    -0.008
+   ],
+   "motor_rear_centre": [
+    -11.973,
+    35.2,
+    -0.008
+   ]
+  }
+ },
+ "N20": {
+  "file": "N20.sat (ACIS 7.0, exported by Autodesk ASM 219 on 2019-02-12; SAT unit = 10 mm)",
+  "type": "straight (coaxial) N20 spur gearmotor with a magnetic Hall encoder",
+  "n_bodies": 37,
+  "frame_note": "model frame = SolidWorks component frame; motor axis along x, output shaft tip at min x",
+  "overall_extent_mm": {
+   "min": [
+    -147.519,
+    225.707,
+    1.357
+   ],
+   "max": [
+    -106.719,
+    237.707,
+    17.357
+   ],
+   "size": [
+    40.8,
+    12.0,
+    16.0
+   ]
+  },
+  "motor_axis": {
+   "dir_model": [
+    1,
+    0,
+    0
+   ],
+   "note": "from output-shaft tip (x min) toward the encoder (x max)",
+   "axis_y": 231.707,
+   "axis_z": 6.357
+  },
+  "coaxial_check_offsets_mm": {
+   "6.0": [
+    0.0
+   ],
+   "1.5": [
+    0.0,
+    0.003,
+    5.0
+   ],
+   "2.0": [
+    0.0,
+    0.003,
+    3.835
+   ],
+   "0.5": [
+    0.0,
+    0.003,
+    2.0,
+    3.654,
+    3.835,
+    3.883,
+    4.61,
+    5.59,
+    7.106
+   ],
+   "4.5": [
+    0.0
+   ],
+   "2.7": [
+    0.0
+   ],
+   "2.5": [
+    0.0
+   ]
+  },
+  "can": {
+   "diameter": 12.0,
+   "across_flats_z": 10.0,
+   "x_range": [
+    -127.719,
+    -112.969
+   ],
+   "length": 14.75
+  },
+  "gearbox": {
+   "x_range": [
+    -136.719,
+    -127.719
+   ],
+   "length": 9.0,
+   "section": "12 x 10 (three 0.8 mm plates + posts)"
+  },
+  "output_shaft": {
+   "diameter": 3.0,
+   "x_range": [
+    -147.519,
+    -135.919
+   ],
+   "exposed_length_from_gearbox_face": 10.8,
+   "boss": "Ø4.0 x 0.8 at the gearbox face",
+   "exposed_beyond_boss": 10.0,
+   "d_flat": [
+    [
+     1.0,
+     [
+      -0.0,
+      0.0,
+      1.0
+     ]
+    ]
+   ],
+   "d_flat_note": "distance from axis; 1.0 -> 2.5 mm across the flat; flat normal +z (same side as the encoder PCB tab)"
+  },
+  "encoder": {
+   "present": true,
+   "pcb": {
+    "x_range": [
+     -112.219,
+     -111.219
+    ],
+    "thickness": 1.0,
+    "size_y_z": [
+     12.0,
+     16.0
+    ],
+    "z_range": [
+     1.357,
+     17.357
+    ],
+    "tab_beyond_can_flat_mm": 6.0
+   },
+   "magnet_disc": {
+    "diameter": 9.0,
+    "x_range": [
+     -110.219,
+     -106.719
+    ]
+   },
+   "hall_sensors": 2,
+   "rear_shaft": "Ø1.0 through the PCB to the magnet",
+   "connector": {
+    "pins": 6,
+    "pitch_mm": 1.5,
+    "pin_y": [
+     227.957,
+     229.457,
+     230.957,
+     232.457,
+     233.957,
+     235.457
+    ],
+    "housing_mm": "3.5 (x) x 10.5 (y) x 4.5 (z)",
+    "location": "rear face of the PCB, on the tab above the can's +z flat (z 12.8..17.3)",
+    "mating_direction_model": "+x (rearward, along the motor axis) - inferred from the contact cavities running along x"
+   }
+  },
+  "ref_points_model": {
+   "output_shaft_tip": [
+    -147.519,
+    231.707,
+    6.357
+   ],
+   "gearbox_front_centre": [
+    -136.719,
+    231.707,
+    6.357
+   ],
+   "can_centre": [
+    -120.344,
+    231.707,
+    6.357
+   ],
+   "encoder_pcb_centre": [
+    -111.719,
+    231.707,
+    9.357
+   ],
+   "rear_end": [
+    -106.719,
+    231.707,
+    6.357
+   ],
+   "connector_centre": [
+    -109.454,
+    231.707,
+    15.092
+   ]
+  },
+  "dirs_model": {
+   "can_axis_tip_to_rear": [
+    1,
+    0,
+    0
+   ],
+   "encoder_tab_and_d_flat_side": [
+    0,
+    0,
+    1
+   ]
+  }
+ }
+}

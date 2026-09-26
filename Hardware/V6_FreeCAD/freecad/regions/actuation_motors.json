@@ -1,0 +1,944 @@
+{
+ "note": "World 4x4 (row-major) of the lib/n20.py frame per motor: origin = gearbox front face centre, +X toward the encoder (shaft -X), +Z = PCB tab / connector / D-flat side. connector = connector centre (world mm), connector_dir = plug mating direction; plug_keepout_world_aabb = the 8 mm plug + first-bend space the harness must leave free.  Finger seats: <finger letter><A..D>; A=J1, B=J2, C=J3 flexors, D=J0 loop.  channel_proposal = driver channel suggested by actuation (electronics owns the final assignment).  positive motor command = spool turns +X_motor (right hand about the n20 +X axis); the firmware direction column is the spool sense that SHORTENS the flexor (or rotates J0 toward +Y / the thumb)",
+ "motors": [
+  {
+   "seat": "IA",
+   "matrix": [
+    0.999999,
+    0.0,
+    0.001009,
+    -106.152218,
+    -0.001009,
+    -0.0,
+    0.999999,
+    -0.219254,
+    0.0,
+    -1.0,
+    -0.0,
+    -14.222963,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "joint": "index J1",
+   "spool": "small",
+   "spool_tendon_radius_mm": 3.75,
+   "connector": [
+    -78.893,
+    8.453,
+    -14.223
+   ],
+   "connector_dir": [
+    1.0,
+    -0.00101,
+    0.0
+   ],
+   "tab_dir": [
+    0.00101,
+    1.0,
+    -0.0
+   ],
+   "plug_keepout_world_aabb": [
+    -77.15,
+    5.69,
+    -19.97,
+    -69.14,
+    11.2,
+    -8.47
+   ],
+   "wind_sense": 1,
+   "channel_proposal": 1,
+   "tendon_anchor": "metacarpal knot pocket (x 19)"
+  },
+  {
+   "seat": "IB",
+   "matrix": [
+    0.999999,
+    0.0,
+    0.001009,
+    -147.152197,
+    -0.001009,
+    -0.0,
+    0.999999,
+    -0.177888,
+    0.0,
+    -1.0,
+    -0.0,
+    -14.222963,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "joint": "index J2",
+   "spool": "small",
+   "spool_tendon_radius_mm": 3.75,
+   "connector": [
+    -119.893,
+    8.495,
+    -14.223
+   ],
+   "connector_dir": [
+    1.0,
+    -0.00101,
+    0.0
+   ],
+   "tab_dir": [
+    0.00101,
+    1.0,
+    -0.0
+   ],
+   "plug_keepout_world_aabb": [
+    -118.15,
+    5.73,
+    -19.97,
+    -110.14,
+    11.24,
+    -8.47
+   ],
+   "wind_sense": -1,
+   "channel_proposal": 2,
+   "tendon_anchor": "proximal knot pocket (x 19)"
+  },
+  {
+   "seat": "IC",
+   "matrix": [
+    0.999999,
+    -0.0,
+    -0.001009,
+    -107.652217,
+    -0.001009,
+    0.0,
+    -0.999999,
+    -0.217741,
+    0.0,
+    1.0,
+    0.0,
+    -27.622963,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "joint": "index J3",
+   "spool": "big",
+   "spool_tendon_radius_mm": 5.65,
+   "connector": [
+    -80.411,
+    -8.945,
+    -27.623
+   ],
+   "connector_dir": [
+    1.0,
+    -0.00101,
+    0.0
+   ],
+   "tab_dir": [
+    -0.00101,
+    -1.0,
+    0.0
+   ],
+   "plug_keepout_world_aabb": [
+    -78.66,
+    -11.71,
+    -33.37,
+    -70.66,
+    -6.2,
+    -21.87
+   ],
+   "wind_sense": 1,
+   "channel_proposal": 3,
+   "tendon_anchor": "distal M1.6 clamp"
+  },
+  {
+   "seat": "ID",
+   "matrix": [
+    0.999999,
+    0.0,
+    0.001009,
+    -152.152194,
+    -0.001009,
+    -0.0,
+    0.999999,
+    -0.172843,
+    0.0,
+    -1.0,
+    -0.0,
+    -27.622963,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "joint": "index J0",
+   "spool": "double",
+   "spool_tendon_radius_mm": 5.65,
+   "connector": [
+    -124.893,
+    8.5,
+    -27.623
+   ],
+   "connector_dir": [
+    1.0,
+    -0.00101,
+    0.0
+   ],
+   "tab_dir": [
+    0.00101,
+    1.0,
+    -0.0
+   ],
+   "plug_keepout_world_aabb": [
+    -123.15,
+    5.74,
+    -33.37,
+    -115.14,
+    11.25,
+    -21.87
+   ],
+   "wind_sense": -1,
+   "channel_proposal": 0,
+   "tendon_anchor": "base-bone lateral knot anchors (x 16.8), loop via the palm tunnels + V5 wing channels"
+  },
+  {
+   "seat": "MA",
+   "matrix": [
+    0.996106,
+    0.0,
+    0.088161,
+    -106.01868,
+    -0.088161,
+    -0.0,
+    0.996106,
+    -22.548648,
+    0.0,
+    -1.0,
+    0.0,
+    -14.222963,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "joint": "middle J1",
+   "spool": "small",
+   "spool_tendon_radius_mm": 3.75,
+   "connector": [
+    -78.108,
+    -16.285,
+    -14.223
+   ],
+   "connector_dir": [
+    0.99611,
+    -0.08816,
+    0.0
+   ],
+   "tab_dir": [
+    0.08816,
+    0.99611,
+    0.0
+   ],
+   "plug_keepout_world_aabb": [
+    -76.61,
+    -19.88,
+    -19.97,
+    -68.15,
+    -13.7,
+    -8.47
+   ],
+   "wind_sense": 1,
+   "channel_proposal": 5,
+   "tendon_anchor": "metacarpal knot pocket (x 19)"
+  },
+  {
+   "seat": "MB",
+   "matrix": [
+    0.996106,
+    0.0,
+    0.088161,
+    -146.859036,
+    -0.088161,
+    -0.0,
+    0.996106,
+    -18.934055,
+    0.0,
+    -1.0,
+    0.0,
+    -14.222963,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "joint": "middle J2",
+   "spool": "small",
+   "spool_tendon_radius_mm": 3.75,
+   "connector": [
+    -118.948,
+    -12.67,
+    -14.223
+   ],
+   "connector_dir": [
+    0.99611,
+    -0.08816,
+    0.0
+   ],
+   "tab_dir": [
+    0.08816,
+    0.99611,
+    0.0
+   ],
+   "plug_keepout_world_aabb": [
+    -117.45,
+    -16.27,
+    -19.97,
+    -108.99,
+    -10.09,
+    -8.47
+   ],
+   "wind_sense": -1,
+   "channel_proposal": 6,
+   "tendon_anchor": "proximal knot pocket (x 19)"
+  },
+  {
+   "seat": "MC",
+   "matrix": [
+    0.996106,
+    0.0,
+    0.088161,
+    -107.512839,
+    -0.088161,
+    -0.0,
+    0.996106,
+    -22.416407,
+    0.0,
+    -1.0,
+    0.0,
+    -27.622963,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "joint": "middle J3",
+   "spool": "big",
+   "spool_tendon_radius_mm": 5.65,
+   "connector": [
+    -79.602,
+    -16.153,
+    -27.623
+   ],
+   "connector_dir": [
+    0.99611,
+    -0.08816,
+    0.0
+   ],
+   "tab_dir": [
+    0.08816,
+    0.99611,
+    0.0
+   ],
+   "plug_keepout_world_aabb": [
+    -78.1,
+    -19.75,
+    -33.37,
+    -69.65,
+    -13.57,
+    -21.87
+   ],
+   "wind_sense": 1,
+   "channel_proposal": 7,
+   "tendon_anchor": "distal M1.6 clamp"
+  },
+  {
+   "seat": "MD",
+   "matrix": [
+    0.996106,
+    0.0,
+    0.088161,
+    -151.839568,
+    -0.088161,
+    -0.0,
+    0.996106,
+    -18.493251,
+    0.0,
+    -1.0,
+    0.0,
+    -27.622963,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "joint": "middle J0",
+   "spool": "double",
+   "spool_tendon_radius_mm": 5.65,
+   "connector": [
+    -123.929,
+    -12.23,
+    -27.623
+   ],
+   "connector_dir": [
+    0.99611,
+    -0.08816,
+    0.0
+   ],
+   "tab_dir": [
+    0.08816,
+    0.99611,
+    0.0
+   ],
+   "plug_keepout_world_aabb": [
+    -122.43,
+    -15.83,
+    -33.37,
+    -113.97,
+    -9.64,
+    -21.87
+   ],
+   "wind_sense": -1,
+   "channel_proposal": 4,
+   "tendon_anchor": "base-bone lateral knot anchors (x 16.8), loop via the palm tunnels + V5 wing channels"
+  },
+  {
+   "seat": "PA",
+   "matrix": [
+    0.965664,
+    0.0,
+    0.259793,
+    -113.558472,
+    -0.259793,
+    -0.0,
+    0.965664,
+    -66.555256,
+    0.0,
+    -1.0,
+    0.0,
+    -14.222963,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "joint": "pinky J1",
+   "spool": "small",
+   "spool_tendon_radius_mm": 3.75,
+   "connector": [
+    -84.984,
+    -65.233,
+    -14.223
+   ],
+   "connector_dir": [
+    0.96566,
+    -0.25979,
+    0.0
+   ],
+   "tab_dir": [
+    0.25979,
+    0.96566,
+    0.0
+   ],
+   "plug_keepout_world_aabb": [
+    -84.01,
+    -70.42,
+    -19.97,
+    -74.85,
+    -63.03,
+    -8.47
+   ],
+   "wind_sense": 1,
+   "channel_proposal": 13,
+   "tendon_anchor": "metacarpal knot pocket (x 19)"
+  },
+  {
+   "seat": "PB",
+   "matrix": [
+    0.965664,
+    0.0,
+    0.259793,
+    -153.150705,
+    -0.259793,
+    -0.0,
+    0.965664,
+    -55.903723,
+    0.0,
+    -1.0,
+    0.0,
+    -14.222963,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "joint": "pinky J2",
+   "spool": "small",
+   "spool_tendon_radius_mm": 3.75,
+   "connector": [
+    -124.576,
+    -54.582,
+    -14.223
+   ],
+   "connector_dir": [
+    0.96566,
+    -0.25979,
+    0.0
+   ],
+   "tab_dir": [
+    0.25979,
+    0.96566,
+    0.0
+   ],
+   "plug_keepout_world_aabb": [
+    -123.6,
+    -59.77,
+    -19.97,
+    -114.45,
+    -52.38,
+    -8.47
+   ],
+   "wind_sense": -1,
+   "channel_proposal": 14,
+   "tendon_anchor": "proximal knot pocket (x 19)"
+  },
+  {
+   "seat": "PC",
+   "matrix": [
+    0.965664,
+    0.0,
+    0.259793,
+    -115.006969,
+    -0.259793,
+    -0.0,
+    0.965664,
+    -66.165566,
+    0.0,
+    -1.0,
+    0.0,
+    -27.622963,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "joint": "pinky J3",
+   "spool": "big",
+   "spool_tendon_radius_mm": 5.65,
+   "connector": [
+    -86.432,
+    -64.844,
+    -27.623
+   ],
+   "connector_dir": [
+    0.96566,
+    -0.25979,
+    0.0
+   ],
+   "tab_dir": [
+    0.25979,
+    0.96566,
+    0.0
+   ],
+   "plug_keepout_world_aabb": [
+    -85.46,
+    -70.03,
+    -33.37,
+    -76.3,
+    -62.64,
+    -21.87
+   ],
+   "wind_sense": 1,
+   "channel_proposal": 15,
+   "tendon_anchor": "distal M1.6 clamp"
+  },
+  {
+   "seat": "PD",
+   "matrix": [
+    0.965664,
+    0.0,
+    0.259793,
+    -157.979026,
+    -0.259793,
+    -0.0,
+    0.965664,
+    -54.604756,
+    0.0,
+    -1.0,
+    0.0,
+    -27.622963,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "joint": "pinky J0",
+   "spool": "double",
+   "spool_tendon_radius_mm": 5.65,
+   "connector": [
+    -129.404,
+    -53.283,
+    -27.623
+   ],
+   "connector_dir": [
+    0.96566,
+    -0.25979,
+    0.0
+   ],
+   "tab_dir": [
+    0.25979,
+    0.96566,
+    0.0
+   ],
+   "plug_keepout_world_aabb": [
+    -128.43,
+    -58.47,
+    -33.37,
+    -119.27,
+    -51.08,
+    -21.87
+   ],
+   "wind_sense": -1,
+   "channel_proposal": 12,
+   "tendon_anchor": "base-bone lateral knot anchors (x 16.8), loop via the palm tunnels + V5 wing channels"
+  },
+  {
+   "seat": "RA",
+   "matrix": [
+    0.984632,
+    0.0,
+    0.174642,
+    -108.827891,
+    -0.174642,
+    -0.0,
+    0.984632,
+    -44.716549,
+    0.0,
+    -1.0,
+    0.0,
+    -14.222963,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "joint": "ring J1",
+   "spool": "small",
+   "spool_tendon_radius_mm": 3.75,
+   "connector": [
+    -80.477,
+    -40.909,
+    -14.223
+   ],
+   "connector_dir": [
+    0.98463,
+    -0.17464,
+    0.0
+   ],
+   "tab_dir": [
+    0.17464,
+    0.98463,
+    0.0
+   ],
+   "plug_keepout_world_aabb": [
+    -79.23,
+    -45.32,
+    -19.97,
+    -70.4,
+    -38.51,
+    -8.47
+   ],
+   "wind_sense": 1,
+   "channel_proposal": 9,
+   "tendon_anchor": "metacarpal knot pocket (x 19)"
+  },
+  {
+   "seat": "RB",
+   "matrix": [
+    0.984632,
+    0.0,
+    0.174642,
+    -149.197805,
+    -0.174642,
+    -0.0,
+    0.984632,
+    -37.556239,
+    0.0,
+    -1.0,
+    0.0,
+    -14.222963,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "joint": "ring J2",
+   "spool": "small",
+   "spool_tendon_radius_mm": 3.75,
+   "connector": [
+    -120.847,
+    -33.749,
+    -14.223
+   ],
+   "connector_dir": [
+    0.98463,
+    -0.17464,
+    0.0
+   ],
+   "tab_dir": [
+    0.17464,
+    0.98463,
+    0.0
+   ],
+   "plug_keepout_world_aabb": [
+    -119.6,
+    -38.16,
+    -19.97,
+    -110.77,
+    -31.35,
+    -8.47
+   ],
+   "wind_sense": -1,
+   "channel_proposal": 10,
+   "tendon_anchor": "proximal knot pocket (x 19)"
+  },
+  {
+   "seat": "RC",
+   "matrix": [
+    0.984632,
+    0.0,
+    0.174642,
+    -110.304839,
+    -0.174642,
+    -0.0,
+    0.984632,
+    -44.454586,
+    0.0,
+    -1.0,
+    0.0,
+    -27.622963,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "joint": "ring J3",
+   "spool": "big",
+   "spool_tendon_radius_mm": 5.65,
+   "connector": [
+    -81.954,
+    -40.647,
+    -27.623
+   ],
+   "connector_dir": [
+    0.98463,
+    -0.17464,
+    0.0
+   ],
+   "tab_dir": [
+    0.17464,
+    0.98463,
+    0.0
+   ],
+   "plug_keepout_world_aabb": [
+    -80.71,
+    -45.06,
+    -33.37,
+    -71.87,
+    -38.25,
+    -21.87
+   ],
+   "wind_sense": 1,
+   "channel_proposal": 11,
+   "tendon_anchor": "distal M1.6 clamp"
+  },
+  {
+   "seat": "RD",
+   "matrix": [
+    0.984632,
+    0.0,
+    0.174642,
+    -154.120965,
+    -0.174642,
+    -0.0,
+    0.984632,
+    -36.683031,
+    0.0,
+    -1.0,
+    0.0,
+    -27.622963,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "joint": "ring J0",
+   "spool": "double",
+   "spool_tendon_radius_mm": 5.65,
+   "connector": [
+    -125.77,
+    -32.876,
+    -27.623
+   ],
+   "connector_dir": [
+    0.98463,
+    -0.17464,
+    0.0
+   ],
+   "tab_dir": [
+    0.17464,
+    0.98463,
+    0.0
+   ],
+   "plug_keepout_world_aabb": [
+    -124.53,
+    -37.29,
+    -33.37,
+    -115.69,
+    -30.47,
+    -21.87
+   ],
+   "wind_sense": -1,
+   "channel_proposal": 8,
+   "tendon_anchor": "base-bone lateral knot anchors (x 16.8), loop via the palm tunnels + V5 wing channels"
+  },
+  {
+   "seat": "T1",
+   "matrix": [
+    0.0,
+    0.991308,
+    -0.131564,
+    -186.02,
+    0.0,
+    -0.131564,
+    -0.991308,
+    21.09,
+    -1.0,
+    -0.0,
+    0.0,
+    -24.2,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "joint": "thumb R4 flexor (thumb metacarpal)",
+   "spool": "small",
+   "spool_tendon_radius_mm": 3.75,
+   "connector": [
+    -187.165,
+    12.466,
+    -51.45
+   ],
+   "connector_dir": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "tab_dir": [
+    -0.13156,
+    -0.99131,
+    0.0
+   ],
+   "plug_keepout_world_aabb": [
+    -193.23,
+    8.98,
+    -61.2,
+    -181.1,
+    15.95,
+    -53.2
+   ],
+   "wind_sense": 1,
+   "channel_proposal": 16,
+   "tendon_anchor": "thumb metacarpal knot pocket"
+  },
+  {
+   "seat": "T2",
+   "matrix": [
+    -0.0,
+    0.41374,
+    -0.910395,
+    -147.93,
+    -0.0,
+    -0.910395,
+    -0.41374,
+    26.52,
+    -1.0,
+    -0.0,
+    0.0,
+    -25.8,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "joint": "thumb R5+R6 flexor (thumb distal)",
+   "spool": "small",
+   "spool_tendon_radius_mm": 3.75,
+   "connector": [
+    -155.85,
+    22.92,
+    -53.05
+   ],
+   "connector_dir": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "tab_dir": [
+    -0.9104,
+    -0.41374,
+    0.0
+   ],
+   "plug_keepout_world_aabb": [
+    -160.73,
+    16.55,
+    -62.8,
+    -150.97,
+    29.29,
+    -54.8
+   ],
+   "wind_sense": -1,
+   "channel_proposal": 17,
+   "tendon_anchor": "thumb distal M1.6 clamp"
+  },
+  {
+   "seat": "T3",
+   "matrix": [
+    0.0,
+    1.0,
+    0.0,
+    -165.296519,
+    0.0,
+    0.0,
+    -1.0,
+    21.038929,
+    -1.0,
+    0.0,
+    0.0,
+    -24.5,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "joint": "thumb R1 yaw, direct drive (owned by mod_thumb)",
+   "channel_proposal": 18,
+   "spool": null,
+   "connector": [
+    -165.297,
+    12.339,
+    -51.75
+   ],
+   "connector_dir": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "tab_dir": [
+    0.0,
+    -1.0,
+    0.0
+   ]
+  }
+ ]
+}
