@@ -19,11 +19,11 @@ Well, here's where I might change your mind regarding that!
 - 19 motors allowing for **19 DOF hand dexerity**, 4 DOF for each finger and 3 DOF on the thumb
 - Straightforward 3D printing and assembly with **only 5-10 3D printed parts** to be assembled together for more plug-and-play use dynamics
 - Mechanics and electronics **entirely constrained** inside the palm, allowing for full end-effector modularity with all current and future robotic manipulators
-- To utilize a modified L3-F-TOUCH sensing module for the fingers and palm and a stereo raspberry pi camera system for sensor fusion data to train reliable deep reinforcement learning 
+- Full integration of https://flexitac.github.io as NEW FULLY ENCOMPASSING TOUCH SENSING for the grand cost of... 2 dollars and 59 cents!
 - **Universal Robot Attachment** system that can be 3D printed to interface with any robot arm's end effector attachment system
 - **Multi-modal sensor fusion** integrating:
   - Intel® RealSense™ Depth Camera D455
-  - L3-F-TOUCH sensing for tactile feedback
+  - (https://flexitac.github.io)
   - Arduino Pro Mini for motor encoder data collection
 
 ## AI & Simulation
