@@ -1,0 +1,12 @@
+{
+ "attach": {
+  "thumb_R2_tube": "first_thumb_hinge <1>"
+ },
+ "exclude": [
+  [
+   "T3_motor",
+   "hand_pulley_wheel_thumb <1>"
+  ]
+ ],
+ "note": "R2 tube is glued in the yaw-carrier arm (first_thumb_hinge <1>, relinked to the carrier), coaxial with R2; the T3 shaft turns with the D-coupler (old hub instance), so shaft x coupler is not a collision"
+}

@@ -1,0 +1,98 @@
+[
+ {
+  "type": "M2x8 SHCS",
+  "nut": null,
+  "position": [
+   -159.054,
+   -19.057,
+   -80.449
+  ],
+  "axis": [
+   -0.011,
+   -0.086,
+   0.996
+  ],
+  "frame": "world",
+  "note": "shells retention stud 1 (Shell1 D y -95, theta 5 deg): head on the printed cap washer (dia 12 x 1.2), threads into a dia 1.7 x 7 pilot in the Shell1 stud (thread-forming); stack under it: silicone 40-50A O-ring 5x2.5 (~10 % squeeze) on a printed slider washer (dia 13 x 1.5) that rides on Shell2"
+ },
+ {
+  "type": "M2x8 SHCS",
+  "nut": null,
+  "position": [
+   -84.721,
+   -29.036,
+   -79.121
+  ],
+  "axis": [
+   -0.011,
+   -0.086,
+   0.996
+  ],
+  "frame": "world",
+  "note": "shells retention stud 2 (Shell1 D y -20, theta 5 deg): head on the printed cap washer (dia 12 x 1.2), threads into a dia 1.7 x 7 pilot in the Shell1 stud (thread-forming); stack under it: silicone 40-50A O-ring 5x2.5 (~10 % squeeze) on a printed slider washer (dia 13 x 1.5) that rides on Shell2"
+ },
+ {
+  "type": "M2x8 SHCS",
+  "nut": null,
+  "position": [
+   -165.279,
+   -66.88,
+   -48.291
+  ],
+  "axis": [
+   -0.0,
+   0.0,
+   1.0
+  ],
+  "frame": "world",
+  "note": "Shell1 pinky rim -> cover2 dorsal wall end (Shell1 rides on the pinky side): dia 2.4 hole + dia 4.4 counterbore in Shell1, dia 1.7 x 8 thread-forming pilot in cover2"
+ },
+ {
+  "type": "M2x8 SHCS",
+  "nut": null,
+  "position": [
+   -126.652,
+   -77.272,
+   -48.291
+  ],
+  "axis": [
+   -0.0,
+   0.0,
+   1.0
+  ],
+  "frame": "world",
+  "note": "Shell1 pinky rim -> cover2 dorsal wall end (Shell1 rides on the pinky side): dia 2.4 hole + dia 4.4 counterbore in Shell1, dia 1.7 x 8 thread-forming pilot in cover2"
+ },
+ {
+  "type": "M1.6x12 SHCS",
+  "nut": "M1.6 hex",
+  "position": [
+   -192.42,
+   -55.373,
+   -46.676
+  ],
+  "axis": [
+   0.991,
+   -0.132,
+   0.0
+  ],
+  "frame": "world",
+  "note": "cover_back -> Shell1 wrist boss (V5 m1_screw_assemb): dia 2.0 hole + dia 3.4 x 1.2 head seat in cover_back; nut in Shell1's existing slot (D y -113..-111.2)"
+ },
+ {
+  "type": "M1.6x12 SHCS",
+  "nut": "M1.6 hex",
+  "position": [
+   -189.443,
+   -32.93,
+   -56.886
+  ],
+  "axis": [
+   0.991,
+   -0.132,
+   0.0
+  ],
+  "frame": "world",
+  "note": "cover_back -> Shell1 wrist boss (V5 m1_screw_assemb): dia 2.0 hole + dia 3.4 x 1.2 head seat in cover_back; nut in Shell1's existing slot (D y -113..-111.2)"
+ }
+]

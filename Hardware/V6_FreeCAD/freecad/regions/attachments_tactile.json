@@ -1,0 +1,252 @@
+{
+ "attach": {
+  "tactile_pad_index_dist": "Distal Phalanx Bone_V02 <1>",
+  "tactile_pad_index_prox": "Proximal Phalanx Bone_V02 <1>",
+  "tactile_pad_index_meta": "Metacarpal Bone_V02 <1>",
+  "tactile_pad_index_palm": "Base Bone 1.2_V02_pointerfinger_and_thumb_attachment <1>",
+  "tactile_loop_index_J3": "Proximal Phalanx Bone_V02 <1>",
+  "tactile_loop_index_J2": "Metacarpal Bone_V02 <1>",
+  "tactile_pad_middle_dist": "Distal Phalanx Bone_V02 <2>",
+  "tactile_pad_middle_prox": "Proximal Phalanx Bone_V02_middlefinger <1>",
+  "tactile_pad_middle_meta": "Metacarpal Bone_V02 <2>",
+  "tactile_pad_middle_palm": "Base Bone 1.2_V02_middlefinger <1>",
+  "tactile_loop_middle_J3": "Proximal Phalanx Bone_V02_middlefinger <1>",
+  "tactile_loop_middle_J2": "Metacarpal Bone_V02 <2>",
+  "tactile_pad_ring_dist": "Distal Phalanx Bone_V02 <3>",
+  "tactile_pad_ring_prox": "Proximal Phalanx Bone_V02 <2>",
+  "tactile_pad_ring_meta": "Metacarpal Bone_V02 <3>",
+  "tactile_pad_ring_palm": "Base Bone 1.2_V02_ringfing <1>",
+  "tactile_loop_ring_J3": "Proximal Phalanx Bone_V02 <2>",
+  "tactile_loop_ring_J2": "Metacarpal Bone_V02 <3>",
+  "tactile_pad_pinky_dist": "Distal Phalanx Bone_V02 <4>",
+  "tactile_pad_pinky_prox": "Proximal Phalanx Bone_V02_pinky <1>",
+  "tactile_pad_pinky_meta": "Metacarpal Bone_V02_pinky <1>",
+  "tactile_pad_pinky_palm": "Base Bone 1.2_V02_pinky <1>",
+  "tactile_loop_pinky_J3": "Proximal Phalanx Bone_V02_pinky <1>",
+  "tactile_loop_pinky_J2": "Metacarpal Bone_V02_pinky <1>",
+  "tactile_pad_thumb_dist": "Distal Phalanx Bone_V02 <5>",
+  "tactile_pad_thumb_prox": "Proximal Phalanx Bone_V02 <3>",
+  "tactile_pad_thumb_meta": "Metacarpal Bone_V02 <4>",
+  "tactile_loop_thumb_J3": "Proximal Phalanx Bone_V02 <3>",
+  "tactile_loop_thumb_J2": "Metacarpal Bone_V02 <4>"
+ },
+ "exclude": [
+  [
+   "tactile_loop_index_J3",
+   "Distal Phalanx Bone_V02 <1>"
+  ],
+  [
+   "tactile_loop_index_J3",
+   "tactile_pad_index_dist"
+  ],
+  [
+   "tactile_loop_index_J2",
+   "Proximal Phalanx Bone_V02 <1>"
+  ],
+  [
+   "tactile_loop_index_J2",
+   "tactile_pad_index_prox"
+  ],
+  [
+   "tactile_loop_index_J2",
+   "tactile_loop_index_J3"
+  ],
+  [
+   "tactile_knuckle_index",
+   "Metacarpal Bone_V02 <1>"
+  ],
+  [
+   "tactile_knuckle_index",
+   "Base Bone 1_V02 <1>"
+  ],
+  [
+   "tactile_knuckle_index",
+   "tactile_pad_index_meta"
+  ],
+  [
+   "tactile_knuckle_index",
+   "tactile_loop_index_J2"
+  ],
+  [
+   "tactile_loop_middle_J3",
+   "Distal Phalanx Bone_V02 <2>"
+  ],
+  [
+   "tactile_loop_middle_J3",
+   "tactile_pad_middle_dist"
+  ],
+  [
+   "tactile_loop_middle_J2",
+   "Proximal Phalanx Bone_V02_middlefinger <1>"
+  ],
+  [
+   "tactile_loop_middle_J2",
+   "tactile_pad_middle_prox"
+  ],
+  [
+   "tactile_loop_middle_J2",
+   "tactile_loop_middle_J3"
+  ],
+  [
+   "tactile_knuckle_middle",
+   "Metacarpal Bone_V02 <2>"
+  ],
+  [
+   "tactile_knuckle_middle",
+   "Base Bone 1_V02 <2>"
+  ],
+  [
+   "tactile_knuckle_middle",
+   "tactile_pad_middle_meta"
+  ],
+  [
+   "tactile_knuckle_middle",
+   "tactile_loop_middle_J2"
+  ],
+  [
+   "tactile_loop_ring_J3",
+   "Distal Phalanx Bone_V02 <3>"
+  ],
+  [
+   "tactile_loop_ring_J3",
+   "tactile_pad_ring_dist"
+  ],
+  [
+   "tactile_loop_ring_J2",
+   "Proximal Phalanx Bone_V02 <2>"
+  ],
+  [
+   "tactile_loop_ring_J2",
+   "tactile_pad_ring_prox"
+  ],
+  [
+   "tactile_loop_ring_J2",
+   "tactile_loop_ring_J3"
+  ],
+  [
+   "tactile_knuckle_ring",
+   "Metacarpal Bone_V02 <3>"
+  ],
+  [
+   "tactile_knuckle_ring",
+   "Base Bone 1_V02 <4>"
+  ],
+  [
+   "tactile_knuckle_ring",
+   "tactile_pad_ring_meta"
+  ],
+  [
+   "tactile_knuckle_ring",
+   "tactile_loop_ring_J2"
+  ],
+  [
+   "tactile_loop_pinky_J3",
+   "Distal Phalanx Bone_V02 <4>"
+  ],
+  [
+   "tactile_loop_pinky_J3",
+   "tactile_pad_pinky_dist"
+  ],
+  [
+   "tactile_loop_pinky_J2",
+   "Proximal Phalanx Bone_V02_pinky <1>"
+  ],
+  [
+   "tactile_loop_pinky_J2",
+   "tactile_pad_pinky_prox"
+  ],
+  [
+   "tactile_loop_pinky_J2",
+   "tactile_loop_pinky_J3"
+  ],
+  [
+   "tactile_knuckle_pinky",
+   "Metacarpal Bone_V02_pinky <1>"
+  ],
+  [
+   "tactile_knuckle_pinky",
+   "Base Bone 1_V02 <3>"
+  ],
+  [
+   "tactile_knuckle_pinky",
+   "tactile_pad_pinky_meta"
+  ],
+  [
+   "tactile_knuckle_pinky",
+   "tactile_loop_pinky_J2"
+  ],
+  [
+   "tactile_loop_thumb_J3",
+   "Distal Phalanx Bone_V02 <5>"
+  ],
+  [
+   "tactile_loop_thumb_J3",
+   "tactile_pad_thumb_dist"
+  ],
+  [
+   "tactile_loop_thumb_J2",
+   "Proximal Phalanx Bone_V02 <3>"
+  ],
+  [
+   "tactile_loop_thumb_J2",
+   "tactile_pad_thumb_prox"
+  ],
+  [
+   "tactile_loop_thumb_J2",
+   "tactile_loop_thumb_J3"
+  ],
+  [
+   "tactile_tail_thumb",
+   "hand_pulley_wheel_thumb <1>"
+  ],
+  [
+   "tactile_tail_thumb",
+   "first_thumb_hinge <1>"
+  ],
+  [
+   "tactile_tail_thumb",
+   "second_thumb_hinge <1>"
+  ],
+  [
+   "tactile_tail_thumb",
+   "third_thumb_hinge <1>"
+  ],
+  [
+   "tactile_tail_thumb",
+   "thumb_R2_tube"
+  ],
+  [
+   "tactile_tail_thumb",
+   "Metacarpal Bone_V02 <4>"
+  ],
+  [
+   "tactile_tail_thumb",
+   "Proximal Phalanx Bone_V02 <3>"
+  ],
+  [
+   "tactile_tail_thumb",
+   "Distal Phalanx Bone_V02 <5>"
+  ],
+  [
+   "tactile_tail_thumb",
+   "tactile_pad_thumb_meta"
+  ],
+  [
+   "tactile_tail_thumb",
+   "tactile_pad_thumb_prox"
+  ],
+  [
+   "tactile_tail_thumb",
+   "tactile_pad_thumb_dist"
+  ],
+  [
+   "tactile_tail_thumb",
+   "tactile_loop_thumb_J2"
+  ],
+  [
+   "tactile_tail_thumb",
+   "tactile_loop_thumb_J3"
+  ]
+ ],
+ "note": "tactile: pads ride on their bones, joint loops on their palm-side bone; loop x tip-side bone, knuckle ribbon x finger and thumb tail x thumb chain are flexible crossings (checked at 0/90 deg by verify_tactile.py, thumb tail by its length budget), not collisions"
+}

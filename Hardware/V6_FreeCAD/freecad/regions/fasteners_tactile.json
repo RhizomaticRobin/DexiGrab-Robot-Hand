@@ -1,0 +1,74 @@
+[
+ {
+  "name": "pod_lid_0",
+  "type": "M2x5 SHCS",
+  "nut": "M2 insert",
+  "nut_offset": 2.0,
+  "position": [
+   -247.609,
+   -51.678,
+   23.48
+  ],
+  "axis": [
+   0.0,
+   0.0,
+   -1.0
+  ],
+  "frame": "world",
+  "note": "tactile readout pod lid (M2 heat-set insert in the corner post)"
+ },
+ {
+  "name": "pod_lid_1",
+  "type": "M2x5 SHCS",
+  "nut": "M2 insert",
+  "nut_offset": 2.0,
+  "position": [
+   -238.533,
+   16.723,
+   23.48
+  ],
+  "axis": [
+   0.0,
+   0.0,
+   -1.0
+  ],
+  "frame": "world",
+  "note": "tactile readout pod lid (M2 heat-set insert in the corner post)"
+ },
+ {
+  "name": "pod_lid_2",
+  "type": "M2x5 SHCS",
+  "nut": "M2 insert",
+  "nut_offset": 2.0,
+  "position": [
+   -426.045,
+   -28.002,
+   23.48
+  ],
+  "axis": [
+   0.0,
+   0.0,
+   -1.0
+  ],
+  "frame": "world",
+  "note": "tactile readout pod lid (M2 heat-set insert in the corner post)"
+ },
+ {
+  "name": "pod_lid_3",
+  "type": "M2x5 SHCS",
+  "nut": "M2 insert",
+  "nut_offset": 2.0,
+  "position": [
+   -416.969,
+   40.398,
+   23.48
+  ],
+  "axis": [
+   0.0,
+   0.0,
+   -1.0
+  ],
+  "frame": "world",
+  "note": "tactile readout pod lid (M2 heat-set insert in the corner post)"
+ }
+]

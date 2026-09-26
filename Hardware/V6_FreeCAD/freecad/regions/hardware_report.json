@@ -1,0 +1,3151 @@
+{
+ "generated": "2026-09-26T16:30:22",
+ "stage": "build",
+ "module": "hardware-1.0",
+ "model": "/path/to/DexiGrab-Robot-Hand/Hardware/V6_FreeCAD/freecad/DexiGrab_V6.FCStd",
+ "summary": {
+  "joints": 34,
+  "ok": 10,
+  "warn": 8,
+  "fail": 16,
+  "unvalidated": 0,
+  "open_items": 34,
+  "request_files": 4
+ },
+ "problems": [
+  {
+   "id": "V5_BRK_I1",
+   "severity": "WARN",
+   "message": "head stands 0.85 mm proud of the surrounding surface (counterbore 1.15 deep, head 2.0)"
+  },
+  {
+   "id": "V5_BRK_I2",
+   "severity": "WARN",
+   "message": "head stands 0.85 mm proud of the surrounding surface (counterbore 1.15 deep, head 2.0)"
+  },
+  {
+   "id": "V5_BRK_I3",
+   "severity": "WARN",
+   "message": "head stands 0.85 mm proud of the surrounding surface (counterbore 1.15 deep, head 2.0)"
+  },
+  {
+   "id": "V5_BRK_P1",
+   "severity": "FAIL",
+   "message": "head space: less than 4.2 mm dia / 2.0 mm free around the head, blocked by driver_side_palm_cover2 <1> (0.116 mm3)"
+  },
+  {
+   "id": "V5_BRK_P1",
+   "severity": "FAIL",
+   "message": "clearance hole: less than 2.4 mm dia (0.2 mm/side) along the screw in driver_side_palm_cover2 <1> (0.043 mm3)"
+  },
+  {
+   "id": "V5_BRK_P1",
+   "severity": "WARN",
+   "message": "head stands 0.85 mm proud of the surrounding surface (counterbore 1.15 deep, head 2.0)"
+  },
+  {
+   "id": "R_actuation_T1_mount_1",
+   "severity": "FAIL",
+   "message": "clearance hole: less than 2.0 mm dia (0.2 mm/side) along the screw in driver_side_palm_cover3 <1> (0.369 mm3), N20_T1 (1.993 mm3)"
+  },
+  {
+   "id": "R_actuation_T1_mount_1",
+   "severity": "WARN",
+   "message": "no nut: the screw must thread into a pilot hole (M1.6: dia 1.3-1.4) over >= 3.2 mm; not checkable from the model"
+  },
+  {
+   "id": "R_actuation_T1_mount_2",
+   "severity": "FAIL",
+   "message": "clearance hole: less than 2.0 mm dia (0.2 mm/side) along the screw in driver_side_palm_cover3 <1> (0.369 mm3), N20_T1 (1.993 mm3)"
+  },
+  {
+   "id": "R_actuation_T1_mount_2",
+   "severity": "WARN",
+   "message": "no nut: the screw must thread into a pilot hole (M1.6: dia 1.3-1.4) over >= 3.2 mm; not checkable from the model"
+  },
+  {
+   "id": "R_actuation_T2_mount_1",
+   "severity": "FAIL",
+   "message": "clearance hole: less than 2.0 mm dia (0.2 mm/side) along the screw in driver_side_palm_cover3 <1> (0.369 mm3), N20_T2 (1.993 mm3)"
+  },
+  {
+   "id": "R_actuation_T2_mount_1",
+   "severity": "WARN",
+   "message": "no nut: the screw must thread into a pilot hole (M1.6: dia 1.3-1.4) over >= 3.2 mm; not checkable from the model"
+  },
+  {
+   "id": "R_actuation_T2_mount_2",
+   "severity": "FAIL",
+   "message": "clearance hole: less than 2.0 mm dia (0.2 mm/side) along the screw in driver_side_palm_cover3 <1> (0.369 mm3), N20_T2 (1.993 mm3)"
+  },
+  {
+   "id": "R_actuation_T2_mount_2",
+   "severity": "WARN",
+   "message": "no nut: the screw must thread into a pilot hole (M1.6: dia 1.3-1.4) over >= 3.2 mm; not checkable from the model"
+  },
+  {
+   "id": "R_shells_1",
+   "severity": "FAIL",
+   "message": "clearance hole: less than 2.4 mm dia (0.2 mm/side) along the screw in Shell1 <1> (14.268 mm3)"
+  },
+  {
+   "id": "R_shells_1",
+   "severity": "FAIL",
+   "message": "head not seated: no material under the head bearing ring"
+  },
+  {
+   "id": "R_shells_1",
+   "severity": "WARN",
+   "message": "the screw passes through Shell1 <1> only: it joins nothing"
+  },
+  {
+   "id": "R_shells_1",
+   "severity": "WARN",
+   "message": "no nut: the screw must thread into a pilot hole (M2: dia 1.6-1.7) over >= 4.0 mm; not checkable from the model"
+  },
+  {
+   "id": "R_shells_2",
+   "severity": "FAIL",
+   "message": "clearance hole: less than 2.4 mm dia (0.2 mm/side) along the screw in Shell1 <1> (14.269 mm3)"
+  },
+  {
+   "id": "R_shells_2",
+   "severity": "FAIL",
+   "message": "head not seated: no material under the head bearing ring"
+  },
+  {
+   "id": "R_shells_2",
+   "severity": "WARN",
+   "message": "the screw passes through Shell1 <1> only: it joins nothing"
+  },
+  {
+   "id": "R_shells_2",
+   "severity": "WARN",
+   "message": "no nut: the screw must thread into a pilot hole (M2: dia 1.6-1.7) over >= 4.0 mm; not checkable from the model"
+  },
+  {
+   "id": "R_shells_3",
+   "severity": "FAIL",
+   "message": "clearance hole: less than 2.4 mm dia (0.2 mm/side) along the screw in driver_side_palm_cover2 <1> (11.743 mm3)"
+  },
+  {
+   "id": "R_shells_3",
+   "severity": "WARN",
+   "message": "no nut: the screw must thread into a pilot hole (M2: dia 1.6-1.7) over >= 4.0 mm; not checkable from the model"
+  },
+  {
+   "id": "R_shells_4",
+   "severity": "FAIL",
+   "message": "clearance hole: less than 2.4 mm dia (0.2 mm/side) along the screw in driver_side_palm_cover2 <1> (11.743 mm3)"
+  },
+  {
+   "id": "R_shells_4",
+   "severity": "WARN",
+   "message": "no nut: the screw must thread into a pilot hole (M2: dia 1.6-1.7) over >= 4.0 mm; not checkable from the model"
+  },
+  {
+   "id": "R_shells_5",
+   "severity": "FAIL",
+   "message": "clearance hole: less than 2.0 mm dia (0.2 mm/side) along the screw in Shell1 <1> (11.469 mm3)"
+  },
+  {
+   "id": "R_shells_5",
+   "severity": "FAIL",
+   "message": "head not seated: no material under the head bearing ring"
+  },
+  {
+   "id": "R_shells_5",
+   "severity": "FAIL",
+   "message": "screw tip (beyond the nut) collides with / has < 0.2 mm around it: Shell1 <1> (0.068 mm3)"
+  },
+  {
+   "id": "R_shells_6",
+   "severity": "FAIL",
+   "message": "clearance hole: less than 2.0 mm dia (0.2 mm/side) along the screw in Shell1 <1> (11.264 mm3)"
+  },
+  {
+   "id": "R_shells_6",
+   "severity": "FAIL",
+   "message": "head not seated: no material under the head bearing ring"
+  },
+  {
+   "id": "R_shells_6",
+   "severity": "FAIL",
+   "message": "screw tip (beyond the nut) collides with / has < 0.2 mm around it: Shell1 <1> (0.033 mm3)"
+  },
+  {
+   "id": "R_tactile_pod_lid_0",
+   "severity": "WARN",
+   "message": "the screw passes through tactile_pod_lid only: it joins nothing"
+  },
+  {
+   "id": "R_tactile_pod_lid_1",
+   "severity": "WARN",
+   "message": "the screw passes through tactile_pod_lid only: it joins nothing"
+  },
+  {
+   "id": "R_tactile_pod_lid_2",
+   "severity": "WARN",
+   "message": "the screw passes through tactile_pod_lid only: it joins nothing"
+  },
+  {
+   "id": "R_tactile_pod_lid_3",
+   "severity": "WARN",
+   "message": "the screw passes through tactile_pod_lid only: it joins nothing"
+  },
+  {
+   "id": "R_thumb_yaw_keeper",
+   "severity": "FAIL",
+   "message": "head space: less than 4.2 mm dia / 2.0 mm free around the head, blocked by first_thumb_hinge <1> (0.004 mm3)"
+  },
+  {
+   "id": "R_thumb_yaw_keeper",
+   "severity": "FAIL",
+   "message": "nut pocket/space: less than 4.4 AF (0.2 mm/side) or blocked, by first_thumb_hinge <1> (0.023 mm3)"
+  },
+  {
+   "id": "R_thumb_yaw_keeper",
+   "severity": "WARN",
+   "message": "tip 0.80 mm past the nyloc (2.0 threads; 1.5 with a 3.0 mm tall nut)"
+  },
+  {
+   "id": "R_thumb_R2_pin",
+   "severity": "WARN",
+   "message": "head stands 1.00 mm proud of the surrounding surface (counterbore 1.00 deep, head 2.0)"
+  },
+  {
+   "id": "R_thumb_R2_pin",
+   "severity": "WARN",
+   "message": "the screw passes through first_thumb_hinge <1> only: it joins nothing"
+  },
+  {
+   "id": "R_thumb_R2_pin",
+   "severity": "WARN",
+   "message": "screw 2.0 mm longer than needed (tip 3.20 past the nut); M2x6 SHCS would do"
+  },
+  {
+   "id": "R_thumb_R5_bolt",
+   "severity": "FAIL",
+   "message": "nut not seated: no material under the nut bearing face"
+  },
+  {
+   "id": "R_thumb_R5_bolt",
+   "severity": "WARN",
+   "message": "the screw passes through Proximal Phalanx Bone_V02 <3> only: it joins nothing"
+  },
+  {
+   "id": "R_thumb_R5_bolt",
+   "severity": "WARN",
+   "message": "screw 2.0 mm longer than needed (tip 2.97 past the nut); M2x14 SHCS would do"
+  },
+  {
+   "id": "R_thumb_R6_bolt",
+   "severity": "FAIL",
+   "message": "nut not seated: no material under the nut bearing face"
+  },
+  {
+   "id": "R_thumb_R6_bolt",
+   "severity": "WARN",
+   "message": "the screw passes through Proximal Phalanx Bone_V02 <3> only: it joins nothing"
+  },
+  {
+   "id": "R_thumb_R6_bolt",
+   "severity": "WARN",
+   "message": "screw 2.0 mm longer than needed (tip 3.00 past the nut); M2x14 SHCS would do"
+  },
+  {
+   "id": "R_thumb_T3_mount_1",
+   "severity": "FAIL",
+   "message": "clearance hole: less than 2.0 mm dia (0.2 mm/side) along the screw in T3_motor (1.993 mm3)"
+  },
+  {
+   "id": "R_thumb_T3_mount_1",
+   "severity": "WARN",
+   "message": "no nut: the screw must thread into a pilot hole (M1.6: dia 1.3-1.4) over >= 3.2 mm; not checkable from the model"
+  },
+  {
+   "id": "R_thumb_T3_mount_2",
+   "severity": "FAIL",
+   "message": "clearance hole: less than 2.0 mm dia (0.2 mm/side) along the screw in T3_motor (1.993 mm3)"
+  },
+  {
+   "id": "R_thumb_T3_mount_2",
+   "severity": "WARN",
+   "message": "no nut: the screw must thread into a pilot hole (M1.6: dia 1.3-1.4) over >= 3.2 mm; not checkable from the model"
+  }
+ ],
+ "requests": [
+  {
+   "file": "freecad/regions/fasteners_actuation.json",
+   "status": "ok",
+   "entries": 8,
+   "placed": 8,
+   "rejected": []
+  },
+  {
+   "file": "freecad/regions/fasteners_shells.json",
+   "status": "ok",
+   "entries": 6,
+   "placed": 6,
+   "rejected": []
+  },
+  {
+   "file": "freecad/regions/fasteners_tactile.json",
+   "status": "ok",
+   "entries": 4,
+   "placed": 4,
+   "rejected": []
+  },
+  {
+   "file": "freecad/regions/fasteners_thumb.json",
+   "status": "ok",
+   "entries": 8,
+   "placed": 8,
+   "rejected": []
+  }
+ ],
+ "open_items": [
+  {
+   "site": "V5_BAT1",
+   "category": "battery",
+   "v5_instance": "Battery_case-1/m2x5_batt_assemb-6/M2 x 0.4mm Thread 5mm LONG SOCKET HEAD CAP SCREW.step-1",
+   "what": "M2x5 battery cover",
+   "fastener": "M2x5 SHCS + M2 hex",
+   "seat_world": [
+    -78.66,
+    -23.931,
+    -55.502
+   ],
+   "axis_world": [
+    0.3002,
+    0.2295,
+    -0.9258
+   ],
+   "reason": "screw path blocked by Shell1 <1>",
+   "suggestion": "battery case is redesigned in V6: request its lid screws in a fasteners_*.json",
+   "owner": "electronics (battery case)"
+  },
+  {
+   "site": "V5_BAT2",
+   "category": "battery",
+   "v5_instance": "Battery_case-1/m2x5_batt_assemb-1/M2 x 0.4mm Thread 5mm LONG SOCKET HEAD CAP SCREW.step-1",
+   "what": "M2x5 battery cover",
+   "fastener": "M2x5 SHCS + M2 hex",
+   "seat_world": [
+    -82.237,
+    -51.086,
+    -55.595
+   ],
+   "axis_world": [
+    0.2314,
+    -0.2931,
+    -0.9276
+   ],
+   "reason": "screw path blocked by Shell1 <1>; the V5 nut seat (4.03 mm from the head seat) does not exist in this model",
+   "suggestion": "battery case is redesigned in V6: request its lid screws in a fasteners_*.json",
+   "owner": "electronics (battery case)"
+  },
+  {
+   "site": "V5_BAT3",
+   "category": "battery",
+   "v5_instance": "Battery_case-1/m2x5_batt_assemb-5/M2 x 0.4mm Thread 5mm LONG SOCKET HEAD CAP SCREW.step-1",
+   "what": "M2x5 battery cover",
+   "fastener": "M2x5 SHCS + M2 hex",
+   "seat_world": [
+    -96.043,
+    -3.001,
+    -51.441
+   ],
+   "axis_world": [
+    0.2285,
+    0.5394,
+    -0.8104
+   ],
+   "reason": "screw path blocked by Shell1 <1>",
+   "suggestion": "battery case is redesigned in V6: request its lid screws in a fasteners_*.json",
+   "owner": "electronics (battery case)"
+  },
+  {
+   "site": "V5_BAT4",
+   "category": "battery",
+   "v5_instance": "Battery_case-1/m2x5_batt_assemb-2/M2 x 0.4mm Thread 5mm LONG SOCKET HEAD CAP SCREW.step-1",
+   "what": "M2x5 battery cover",
+   "fastener": "M2x5 SHCS + M2 hex",
+   "seat_world": [
+    -104.446,
+    -66.839,
+    -51.669
+   ],
+   "axis_world": [
+    0.0819,
+    -0.5747,
+    -0.8143
+   ],
+   "reason": "screw path blocked by Shell1 <1>; the V5 nut seat (4.03 mm from the head seat) does not exist in this model",
+   "suggestion": "battery case is redesigned in V6: request its lid screws in a fasteners_*.json",
+   "owner": "electronics (battery case)"
+  },
+  {
+   "site": "V5_BAT5",
+   "category": "battery",
+   "v5_instance": "Battery_case-1/m2x5_batt_assemb-7/M2 x 0.4mm Thread 5mm LONG SOCKET HEAD CAP SCREW.step-1",
+   "what": "M2x5 battery cover",
+   "fastener": "M2x5 SHCS + M2 hex",
+   "seat_world": [
+    -142.628,
+    3.139,
+    -52.665
+   ],
+   "axis_world": [
+    -0.0391,
+    0.5747,
+    -0.8175
+   ],
+   "reason": "screw path blocked by Shell1 <1>",
+   "suggestion": "battery case is redesigned in V6: request its lid screws in a fasteners_*.json",
+   "owner": "electronics (battery case)"
+  },
+  {
+   "site": "V5_BAT6",
+   "category": "battery",
+   "v5_instance": "Battery_case-1/m2x5_batt_assemb-3/M2 x 0.4mm Thread 5mm LONG SOCKET HEAD CAP SCREW.step-1",
+   "what": "M2x5 battery cover",
+   "fastener": "M2x5 SHCS + M2 hex",
+   "seat_world": [
+    -151.032,
+    -60.699,
+    -52.883
+   ],
+   "axis_world": [
+    -0.1858,
+    -0.5394,
+    -0.8213
+   ],
+   "reason": "screw path blocked by Shell1 <1>; the V5 nut seat (4.03 mm from the head seat) does not exist in this model",
+   "suggestion": "battery case is redesigned in V6: request its lid screws in a fasteners_*.json",
+   "owner": "electronics (battery case)"
+  },
+  {
+   "site": "V5_BAT7",
+   "category": "battery",
+   "v5_instance": "Battery_case-1/m2x5_batt_assemb-8/M2 x 0.4mm Thread 5mm LONG SOCKET HEAD CAP SCREW.step-1",
+   "what": "M2x5 battery cover",
+   "fastener": "M2x5 SHCS + M2 hex",
+   "seat_world": [
+    -164.605,
+    -12.614,
+    -57.747
+   ],
+   "axis_world": [
+    -0.1826,
+    0.2931,
+    -0.9385
+   ],
+   "reason": "screw path blocked by Shell1 <1>; the V5 nut seat (4.03 mm from the head seat) does not exist in this model",
+   "suggestion": "battery case is redesigned in V6: request its lid screws in a fasteners_*.json",
+   "owner": "electronics (battery case)"
+  },
+  {
+   "site": "V5_BAT8",
+   "category": "battery",
+   "v5_instance": "Battery_case-1/m2x5_batt_assemb-4/M2 x 0.4mm Thread 5mm LONG SOCKET HEAD CAP SCREW.step-1",
+   "what": "M2x5 battery cover",
+   "fastener": "M2x5 SHCS + M2 hex",
+   "seat_world": [
+    -168.183,
+    -39.769,
+    -57.841
+   ],
+   "axis_world": [
+    -0.2513,
+    -0.2295,
+    -0.9403
+   ],
+   "reason": "screw path blocked by Shell1 <1>; the V5 nut seat (4.04 mm from the head seat) does not exist in this model",
+   "suggestion": "battery case is redesigned in V6: request its lid screws in a fasteners_*.json",
+   "owner": "electronics (battery case)"
+  },
+  {
+   "site": "V5_BRK_T1",
+   "category": "bracket",
+   "v5_instance": "m2x5_assemb-15/M2 x 0.4mm Thread 5mm LONG SOCKET HEAD CAP SCREW.step-1",
+   "what": "M2x5 cover bracket to palm bone",
+   "fastener": "M2x5 SHCS + M2 hex",
+   "seat_world": [
+    -151.62,
+    -0.05,
+    5.48
+   ],
+   "axis_world": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "reason": "screw path blocked by Base Bone 1.2_V02_pointerfinger_and_thumb_attachment <1>; head space blocked by Base Bone 1.2_V02_pointerfinger_and_thumb_attachment <1>; head space blocked by tactile_pad_index_palm; head space blocked by tactile_tail_index; the V5 nut seat (3.21 mm from the head seat) does not exist in this model",
+   "suggestion": "cut a 2.4 mm through hole + 4.2 mm counterbore in the strap (bone side already has a dia 2.5 bore and an M2 nut pocket); or drop the site",
+   "owner": "owner of cover2/cover3 + palm bones"
+  },
+  {
+   "site": "V5_BRK_P2",
+   "category": "bracket",
+   "v5_instance": "m2x5_assemb-9/M2 x 0.4mm Thread 5mm LONG SOCKET HEAD CAP SCREW.step-1",
+   "what": "M2x5 cover bracket to palm bone",
+   "fastener": "M2x5 SHCS + M2 hex",
+   "seat_world": [
+    -120.43,
+    -65.81,
+    5.48
+   ],
+   "axis_world": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "reason": "screw path blocked by Base Bone 1.2_V02_pinky <1>; the V5 nut seat (2.96 mm from the head seat) does not exist in this model",
+   "suggestion": "cut a 2.4 mm through hole + 4.2 mm counterbore in the strap (bone side already has a dia 2.5 bore and an M2 nut pocket); or drop the site",
+   "owner": "owner of cover2/cover3 + palm bones"
+  },
+  {
+   "site": "V5_BRK_P3",
+   "category": "bracket",
+   "v5_instance": "m2x5_assemb-5/M2 x 0.4mm Thread 5mm LONG SOCKET HEAD CAP SCREW.step-1",
+   "what": "M2x5 cover bracket to palm bone",
+   "fastener": "M2x5 SHCS + M2 hex",
+   "seat_world": [
+    -139.12,
+    -59.8,
+    5.48
+   ],
+   "axis_world": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "reason": "screw path blocked by Base Bone 1.2_V02_pinky <1>; the V5 nut seat (2.96 mm from the head seat) does not exist in this model",
+   "suggestion": "cut a 2.4 mm through hole + 4.2 mm counterbore in the strap (bone side already has a dia 2.5 bore and an M2 nut pocket); or drop the site",
+   "owner": "owner of cover2/cover3 + palm bones"
+  },
+  {
+   "site": "V5_BRK_P4",
+   "category": "bracket",
+   "v5_instance": "m2x5_assemb-10/M2 x 0.4mm Thread 5mm LONG SOCKET HEAD CAP SCREW.step-1",
+   "what": "M2x5 cover bracket to palm bone",
+   "fastener": "M2x5 SHCS + M2 hex",
+   "seat_world": [
+    -158.15,
+    -54.04,
+    5.48
+   ],
+   "axis_world": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "reason": "screw path blocked by Base Bone 1.2_V02_pinky <1>; screw path blocked by driver_side_palm_cover2 <1>; head space blocked by driver_side_palm_cover2 <1>; head space blocked by tactile_pad_pinky_palm; head space blocked by tactile_tail_pinky; the V5 nut seat (3.21 mm from the head seat) does not exist in this model",
+   "suggestion": "cut a 2.4 mm through hole + 4.2 mm counterbore in the strap (bone side already has a dia 2.5 bore and an M2 nut pocket); or drop the site",
+   "owner": "owner of cover2/cover3 + palm bones"
+  },
+  {
+   "site": "V5_CBK1",
+   "category": "cover_back",
+   "v5_instance": "m1_screw_assemb-1/TR Fastenings Ltd-M1_6X3mm-1",
+   "what": "M1.6 cover_back / Shell1",
+   "fastener": "M1.6x3 SHCS + M1.6 hex",
+   "seat_world": [
+    -177.261,
+    9.11,
+    -47.32
+   ],
+   "axis_world": [
+    0.9914,
+    -0.1305,
+    0.0
+   ],
+   "reason": "screw path blocked by driver_side_palm_cover3 <1>; head space blocked by driver_side_palm_cover3 <1>",
+   "suggestion": "no through holes in cover_back (Shell1 keeps 2 partial M1.6 pockets): request if the shells keep screws",
+   "owner": "shells"
+  },
+  {
+   "site": "V5_CBK2",
+   "category": "cover_back",
+   "v5_instance": "TR Fastenings Ltd-M1_6X3mm-4",
+   "what": "M1.6 cover_back / Shell1",
+   "fastener": "M1.6x3 SHCS + M1.6 hex",
+   "seat_world": [
+    -179.691,
+    -9.39,
+    -55.86
+   ],
+   "axis_world": [
+    0.9914,
+    -0.1305,
+    0.0
+   ],
+   "reason": "screw path blocked by Shell1 <1>; head space blocked by Shell1 <1>",
+   "suggestion": "no through holes in cover_back (Shell1 keeps 2 partial M1.6 pockets): request if the shells keep screws",
+   "owner": "shells"
+  },
+  {
+   "site": "V5_CBK3",
+   "category": "cover_back",
+   "v5_instance": "m1_screw_assemb-5/TR Fastenings Ltd-M1_6X3mm-1",
+   "what": "M1.6 cover_back / Shell1",
+   "fastener": "M1.6x3 SHCS + M1.6 hex",
+   "seat_world": [
+    -182.921,
+    -33.9,
+    -56.88
+   ],
+   "axis_world": [
+    0.9914,
+    -0.1305,
+    0.0
+   ],
+   "reason": "screw path blocked by Shell1 <1>; head space blocked by Shell1 <1>",
+   "suggestion": "no through holes in cover_back (Shell1 keeps 2 partial M1.6 pockets): request if the shells keep screws",
+   "owner": "shells"
+  },
+  {
+   "site": "V5_CBK4",
+   "category": "cover_back",
+   "v5_instance": "m1_screw_assemb-4/TR Fastenings Ltd-M1_6X3mm-1",
+   "what": "M1.6 cover_back / Shell1",
+   "fastener": "M1.6x3 SHCS + M1.6 hex",
+   "seat_world": [
+    -185.871,
+    -56.35,
+    -46.68
+   ],
+   "axis_world": [
+    0.9914,
+    -0.1305,
+    0.0
+   ],
+   "reason": "screw path blocked by Shell1 <1>; head space blocked by Shell1 <1>",
+   "suggestion": "no through holes in cover_back (Shell1 keeps 2 partial M1.6 pockets): request if the shells keep screws",
+   "owner": "shells"
+  },
+  {
+   "site": "V5_CBK5",
+   "category": "cover_back",
+   "v5_instance": "m1_screw_assemb-2/TR Fastenings Ltd-M1_6X3mm-1",
+   "what": "M1.6 cover_back / Shell1",
+   "fastener": "M1.6x3 SHCS + M1.6 hex",
+   "seat_world": [
+    -187.311,
+    4.53,
+    -10.44
+   ],
+   "axis_world": [
+    0.9914,
+    -0.1305,
+    0.0
+   ],
+   "reason": "screw path blocked by cover_back <1>",
+   "suggestion": "no through holes in cover_back (Shell1 keeps 2 partial M1.6 pockets): request if the shells keep screws",
+   "owner": "shells"
+  },
+  {
+   "site": "V5_CBK6",
+   "category": "cover_back",
+   "v5_instance": "TR Fastenings Ltd-M1_6X3mm-3",
+   "what": "M1.6 cover_back / Shell1",
+   "fastener": "M1.6x3 SHCS + M1.6 hex",
+   "seat_world": [
+    -193.951,
+    -45.87,
+    -28.33
+   ],
+   "axis_world": [
+    0.9914,
+    -0.1305,
+    0.0
+   ],
+   "reason": "screw path blocked by cover_back <1>",
+   "suggestion": "no through holes in cover_back (Shell1 keeps 2 partial M1.6 pockets): request if the shells keep screws",
+   "owner": "shells"
+  },
+  {
+   "site": "V5_DRV_C21",
+   "category": "driver",
+   "v5_instance": "m2x10_assemb-1/M2 x 0.4mm Thread 8mm LONG SOCKET HEAD CAP SCREW.step-1",
+   "what": "M2x8 driver-board mount",
+   "fastener": "M2x8 SHCS + M2 hex",
+   "seat_world": [
+    -83.822,
+    -89.048,
+    -9.89
+   ],
+   "axis_world": [
+    0.2588,
+    0.9659,
+    0.0
+   ],
+   "reason": "screw path blocked by Base Bone 1.2_V02_pinky <1>; screw path blocked by driver_side_palm_cover2 <1>; head space blocked by driver_side_palm_cover2 <1>; the V5 nut seat (6.25 mm from the head seat) does not exist in this model",
+   "suggestion": "driver boards move in V6: request the board screws in regions/fasteners_electronics.json",
+   "owner": "electronics"
+  },
+  {
+   "site": "V5_DRV_C31",
+   "category": "driver",
+   "v5_instance": "m2x10_assemb-5/M2 x 0.4mm Thread 8mm LONG SOCKET HEAD CAP SCREW.step-1",
+   "what": "M2x8 driver-board mount",
+   "fastener": "M2x8 SHCS + M2 hex",
+   "seat_world": [
+    -91.69,
+    18.25,
+    -9.89
+   ],
+   "axis_world": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "reason": "the V5 nut seat (6.02 mm from the head seat) does not exist in this model (nearest free seat at 2.25 mm)",
+   "suggestion": "driver boards move in V6: request the board screws in regions/fasteners_electronics.json",
+   "owner": "electronics"
+  },
+  {
+   "site": "V5_DRV_C22",
+   "category": "driver",
+   "v5_instance": "m2x10_assemb-2/M2 x 0.4mm Thread 8mm LONG SOCKET HEAD CAP SCREW.step-1",
+   "what": "M2x8 driver-board mount",
+   "fastener": "M2x8 SHCS + M2 hex",
+   "seat_world": [
+    -107.682,
+    -82.658,
+    -9.89
+   ],
+   "axis_world": [
+    0.2588,
+    0.9659,
+    0.0
+   ],
+   "reason": "screw path blocked by Base Bone 1.2_V02_pinky <1>; screw path blocked by driver_side_palm_cover2 <1>; head space blocked by driver_side_palm_cover2 <1>; the V5 nut seat (6.25 mm from the head seat) does not exist in this model",
+   "suggestion": "driver boards move in V6: request the board screws in regions/fasteners_electronics.json",
+   "owner": "electronics"
+  },
+  {
+   "site": "V5_DRV_C32",
+   "category": "driver",
+   "v5_instance": "m2x10_assemb-6/M2 x 0.4mm Thread 8mm LONG SOCKET HEAD CAP SCREW.step-1",
+   "what": "M2x8 driver-board mount",
+   "fastener": "M2x8 SHCS + M2 hex",
+   "seat_world": [
+    -116.39,
+    18.25,
+    -9.89
+   ],
+   "axis_world": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "reason": "the V5 nut seat (6.04 mm from the head seat) does not exist in this model (nearest free seat at 2.25 mm)",
+   "suggestion": "driver boards move in V6: request the board screws in regions/fasteners_electronics.json",
+   "owner": "electronics"
+  },
+  {
+   "site": "V5_DRV_C23",
+   "category": "driver",
+   "v5_instance": "m2x10_assemb-3/M2 x 0.4mm Thread 8mm LONG SOCKET HEAD CAP SCREW.step-1",
+   "what": "M2x8 driver-board mount",
+   "fastener": "M2x8 SHCS + M2 hex",
+   "seat_world": [
+    -131.542,
+    -76.258,
+    -9.89
+   ],
+   "axis_world": [
+    0.2588,
+    0.9659,
+    0.0
+   ],
+   "reason": "screw path blocked by Base Bone 1.2_V02_pinky <1>; screw path blocked by driver_side_palm_cover2 <1>; head space blocked by driver_side_palm_cover2 <1>; the V5 nut seat (6.24 mm from the head seat) does not exist in this model",
+   "suggestion": "driver boards move in V6: request the board screws in regions/fasteners_electronics.json",
+   "owner": "electronics"
+  },
+  {
+   "site": "V5_DRV_C33",
+   "category": "driver",
+   "v5_instance": "m2x10_assemb-7/M2 x 0.4mm Thread 8mm LONG SOCKET HEAD CAP SCREW.step-1",
+   "what": "M2x8 driver-board mount",
+   "fastener": "M2x8 SHCS + M2 hex",
+   "seat_world": [
+    -141.09,
+    18.25,
+    -9.89
+   ],
+   "axis_world": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "reason": "the V5 nut seat (6.07 mm from the head seat) does not exist in this model (nearest free seat at 2.25 mm)",
+   "suggestion": "driver boards move in V6: request the board screws in regions/fasteners_electronics.json",
+   "owner": "electronics"
+  },
+  {
+   "site": "V5_DRV_C24",
+   "category": "driver",
+   "v5_instance": "m2x10_assemb-4/M2 x 0.4mm Thread 8mm LONG SOCKET HEAD CAP SCREW.step-1",
+   "what": "M2x8 driver-board mount",
+   "fastener": "M2x8 SHCS + M2 hex",
+   "seat_world": [
+    -155.402,
+    -69.868,
+    -9.89
+   ],
+   "axis_world": [
+    0.2588,
+    0.9659,
+    0.0
+   ],
+   "reason": "screw path blocked by Base Bone 1.2_V02_pinky <1>; screw path blocked by driver_side_palm_cover2 <1>; head space blocked by driver_side_palm_cover2 <1>; the V5 nut seat (6.25 mm from the head seat) does not exist in this model",
+   "suggestion": "driver boards move in V6: request the board screws in regions/fasteners_electronics.json",
+   "owner": "electronics"
+  },
+  {
+   "site": "V5_DRV_CB1",
+   "category": "driver",
+   "v5_instance": "M2 x 0.4mm Thread 5mm LONG SOCKET HEAD CAP SCREW.step-3",
+   "what": "M2x5 driver mount in cover_back",
+   "fastener": "M2x5 SHCS + M2 hex",
+   "seat_world": [
+    -181.223,
+    -12.069,
+    -27.5
+   ],
+   "axis_world": [
+    -0.9914,
+    0.1305,
+    0.0
+   ],
+   "reason": "screw path blocked by cover_back <1>; the V5 nut seat (3.34 mm from the head seat) does not exist in this model",
+   "suggestion": "driver boards move in V6: request the board screws in regions/fasteners_electronics.json",
+   "owner": "electronics"
+  },
+  {
+   "site": "V5_TIP1",
+   "category": "fingertip",
+   "v5_instance": "Mirrorm1_screw_assemb_fingies-2/MirrorTR Fastenings Ltd-M1_6X3mm-1",
+   "what": "M1.6 fingertip tendon anchor",
+   "fastener": "M1.6x3 SHCS + M1.6 hex",
+   "seat_world": [
+    47.305,
+    -35.993,
+    -0.52
+   ],
+   "axis_world": [
+    0.9962,
+    -0.0872,
+    0.0
+   ],
+   "reason": "head space blocked by Distal Phalanx Bone_V02 <2>; the V5 nut seat (1.68 mm from the head seat) does not exist in this model",
+   "suggestion": "no anchor bore / nut slot in the simulacra distal phalanx: request M1.6 anchors when the tendon design is fixed",
+   "owner": "actuation"
+  },
+  {
+   "site": "V5_TIP2",
+   "category": "fingertip",
+   "v5_instance": "Mirrorm1_screw_assemb_fingies-1/MirrorTR Fastenings Ltd-M1_6X3mm-1",
+   "what": "M1.6 fingertip tendon anchor",
+   "fastener": "M1.6x3 SHCS + M1.6 hex",
+   "seat_world": [
+    44.4,
+    -0.25,
+    -0.52
+   ],
+   "axis_world": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "reason": "no part around the screw (the V5 host is not in this model); the V5 nut seat (1.68 mm from the head seat) does not exist in this model",
+   "suggestion": "no anchor bore / nut slot in the simulacra distal phalanx: request M1.6 anchors when the tendon design is fixed",
+   "owner": "actuation"
+  },
+  {
+   "site": "V5_TIP3",
+   "category": "fingertip",
+   "v5_instance": "Mirrorm1_screw_assemb_fingies-3/MirrorTR Fastenings Ltd-M1_6X3mm-1",
+   "what": "M1.6 fingertip tendon anchor",
+   "fastener": "M1.6x3 SHCS + M1.6 hex",
+   "seat_world": [
+    34.89,
+    -70.096,
+    -0.52
+   ],
+   "axis_world": [
+    0.9848,
+    -0.1736,
+    0.0
+   ],
+   "reason": "head space blocked by Distal Phalanx Bone_V02 <3>; the V5 nut seat (1.69 mm from the head seat) does not exist in this model",
+   "suggestion": "no anchor bore / nut slot in the simulacra distal phalanx: request M1.6 anchors when the tendon design is fixed",
+   "owner": "actuation"
+  },
+  {
+   "site": "V5_TIP4",
+   "category": "fingertip",
+   "v5_instance": "Mirrorm1_screw_assemb_fingies-4/MirrorTR Fastenings Ltd-M1_6X3mm-1",
+   "what": "M1.6 fingertip tendon anchor",
+   "fastener": "M1.6x3 SHCS + M1.6 hex",
+   "seat_world": [
+    11.006,
+    -99.966,
+    -0.52
+   ],
+   "axis_world": [
+    0.9659,
+    -0.2588,
+    0.0
+   ],
+   "reason": "no part around the screw (the V5 host is not in this model); the V5 nut seat (1.68 mm from the head seat) does not exist in this model",
+   "suggestion": "no anchor bore / nut slot in the simulacra distal phalanx: request M1.6 anchors when the tendon design is fixed",
+   "owner": "actuation"
+  },
+  {
+   "site": "V5_TIP5",
+   "category": "fingertip",
+   "v5_instance": "Mirrorm1_screw_assemb_fingies-5/MirrorTR Fastenings Ltd-M1_6X3mm-1",
+   "what": "M1.6 fingertip tendon anchor",
+   "fastener": "M1.6x3 SHCS + M1.6 hex",
+   "seat_world": [
+    -77.7,
+    96.538,
+    -1.52
+   ],
+   "axis_world": [
+    -0.7619,
+    -0.6477,
+    0.0
+   ],
+   "reason": "no part around the screw (the V5 host is not in this model); the V5 nut seat (1.68 mm from the head seat) does not exist in this model",
+   "suggestion": "no anchor bore / nut slot in the simulacra distal phalanx: request M1.6 anchors when the tendon design is fixed",
+   "owner": "actuation"
+  },
+  {
+   "site": "V5_THB1",
+   "category": "thumb",
+   "v5_instance": "Mirrorm1_screw_assemb_copy-3/MirrorTR Fastenings Ltd-M1_6X3mm-1",
+   "what": "M1.6 thumb gimbal",
+   "fastener": "M1.6x3 SHCS + M1.6 hex",
+   "seat_world": [
+    -158.71,
+    27.68,
+    1.75
+   ],
+   "axis_world": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "reason": "screw path blocked by third_thumb_hinge <1>; head space blocked by third_thumb_hinge <1>; head space blocked by Metacarpal Bone_V02 <4>; the V5 nut seat (1.68 mm from the head seat) does not exist in this model",
+   "suggestion": "thumb is being redesigned: request its screws in regions/fasteners_thumb.json",
+   "owner": "thumb"
+  },
+  {
+   "site": "V5_THB2",
+   "category": "thumb",
+   "v5_instance": "Mirrorm1_screw_assemb_copy-2/MirrorTR Fastenings Ltd-M1_6X3mm-1",
+   "what": "M1.6 thumb gimbal",
+   "fastener": "M1.6x3 SHCS + M1.6 hex",
+   "seat_world": [
+    -174.69,
+    33.45,
+    4.08
+   ],
+   "axis_world": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "reason": "head space blocked by first_thumb_hinge <1>; the V5 nut seat (1.68 mm from the head seat) does not exist in this model",
+   "suggestion": "thumb is being redesigned: request its screws in regions/fasteners_thumb.json",
+   "owner": "thumb"
+  },
+  {
+   "site": "V5_THB3",
+   "category": "thumb",
+   "v5_instance": "m1_screw_assemb_copy-1/TR Fastenings Ltd-M1_6X3mm-1",
+   "what": "M1.6 thumb gimbal",
+   "fastener": "M1.6x3 SHCS + M1.6 hex",
+   "seat_world": [
+    -174.69,
+    33.45,
+    -7.12
+   ],
+   "axis_world": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "reason": "head space blocked by first_thumb_hinge <1>; the V5 nut seat (1.67 mm from the head seat) does not exist in this model",
+   "suggestion": "thumb is being redesigned: request its screws in regions/fasteners_thumb.json",
+   "owner": "thumb"
+  }
+ ],
+ "bom": {
+  "M1.6 hex": 2,
+  "M1.6x12 SHCS": 2,
+  "M1.6x3 SHCS": 6,
+  "M2 hex": 9,
+  "M2 insert": 4,
+  "M2 nyloc": 9,
+  "M2x12 SHCS": 4,
+  "M2x14 SHCS": 3,
+  "M2x16 SHCS": 6,
+  "M2x5 SHCS": 8,
+  "M2x8 SHCS": 5
+ },
+ "joints": [
+  {
+   "id": "J0_index",
+   "source": "j0",
+   "screw": "M2x16 SHCS",
+   "nut": "M2 nyloc",
+   "washer": null,
+   "status": "ok",
+   "seat_world": [
+    -71.8522,
+    -0.2539,
+    4.777
+   ],
+   "axis_world": [
+    0.0,
+    -0.0,
+    -1.0
+   ],
+   "nut_offset": 11.8,
+   "note": "J0 pivot, index finger; palm-bone placement from document link",
+   "problems": [],
+   "resolve": {},
+   "finger": "index",
+   "checks": {
+    "head_space": "clear",
+    "hole": "clear",
+    "head_seat": [
+     "Base Bone 1.2_V02_pointerfinger_and_thumb_attachment <1>"
+    ],
+    "counterbore_depth": 2.2,
+    "head_top_vs_surface": -0.2,
+    "nut_space": "clear",
+    "nut_seat": [
+     "Base Bone 1.2_V02_pointerfinger_and_thumb_attachment <1>"
+    ],
+    "tip_space": "clear",
+    "grip_parts": [
+     "Base Bone 1_V02 <1>",
+     "Base Bone 1.2_V02_pointerfinger_and_thumb_attachment <1>"
+    ],
+    "engagement": {
+     "pitch": 0.4,
+     "nut_face": 11.8,
+     "nut_top": 14.6,
+     "protrusion": 1.4,
+     "threads_past": 3.5,
+     "protrusion_worst": 1.2,
+     "threads_past_worst": 3.0,
+     "verdict": [
+      "OK",
+      ""
+     ],
+     "required_min": 0.8,
+     "shortest_ok": 16
+    }
+   }
+  },
+  {
+   "id": "J0_middle",
+   "source": "j0",
+   "screw": "M2x16 SHCS",
+   "nut": "M2 nyloc",
+   "washer": null,
+   "status": "ok",
+   "seat_world": [
+    -71.8522,
+    -25.5726,
+    4.777
+   ],
+   "axis_world": [
+    0.0,
+    -0.0,
+    -1.0
+   ],
+   "nut_offset": 11.8,
+   "note": "J0 pivot, middle finger; palm-bone placement from document link",
+   "problems": [],
+   "resolve": {},
+   "finger": "middle",
+   "checks": {
+    "head_space": "clear",
+    "hole": "clear",
+    "head_seat": [
+     "Base Bone 1.2_V02_middlefinger <1>"
+    ],
+    "counterbore_depth": 2.2,
+    "head_top_vs_surface": -0.2,
+    "nut_space": "clear",
+    "nut_seat": [
+     "Base Bone 1.2_V02_middlefinger <1>"
+    ],
+    "tip_space": "clear",
+    "grip_parts": [
+     "Base Bone 1_V02 <2>",
+     "Base Bone 1.2_V02_middlefinger <1>"
+    ],
+    "engagement": {
+     "pitch": 0.4,
+     "nut_face": 11.8,
+     "nut_top": 14.6,
+     "protrusion": 1.4,
+     "threads_past": 3.5,
+     "protrusion_worst": 1.2,
+     "threads_past_worst": 3.0,
+     "verdict": [
+      "OK",
+      ""
+     ],
+     "required_min": 0.8,
+     "shortest_ok": 16
+    }
+   }
+  },
+  {
+   "id": "J0_ring",
+   "source": "j0",
+   "screw": "M2x16 SHCS",
+   "nut": "M2 nyloc",
+   "washer": null,
+   "status": "ok",
+   "seat_world": [
+    -75.055,
+    -50.7068,
+    4.777
+   ],
+   "axis_world": [
+    0.0,
+    -0.0,
+    -1.0
+   ],
+   "nut_offset": 11.8,
+   "note": "J0 pivot, ring finger; palm-bone placement from document link",
+   "problems": [],
+   "resolve": {},
+   "finger": "ring",
+   "checks": {
+    "head_space": "clear",
+    "hole": "clear",
+    "head_seat": [
+     "Base Bone 1.2_V02_ringfing <1>"
+    ],
+    "counterbore_depth": 2.2,
+    "head_top_vs_surface": -0.2,
+    "nut_space": "clear",
+    "nut_seat": [
+     "Base Bone 1.2_V02_ringfing <1>"
+    ],
+    "tip_space": "clear",
+    "grip_parts": [
+     "Base Bone 1_V02 <4>",
+     "Base Bone 1.2_V02_ringfing <1>"
+    ],
+    "engagement": {
+     "pitch": 0.4,
+     "nut_face": 11.8,
+     "nut_top": 14.6,
+     "protrusion": 1.4,
+     "threads_past": 3.5,
+     "protrusion_worst": 1.2,
+     "threads_past_worst": 3.0,
+     "verdict": [
+      "OK",
+      ""
+     ],
+     "required_min": 0.8,
+     "shortest_ok": 16
+    }
+   }
+  },
+  {
+   "id": "J0_pinky",
+   "source": "j0",
+   "screw": "M2x16 SHCS",
+   "nut": "M2 nyloc",
+   "washer": null,
+   "status": "ok",
+   "seat_world": [
+    -80.4362,
+    -75.4662,
+    4.777
+   ],
+   "axis_world": [
+    0.0,
+    -0.0,
+    -1.0
+   ],
+   "nut_offset": 11.8,
+   "note": "J0 pivot, pinky finger; palm-bone placement from document link",
+   "problems": [],
+   "resolve": {},
+   "finger": "pinky",
+   "checks": {
+    "head_space": "clear",
+    "hole": "clear",
+    "head_seat": [
+     "Base Bone 1.2_V02_pinky <1>"
+    ],
+    "counterbore_depth": 2.2,
+    "head_top_vs_surface": -0.2,
+    "nut_space": "clear",
+    "nut_seat": [
+     "Base Bone 1.2_V02_pinky <1>"
+    ],
+    "tip_space": "clear",
+    "grip_parts": [
+     "Base Bone 1_V02 <3>",
+     "Base Bone 1.2_V02_pinky <1>"
+    ],
+    "engagement": {
+     "pitch": 0.4,
+     "nut_face": 11.8,
+     "nut_top": 14.6,
+     "protrusion": 1.4,
+     "threads_past": 3.5,
+     "protrusion_worst": 1.2,
+     "threads_past_worst": 3.0,
+     "verdict": [
+      "OK",
+      ""
+     ],
+     "required_min": 0.8,
+     "shortest_ok": 16
+    }
+   }
+  },
+  {
+   "id": "V5_BRK_I1",
+   "source": "v5",
+   "screw": "M2x5 SHCS",
+   "nut": "M2 hex",
+   "washer": null,
+   "status": "warn",
+   "seat_world": [
+    -91.7951,
+    1.4878,
+    5.227
+   ],
+   "axis_world": [
+    0.0,
+    -0.0,
+    -1.0
+   ],
+   "nut_offset": 2.7033,
+   "note": "V5 M2x5 cover bracket to palm bone (m2x5_assemb-13/M2 x 0.4mm Thread 5mm LONG SOCKET HEAD CAP SCREW.step-1)",
+   "problems": [
+    "WARN: head stands 0.85 mm proud of the surrounding surface (counterbore 1.15 deep, head 2.0)"
+   ],
+   "resolve": {
+    "snap": {
+     "bore_dia": 2.5,
+     "bore_part": "Base Bone 1.2_V02_pointerfinger_and_thumb_attachment <1>",
+     "lateral_shift": 0.031,
+     "tilt_deg": 0.0
+    },
+    "seat_shift": 0.253,
+    "nut_face": "inferred",
+    "nut_flats": "aligned to pocket"
+   },
+   "v5": "m2x5_assemb-13/M2 x 0.4mm Thread 5mm LONG SOCKET HEAD CAP SCREW.step-1",
+   "category": "bracket",
+   "checks": {
+    "head_space": "clear",
+    "hole": "clear",
+    "head_seat": [
+     "driver_side_palm_cover3 <1>"
+    ],
+    "counterbore_depth": 1.15,
+    "head_top_vs_surface": 0.85,
+    "nut_space": "clear",
+    "nut_seat": [
+     "Base Bone 1.2_V02_pointerfinger_and_thumb_attachment <1>"
+    ],
+    "tip_space": "clear",
+    "grip_parts": [
+     "Base Bone 1.2_V02_pointerfinger_and_thumb_attachment <1>",
+     "driver_side_palm_cover3 <1>"
+    ],
+    "engagement": {
+     "pitch": 0.4,
+     "nut_face": 2.703,
+     "nut_top": 4.303,
+     "protrusion": 0.697,
+     "threads_past": 1.74,
+     "verdict": [
+      "OK",
+      ""
+     ],
+     "required_min": 0.4,
+     "shortest_ok": 5
+    }
+   }
+  },
+  {
+   "id": "V5_BRK_I2",
+   "source": "v5",
+   "screw": "M2x5 SHCS",
+   "nut": "M2 hex",
+   "washer": null,
+   "status": "warn",
+   "seat_world": [
+    -114.1209,
+    1.1389,
+    5.227
+   ],
+   "axis_world": [
+    0.0,
+    -0.0,
+    -1.0
+   ],
+   "nut_offset": 2.7033,
+   "note": "V5 M2x5 cover bracket to palm bone (m2x5_assemb-11/M2 x 0.4mm Thread 5mm LONG SOCKET HEAD CAP SCREW.step-1)",
+   "problems": [
+    "WARN: head stands 0.85 mm proud of the surrounding surface (counterbore 1.15 deep, head 2.0)"
+   ],
+   "resolve": {
+    "snap": {
+     "bore_dia": 2.5,
+     "bore_part": "Base Bone 1.2_V02_pointerfinger_and_thumb_attachment <1>",
+     "lateral_shift": 0.049,
+     "tilt_deg": 0.0
+    },
+    "seat_shift": 0.253,
+    "nut_face": "inferred",
+    "nut_flats": "aligned to pocket"
+   },
+   "v5": "m2x5_assemb-11/M2 x 0.4mm Thread 5mm LONG SOCKET HEAD CAP SCREW.step-1",
+   "category": "bracket",
+   "checks": {
+    "head_space": "clear",
+    "hole": "clear",
+    "head_seat": [
+     "driver_side_palm_cover3 <1>"
+    ],
+    "counterbore_depth": 1.15,
+    "head_top_vs_surface": 0.85,
+    "nut_space": "clear",
+    "nut_seat": [
+     "Base Bone 1.2_V02_pointerfinger_and_thumb_attachment <1>"
+    ],
+    "tip_space": "clear",
+    "grip_parts": [
+     "Base Bone 1.2_V02_pointerfinger_and_thumb_attachment <1>",
+     "driver_side_palm_cover3 <1>"
+    ],
+    "engagement": {
+     "pitch": 0.4,
+     "nut_face": 2.703,
+     "nut_top": 4.303,
+     "protrusion": 0.697,
+     "threads_past": 1.74,
+     "verdict": [
+      "OK",
+      ""
+     ],
+     "required_min": 0.4,
+     "shortest_ok": 5
+    }
+   }
+  },
+  {
+   "id": "V5_BRK_I3",
+   "source": "v5",
+   "screw": "M2x5 SHCS",
+   "nut": "M2 hex",
+   "washer": null,
+   "status": "warn",
+   "seat_world": [
+    -133.1756,
+    1.4708,
+    5.227
+   ],
+   "axis_world": [
+    0.0,
+    -0.0,
+    -1.0
+   ],
+   "nut_offset": 2.7033,
+   "note": "V5 M2x5 cover bracket to palm bone (m2x5_assemb-12/M2 x 0.4mm Thread 5mm LONG SOCKET HEAD CAP SCREW.step-1)",
+   "problems": [
+    "WARN: head stands 0.85 mm proud of the surrounding surface (counterbore 1.15 deep, head 2.0)"
+   ],
+   "resolve": {
+    "snap": {
+     "bore_dia": 2.5,
+     "bore_part": "Base Bone 1.2_V02_pointerfinger_and_thumb_attachment <1>",
+     "lateral_shift": 0.065,
+     "tilt_deg": 0.0
+    },
+    "seat_shift": 0.253,
+    "nut_face": "inferred",
+    "nut_flats": "aligned to pocket"
+   },
+   "v5": "m2x5_assemb-12/M2 x 0.4mm Thread 5mm LONG SOCKET HEAD CAP SCREW.step-1",
+   "category": "bracket",
+   "checks": {
+    "head_space": "clear",
+    "hole": "clear",
+    "head_seat": [
+     "driver_side_palm_cover3 <1>"
+    ],
+    "counterbore_depth": 1.15,
+    "head_top_vs_surface": 0.85,
+    "nut_space": "clear",
+    "nut_seat": [
+     "Base Bone 1.2_V02_pointerfinger_and_thumb_attachment <1>"
+    ],
+    "tip_space": "clear",
+    "grip_parts": [
+     "Base Bone 1.2_V02_pointerfinger_and_thumb_attachment <1>",
+     "driver_side_palm_cover3 <1>"
+    ],
+    "engagement": {
+     "pitch": 0.4,
+     "nut_face": 2.703,
+     "nut_top": 4.303,
+     "protrusion": 0.697,
+     "threads_past": 1.74,
+     "verdict": [
+      "OK",
+      ""
+     ],
+     "required_min": 0.4,
+     "shortest_ok": 5
+    }
+   }
+  },
+  {
+   "id": "V5_BRK_P1",
+   "source": "v5",
+   "screw": "M2x5 SHCS",
+   "nut": "M2 hex",
+   "washer": null,
+   "status": "fail",
+   "seat_world": [
+    -101.011,
+    -71.1278,
+    5.227
+   ],
+   "axis_world": [
+    0.0,
+    -0.0,
+    -1.0
+   ],
+   "nut_offset": 2.7032,
+   "note": "V5 M2x5 cover bracket to palm bone (m2x5_assemb-6/M2 x 0.4mm Thread 5mm LONG SOCKET HEAD CAP SCREW.step-1)",
+   "problems": [
+    "FAIL: head space: less than 4.2 mm dia / 2.0 mm free around the head, blocked by driver_side_palm_cover2 <1> (0.116 mm3)",
+    "FAIL: clearance hole: less than 2.4 mm dia (0.2 mm/side) along the screw in driver_side_palm_cover2 <1> (0.043 mm3)",
+    "WARN: head stands 0.85 mm proud of the surrounding surface (counterbore 1.15 deep, head 2.0)"
+   ],
+   "resolve": {
+    "snap": {
+     "bore_dia": 2.5,
+     "bore_part": "Base Bone 1.2_V02_pinky <1>",
+     "lateral_shift": 0.052,
+     "tilt_deg": 0.0
+    },
+    "seat_shift": 0.253,
+    "nut_face": "inferred",
+    "nut_flats": "aligned to pocket"
+   },
+   "v5": "m2x5_assemb-6/M2 x 0.4mm Thread 5mm LONG SOCKET HEAD CAP SCREW.step-1",
+   "category": "bracket",
+   "checks": {
+    "head_space": [
+     "driver_side_palm_cover2 <1> (0.116 mm3)"
+    ],
+    "hole": [
+     "driver_side_palm_cover2 <1> (0.043 mm3)"
+    ],
+    "head_seat": [
+     "driver_side_palm_cover2 <1>"
+    ],
+    "counterbore_depth": 1.15,
+    "head_top_vs_surface": 0.85,
+    "nut_space": "clear",
+    "nut_seat": [
+     "Base Bone 1.2_V02_pinky <1>"
+    ],
+    "tip_space": "clear",
+    "grip_parts": [
+     "Base Bone 1.2_V02_pinky <1>",
+     "driver_side_palm_cover2 <1>"
+    ],
+    "engagement": {
+     "pitch": 0.4,
+     "nut_face": 2.703,
+     "nut_top": 4.303,
+     "protrusion": 0.697,
+     "threads_past": 1.74,
+     "verdict": [
+      "OK",
+      ""
+     ],
+     "required_min": 0.4,
+     "shortest_ok": 5
+    }
+   }
+  },
+  {
+   "id": "R_actuation_1",
+   "source": "request",
+   "screw": "M2x12 SHCS",
+   "nut": "M2 hex",
+   "washer": null,
+   "status": "ok",
+   "seat_world": [
+    -69.5567,
+    -4.6562,
+    -29.623
+   ],
+   "axis_world": [
+    -0.0,
+    0.0,
+    1.0
+   ],
+   "nut_offset": 9.8,
+   "note": "index tray -> magazine (head in a 6 mm counterbore in the tray front block, nut side-loaded into the guide block)",
+   "problems": [],
+   "resolve": {
+    "snap": {
+     "bore_dia": 2.4,
+     "bore_part": "Tray_index",
+     "lateral_shift": 0.0,
+     "tilt_deg": 0.0
+    },
+    "nut_face": "inferred",
+    "nut_flats": "aligned to pocket"
+   },
+   "request": {
+    "file": "freecad/regions/fasteners_actuation.json",
+    "index": 1
+   },
+   "checks": {
+    "head_space": "clear",
+    "hole": "clear",
+    "head_seat": [
+     "Tray_index"
+    ],
+    "counterbore_depth": 0.0,
+    "head_top_vs_surface": 2.0,
+    "nut_space": "clear",
+    "nut_seat": [
+     "Base Bone 1.2_V02_pointerfinger_and_thumb_attachment <1>"
+    ],
+    "tip_space": "clear",
+    "grip_parts": [
+     "Base Bone 1.2_V02_pointerfinger_and_thumb_attachment <1>",
+     "Tray_index"
+    ],
+    "engagement": {
+     "pitch": 0.4,
+     "nut_face": 9.8,
+     "nut_top": 11.4,
+     "protrusion": 0.6,
+     "threads_past": 1.5,
+     "verdict": [
+      "OK",
+      ""
+     ],
+     "required_min": 0.4,
+     "shortest_ok": 12
+    }
+   }
+  },
+  {
+   "id": "R_actuation_2",
+   "source": "request",
+   "screw": "M2x12 SHCS",
+   "nut": "M2 hex",
+   "washer": null,
+   "status": "ok",
+   "seat_world": [
+    -69.9491,
+    -30.1582,
+    -29.623
+   ],
+   "axis_world": [
+    -0.0,
+    0.0,
+    1.0
+   ],
+   "nut_offset": 9.8,
+   "note": "middle tray -> magazine (head in a 6 mm counterbore in the tray front block, nut side-loaded into the guide block)",
+   "problems": [],
+   "resolve": {
+    "snap": {
+     "bore_dia": 2.4,
+     "bore_part": "Tray_middle",
+     "lateral_shift": 0.0,
+     "tilt_deg": 0.0
+    },
+    "nut_face": "inferred",
+    "nut_flats": "aligned to pocket"
+   },
+   "request": {
+    "file": "freecad/regions/fasteners_actuation.json",
+    "index": 2
+   },
+   "checks": {
+    "head_space": "clear",
+    "hole": "clear",
+    "head_seat": [
+     "Tray_middle"
+    ],
+    "counterbore_depth": 0.0,
+    "head_top_vs_surface": 2.0,
+    "nut_space": "clear",
+    "nut_seat": [
+     "Base Bone 1.2_V02_middlefinger <1>"
+    ],
+    "tip_space": "clear",
+    "grip_parts": [
+     "Base Bone 1.2_V02_middlefinger <1>",
+     "Tray_middle"
+    ],
+    "engagement": {
+     "pitch": 0.4,
+     "nut_face": 9.8,
+     "nut_top": 11.4,
+     "protrusion": 0.6,
+     "threads_past": 1.5,
+     "verdict": [
+      "OK",
+      ""
+     ],
+     "required_min": 0.4,
+     "shortest_ok": 12
+    }
+   }
+  },
+  {
+   "id": "R_actuation_3",
+   "source": "request",
+   "screw": "M2x12 SHCS",
+   "nut": "M2 hex",
+   "washer": null,
+   "status": "ok",
+   "seat_world": [
+    -73.5588,
+    -55.4408,
+    -29.623
+   ],
+   "axis_world": [
+    -0.0,
+    0.0,
+    1.0
+   ],
+   "nut_offset": 9.8,
+   "note": "ring tray -> magazine (head in a 6 mm counterbore in the tray front block, nut side-loaded into the guide block)",
+   "problems": [],
+   "resolve": {
+    "snap": {
+     "bore_dia": 2.4,
+     "bore_part": "Tray_ring",
+     "lateral_shift": 0.0,
+     "tilt_deg": 0.0
+    },
+    "nut_face": "inferred",
+    "nut_flats": "aligned to pocket"
+   },
+   "request": {
+    "file": "freecad/regions/fasteners_actuation.json",
+    "index": 3
+   },
+   "checks": {
+    "head_space": "clear",
+    "hole": "clear",
+    "head_seat": [
+     "Tray_ring"
+    ],
+    "counterbore_depth": 0.0,
+    "head_top_vs_surface": 2.0,
+    "nut_space": "clear",
+    "nut_seat": [
+     "Base Bone 1.2_V02_ringfing <1>"
+    ],
+    "tip_space": "clear",
+    "grip_parts": [
+     "Base Bone 1.2_V02_ringfing <1>",
+     "Tray_ring"
+    ],
+    "engagement": {
+     "pitch": 0.4,
+     "nut_face": 9.8,
+     "nut_top": 11.4,
+     "protrusion": 0.6,
+     "threads_past": 1.5,
+     "verdict": [
+      "OK",
+      ""
+     ],
+     "required_min": 0.4,
+     "shortest_ok": 12
+    }
+   }
+  },
+  {
+   "id": "R_actuation_4",
+   "source": "request",
+   "screw": "M2x12 SHCS",
+   "nut": "M2 hex",
+   "washer": null,
+   "status": "ok",
+   "seat_world": [
+    -79.3583,
+    -80.3126,
+    -29.623
+   ],
+   "axis_world": [
+    -0.0,
+    0.0,
+    1.0
+   ],
+   "nut_offset": 9.8,
+   "note": "pinky tray -> magazine (head in a 6 mm counterbore in the tray front block, nut side-loaded into the guide block)",
+   "problems": [],
+   "resolve": {
+    "snap": {
+     "bore_dia": 2.4,
+     "bore_part": "Tray_pinky",
+     "lateral_shift": 0.0,
+     "tilt_deg": 0.0
+    },
+    "nut_face": "inferred",
+    "nut_flats": "aligned to pocket"
+   },
+   "request": {
+    "file": "freecad/regions/fasteners_actuation.json",
+    "index": 4
+   },
+   "checks": {
+    "head_space": "clear",
+    "hole": "clear",
+    "head_seat": [
+     "Tray_pinky"
+    ],
+    "counterbore_depth": 0.0,
+    "head_top_vs_surface": 2.0,
+    "nut_space": "clear",
+    "nut_seat": [
+     "Base Bone 1.2_V02_pinky <1>"
+    ],
+    "tip_space": "clear",
+    "grip_parts": [
+     "Base Bone 1.2_V02_pinky <1>",
+     "Tray_pinky"
+    ],
+    "engagement": {
+     "pitch": 0.4,
+     "nut_face": 9.8,
+     "nut_top": 11.4,
+     "protrusion": 0.6,
+     "threads_past": 1.5,
+     "verdict": [
+      "OK",
+      ""
+     ],
+     "required_min": 0.4,
+     "shortest_ok": 12
+    }
+   }
+  },
+  {
+   "id": "R_actuation_T1_mount_1",
+   "source": "request",
+   "screw": "M1.6x3 SHCS",
+   "nut": null,
+   "washer": null,
+   "status": "fail",
+   "seat_world": [
+    -190.4809,
+    21.682,
+    -23.2
+   ],
+   "axis_world": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "nut_offset": null,
+   "note": "T1 N20 gearbox face to its cover3 seat floor (tapped M1.6 holes of the gearbox front plate, 9 mm apart; ISO 4762 head in a dia 3.6 x 1.8 counterbore; if the holes are absent, glue the face to the floor)",
+   "problems": [
+    "FAIL: clearance hole: less than 2.0 mm dia (0.2 mm/side) along the screw in driver_side_palm_cover3 <1> (0.369 mm3), N20_T1 (1.993 mm3)",
+    "WARN: no nut: the screw must thread into a pilot hole (M1.6: dia 1.3-1.4) over >= 3.2 mm; not checkable from the model"
+   ],
+   "resolve": {
+    "snap": {
+     "bore_dia": 1.8,
+     "bore_part": "driver_side_palm_cover3 <1>",
+     "lateral_shift": 0.0,
+     "tilt_deg": 0.0
+    }
+   },
+   "request": {
+    "file": "freecad/regions/fasteners_actuation.json",
+    "index": 5
+   },
+   "checks": {
+    "head_space": "clear",
+    "hole": [
+     "driver_side_palm_cover3 <1> (0.369 mm3)",
+     "N20_T1 (1.993 mm3)"
+    ],
+    "head_seat": [
+     "driver_side_palm_cover3 <1>"
+    ],
+    "counterbore_depth": 1.8,
+    "head_top_vs_surface": -0.2,
+    "grip_parts": [
+     "driver_side_palm_cover3 <1>",
+     "N20_T1"
+    ],
+    "engagement": {
+     "pitch": 0.35,
+     "verdict": [
+      "WARN",
+      "no nut: the screw must thread into a pilot hole (M1.6: dia 1.3-1.4) over >= 3.2 mm; not checkable from the model"
+     ]
+    }
+   }
+  },
+  {
+   "id": "R_actuation_T1_mount_2",
+   "source": "request",
+   "screw": "M1.6x3 SHCS",
+   "nut": null,
+   "washer": null,
+   "status": "fail",
+   "seat_world": [
+    -181.5591,
+    20.498,
+    -23.2
+   ],
+   "axis_world": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "nut_offset": null,
+   "note": "T1 N20 gearbox face to its cover3 seat floor (tapped M1.6 holes of the gearbox front plate, 9 mm apart; ISO 4762 head in a dia 3.6 x 1.8 counterbore; if the holes are absent, glue the face to the floor)",
+   "problems": [
+    "FAIL: clearance hole: less than 2.0 mm dia (0.2 mm/side) along the screw in driver_side_palm_cover3 <1> (0.369 mm3), N20_T1 (1.993 mm3)",
+    "WARN: no nut: the screw must thread into a pilot hole (M1.6: dia 1.3-1.4) over >= 3.2 mm; not checkable from the model"
+   ],
+   "resolve": {
+    "snap": {
+     "bore_dia": 1.8,
+     "bore_part": "driver_side_palm_cover3 <1>",
+     "lateral_shift": 0.0,
+     "tilt_deg": 0.0
+    }
+   },
+   "request": {
+    "file": "freecad/regions/fasteners_actuation.json",
+    "index": 6
+   },
+   "checks": {
+    "head_space": "clear",
+    "hole": [
+     "driver_side_palm_cover3 <1> (0.369 mm3)",
+     "N20_T1 (1.993 mm3)"
+    ],
+    "head_seat": [
+     "driver_side_palm_cover3 <1>"
+    ],
+    "counterbore_depth": 1.8,
+    "head_top_vs_surface": -0.2,
+    "grip_parts": [
+     "driver_side_palm_cover3 <1>",
+     "N20_T1"
+    ],
+    "engagement": {
+     "pitch": 0.35,
+     "verdict": [
+      "WARN",
+      "no nut: the screw must thread into a pilot hole (M1.6: dia 1.3-1.4) over >= 3.2 mm; not checkable from the model"
+     ]
+    }
+   }
+  },
+  {
+   "id": "R_actuation_T2_mount_1",
+   "source": "request",
+   "screw": "M1.6x3 SHCS",
+   "nut": null,
+   "washer": null,
+   "status": "fail",
+   "seat_world": [
+    -149.7918,
+    30.6168,
+    -24.8
+   ],
+   "axis_world": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "nut_offset": null,
+   "note": "T2 N20 gearbox face to its cover3 seat floor (tapped M1.6 holes of the gearbox front plate, 9 mm apart; ISO 4762 head in a dia 3.6 x 1.8 counterbore; if the holes are absent, glue the face to the floor)",
+   "problems": [
+    "FAIL: clearance hole: less than 2.0 mm dia (0.2 mm/side) along the screw in driver_side_palm_cover3 <1> (0.369 mm3), N20_T2 (1.993 mm3)",
+    "WARN: no nut: the screw must thread into a pilot hole (M1.6: dia 1.3-1.4) over >= 3.2 mm; not checkable from the model"
+   ],
+   "resolve": {
+    "snap": {
+     "bore_dia": 1.8,
+     "bore_part": "driver_side_palm_cover3 <1>",
+     "lateral_shift": 0.0,
+     "tilt_deg": 0.0
+    }
+   },
+   "request": {
+    "file": "freecad/regions/fasteners_actuation.json",
+    "index": 7
+   },
+   "checks": {
+    "head_space": "clear",
+    "hole": [
+     "driver_side_palm_cover3 <1> (0.369 mm3)",
+     "N20_T2 (1.993 mm3)"
+    ],
+    "head_seat": [
+     "driver_side_palm_cover3 <1>"
+    ],
+    "counterbore_depth": 1.696,
+    "head_top_vs_surface": -0.096,
+    "grip_parts": [
+     "driver_side_palm_cover3 <1>",
+     "N20_T2"
+    ],
+    "engagement": {
+     "pitch": 0.35,
+     "verdict": [
+      "WARN",
+      "no nut: the screw must thread into a pilot hole (M1.6: dia 1.3-1.4) over >= 3.2 mm; not checkable from the model"
+     ]
+    }
+   }
+  },
+  {
+   "id": "R_actuation_T2_mount_2",
+   "source": "request",
+   "screw": "M1.6x3 SHCS",
+   "nut": null,
+   "washer": null,
+   "status": "fail",
+   "seat_world": [
+    -146.0682,
+    22.4232,
+    -24.8
+   ],
+   "axis_world": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "nut_offset": null,
+   "note": "T2 N20 gearbox face to its cover3 seat floor (tapped M1.6 holes of the gearbox front plate, 9 mm apart; ISO 4762 head in a dia 3.6 x 1.8 counterbore; if the holes are absent, glue the face to the floor)",
+   "problems": [
+    "FAIL: clearance hole: less than 2.0 mm dia (0.2 mm/side) along the screw in driver_side_palm_cover3 <1> (0.369 mm3), N20_T2 (1.993 mm3)",
+    "WARN: no nut: the screw must thread into a pilot hole (M1.6: dia 1.3-1.4) over >= 3.2 mm; not checkable from the model"
+   ],
+   "resolve": {
+    "snap": {
+     "bore_dia": 1.8,
+     "bore_part": "driver_side_palm_cover3 <1>",
+     "lateral_shift": 0.0,
+     "tilt_deg": 0.0
+    }
+   },
+   "request": {
+    "file": "freecad/regions/fasteners_actuation.json",
+    "index": 8
+   },
+   "checks": {
+    "head_space": "clear",
+    "hole": [
+     "driver_side_palm_cover3 <1> (0.369 mm3)",
+     "N20_T2 (1.993 mm3)"
+    ],
+    "head_seat": [
+     "driver_side_palm_cover3 <1>"
+    ],
+    "counterbore_depth": 1.696,
+    "head_top_vs_surface": -0.096,
+    "grip_parts": [
+     "driver_side_palm_cover3 <1>",
+     "N20_T2"
+    ],
+    "engagement": {
+     "pitch": 0.35,
+     "verdict": [
+      "WARN",
+      "no nut: the screw must thread into a pilot hole (M1.6: dia 1.3-1.4) over >= 3.2 mm; not checkable from the model"
+     ]
+    }
+   }
+  },
+  {
+   "id": "R_shells_1",
+   "source": "request",
+   "screw": "M2x8 SHCS",
+   "nut": null,
+   "washer": null,
+   "status": "fail",
+   "seat_world": [
+    -159.054,
+    -19.057,
+    -80.449
+   ],
+   "axis_world": [
+    -0.011,
+    -0.08602,
+    0.99623
+   ],
+   "nut_offset": null,
+   "note": "shells retention stud 1 (Shell1 D y -95, theta 5 deg): head on the printed cap washer (dia 12 x 1.2), threads into a dia 1.7 x 7 pilot in the Shell1 stud (thread-forming); stack under it: silicone 40-50A O-ring 5x2.5 (~10 % squeeze) on a printed slider washer (dia 13 x 1.5) that rides on Shell2",
+   "problems": [
+    "FAIL: clearance hole: less than 2.4 mm dia (0.2 mm/side) along the screw in Shell1 <1> (14.268 mm3)",
+    "FAIL: head not seated: no material under the head bearing ring",
+    "WARN: the screw passes through Shell1 <1> only: it joins nothing",
+    "WARN: no nut: the screw must thread into a pilot hole (M2: dia 1.6-1.7) over >= 4.0 mm; not checkable from the model"
+   ],
+   "resolve": {},
+   "request": {
+    "file": "freecad/regions/fasteners_shells.json",
+    "index": 1
+   },
+   "checks": {
+    "head_space": "clear",
+    "hole": [
+     "Shell1 <1> (14.268 mm3)"
+    ],
+    "head_seat": [],
+    "counterbore_depth": 0.0,
+    "head_top_vs_surface": 2.0,
+    "grip_parts": [
+     "Shell1 <1>"
+    ],
+    "engagement": {
+     "pitch": 0.4,
+     "verdict": [
+      "WARN",
+      "no nut: the screw must thread into a pilot hole (M2: dia 1.6-1.7) over >= 4.0 mm; not checkable from the model"
+     ]
+    }
+   }
+  },
+  {
+   "id": "R_shells_2",
+   "source": "request",
+   "screw": "M2x8 SHCS",
+   "nut": null,
+   "washer": null,
+   "status": "fail",
+   "seat_world": [
+    -84.721,
+    -29.036,
+    -79.121
+   ],
+   "axis_world": [
+    -0.011,
+    -0.08602,
+    0.99623
+   ],
+   "nut_offset": null,
+   "note": "shells retention stud 2 (Shell1 D y -20, theta 5 deg): head on the printed cap washer (dia 12 x 1.2), threads into a dia 1.7 x 7 pilot in the Shell1 stud (thread-forming); stack under it: silicone 40-50A O-ring 5x2.5 (~10 % squeeze) on a printed slider washer (dia 13 x 1.5) that rides on Shell2",
+   "problems": [
+    "FAIL: clearance hole: less than 2.4 mm dia (0.2 mm/side) along the screw in Shell1 <1> (14.269 mm3)",
+    "FAIL: head not seated: no material under the head bearing ring",
+    "WARN: the screw passes through Shell1 <1> only: it joins nothing",
+    "WARN: no nut: the screw must thread into a pilot hole (M2: dia 1.6-1.7) over >= 4.0 mm; not checkable from the model"
+   ],
+   "resolve": {},
+   "request": {
+    "file": "freecad/regions/fasteners_shells.json",
+    "index": 2
+   },
+   "checks": {
+    "head_space": "clear",
+    "hole": [
+     "Shell1 <1> (14.269 mm3)"
+    ],
+    "head_seat": [],
+    "counterbore_depth": 0.0,
+    "head_top_vs_surface": 2.0,
+    "grip_parts": [
+     "Shell1 <1>"
+    ],
+    "engagement": {
+     "pitch": 0.4,
+     "verdict": [
+      "WARN",
+      "no nut: the screw must thread into a pilot hole (M2: dia 1.6-1.7) over >= 4.0 mm; not checkable from the model"
+     ]
+    }
+   }
+  },
+  {
+   "id": "R_shells_3",
+   "source": "request",
+   "screw": "M2x8 SHCS",
+   "nut": null,
+   "washer": null,
+   "status": "fail",
+   "seat_world": [
+    -165.2787,
+    -66.8798,
+    -48.291
+   ],
+   "axis_world": [
+    -0.0,
+    0.0,
+    1.0
+   ],
+   "nut_offset": null,
+   "note": "Shell1 pinky rim -> cover2 dorsal wall end (Shell1 rides on the pinky side): dia 2.4 hole + dia 4.4 counterbore in Shell1, dia 1.7 x 8 thread-forming pilot in cover2",
+   "problems": [
+    "FAIL: clearance hole: less than 2.4 mm dia (0.2 mm/side) along the screw in driver_side_palm_cover2 <1> (11.743 mm3)",
+    "WARN: no nut: the screw must thread into a pilot hole (M2: dia 1.6-1.7) over >= 4.0 mm; not checkable from the model"
+   ],
+   "resolve": {
+    "snap": {
+     "bore_dia": 2.4,
+     "bore_part": "Shell1 <1>",
+     "lateral_shift": 0.0,
+     "tilt_deg": 0.0
+    }
+   },
+   "request": {
+    "file": "freecad/regions/fasteners_shells.json",
+    "index": 3
+   },
+   "checks": {
+    "head_space": "clear",
+    "hole": [
+     "driver_side_palm_cover2 <1> (11.743 mm3)"
+    ],
+    "head_seat": [
+     "Shell1 <1>"
+    ],
+    "counterbore_depth": 0.0,
+    "head_top_vs_surface": 2.0,
+    "grip_parts": [
+     "Shell1 <1>",
+     "driver_side_palm_cover2 <1>"
+    ],
+    "engagement": {
+     "pitch": 0.4,
+     "verdict": [
+      "WARN",
+      "no nut: the screw must thread into a pilot hole (M2: dia 1.6-1.7) over >= 4.0 mm; not checkable from the model"
+     ]
+    }
+   }
+  },
+  {
+   "id": "R_shells_4",
+   "source": "request",
+   "screw": "M2x8 SHCS",
+   "nut": null,
+   "washer": null,
+   "status": "fail",
+   "seat_world": [
+    -126.6521,
+    -77.2716,
+    -48.291
+   ],
+   "axis_world": [
+    -0.0,
+    0.0,
+    1.0
+   ],
+   "nut_offset": null,
+   "note": "Shell1 pinky rim -> cover2 dorsal wall end (Shell1 rides on the pinky side): dia 2.4 hole + dia 4.4 counterbore in Shell1, dia 1.7 x 8 thread-forming pilot in cover2",
+   "problems": [
+    "FAIL: clearance hole: less than 2.4 mm dia (0.2 mm/side) along the screw in driver_side_palm_cover2 <1> (11.743 mm3)",
+    "WARN: no nut: the screw must thread into a pilot hole (M2: dia 1.6-1.7) over >= 4.0 mm; not checkable from the model"
+   ],
+   "resolve": {
+    "snap": {
+     "bore_dia": 2.4,
+     "bore_part": "Shell1 <1>",
+     "lateral_shift": 0.0,
+     "tilt_deg": 0.0
+    }
+   },
+   "request": {
+    "file": "freecad/regions/fasteners_shells.json",
+    "index": 4
+   },
+   "checks": {
+    "head_space": "clear",
+    "hole": [
+     "driver_side_palm_cover2 <1> (11.743 mm3)"
+    ],
+    "head_seat": [
+     "Shell1 <1>"
+    ],
+    "counterbore_depth": 0.0,
+    "head_top_vs_surface": 2.0,
+    "grip_parts": [
+     "Shell1 <1>",
+     "driver_side_palm_cover2 <1>"
+    ],
+    "engagement": {
+     "pitch": 0.4,
+     "verdict": [
+      "WARN",
+      "no nut: the screw must thread into a pilot hole (M2: dia 1.6-1.7) over >= 4.0 mm; not checkable from the model"
+     ]
+    }
+   }
+  },
+  {
+   "id": "R_shells_5",
+   "source": "request",
+   "screw": "M1.6x12 SHCS",
+   "nut": "M1.6 hex",
+   "washer": null,
+   "status": "fail",
+   "seat_world": [
+    -192.4196,
+    -55.3703,
+    -46.6785
+   ],
+   "axis_world": [
+    0.99131,
+    -0.13153,
+    0.0
+   ],
+   "nut_offset": 10.3037,
+   "note": "cover_back -> Shell1 wrist boss (V5 m1_screw_assemb): dia 2.0 hole + dia 3.4 x 1.2 head seat in cover_back; nut in Shell1's existing slot (D y -113..-111.2)",
+   "problems": [
+    "FAIL: clearance hole: less than 2.0 mm dia (0.2 mm/side) along the screw in Shell1 <1> (11.469 mm3)",
+    "FAIL: head not seated: no material under the head bearing ring",
+    "FAIL: screw tip (beyond the nut) collides with / has < 0.2 mm around it: Shell1 <1> (0.068 mm3)"
+   ],
+   "resolve": {
+    "snap": {
+     "bore_dia": 2.1,
+     "bore_part": "Shell1 <1>",
+     "lateral_shift": 0.004,
+     "tilt_deg": 0.029
+    },
+    "nut_face": "inferred",
+    "nut_flats": "aligned to pocket"
+   },
+   "request": {
+    "file": "freecad/regions/fasteners_shells.json",
+    "index": 5
+   },
+   "checks": {
+    "head_space": "clear",
+    "hole": [
+     "Shell1 <1> (11.469 mm3)"
+    ],
+    "head_seat": [],
+    "counterbore_depth": 0.0,
+    "head_top_vs_surface": 1.6,
+    "nut_space": "clear",
+    "nut_seat": [
+     "Shell1 <1>"
+    ],
+    "tip_space": [
+     "Shell1 <1> (0.068 mm3)"
+    ],
+    "grip_parts": [
+     "Shell1 <1>",
+     "cover_back <1>"
+    ],
+    "engagement": {
+     "pitch": 0.35,
+     "nut_face": 10.304,
+     "nut_top": 11.604,
+     "protrusion": 0.396,
+     "threads_past": 1.13,
+     "verdict": [
+      "OK",
+      ""
+     ],
+     "required_min": 0.35,
+     "shortest_ok": 12
+    }
+   }
+  },
+  {
+   "id": "R_shells_6",
+   "source": "request",
+   "screw": "M1.6x12 SHCS",
+   "nut": "M1.6 hex",
+   "washer": null,
+   "status": "fail",
+   "seat_world": [
+    -189.4427,
+    -32.9281,
+    -56.8841
+   ],
+   "axis_world": [
+    0.99131,
+    -0.13153,
+    0.0
+   ],
+   "nut_offset": 10.3045,
+   "note": "cover_back -> Shell1 wrist boss (V5 m1_screw_assemb): dia 2.0 hole + dia 3.4 x 1.2 head seat in cover_back; nut in Shell1's existing slot (D y -113..-111.2)",
+   "problems": [
+    "FAIL: clearance hole: less than 2.0 mm dia (0.2 mm/side) along the screw in Shell1 <1> (11.264 mm3)",
+    "FAIL: head not seated: no material under the head bearing ring",
+    "FAIL: screw tip (beyond the nut) collides with / has < 0.2 mm around it: Shell1 <1> (0.033 mm3)"
+   ],
+   "resolve": {
+    "snap": {
+     "bore_dia": 2.1,
+     "bore_part": "Shell1 <1>",
+     "lateral_shift": 0.003,
+     "tilt_deg": 0.029
+    },
+    "nut_face": "inferred",
+    "nut_flats": "aligned to pocket"
+   },
+   "request": {
+    "file": "freecad/regions/fasteners_shells.json",
+    "index": 6
+   },
+   "checks": {
+    "head_space": "clear",
+    "hole": [
+     "Shell1 <1> (11.264 mm3)"
+    ],
+    "head_seat": [],
+    "counterbore_depth": 0.0,
+    "head_top_vs_surface": 1.6,
+    "nut_space": "clear",
+    "nut_seat": [
+     "Shell1 <1>"
+    ],
+    "tip_space": [
+     "Shell1 <1> (0.033 mm3)"
+    ],
+    "grip_parts": [
+     "Shell1 <1>",
+     "cover_back <1>"
+    ],
+    "engagement": {
+     "pitch": 0.35,
+     "nut_face": 10.304,
+     "nut_top": 11.604,
+     "protrusion": 0.396,
+     "threads_past": 1.13,
+     "verdict": [
+      "OK",
+      ""
+     ],
+     "required_min": 0.35,
+     "shortest_ok": 12
+    }
+   }
+  },
+  {
+   "id": "R_tactile_pod_lid_0",
+   "source": "request",
+   "screw": "M2x5 SHCS",
+   "nut": "M2 insert",
+   "washer": null,
+   "status": "warn",
+   "seat_world": [
+    -247.6087,
+    -51.6776,
+    23.48
+   ],
+   "axis_world": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "nut_offset": 2.0,
+   "note": "tactile readout pod lid (M2 heat-set insert in the corner post)",
+   "problems": [
+    "WARN: the screw passes through tactile_pod_lid only: it joins nothing"
+   ],
+   "resolve": {
+    "snap": {
+     "bore_dia": 3.0,
+     "bore_part": "tactile_pod",
+     "lateral_shift": 0.001,
+     "tilt_deg": 0.0
+    }
+   },
+   "request": {
+    "file": "freecad/regions/fasteners_tactile.json",
+    "index": 1
+   },
+   "checks": {
+    "head_space": "clear",
+    "hole": "clear",
+    "head_seat": [
+     "tactile_pod_lid"
+    ],
+    "counterbore_depth": 0.0,
+    "head_top_vs_surface": 2.0,
+    "insert_hole": "clear",
+    "insert_wall": [
+     "tactile_pod"
+    ],
+    "tip_space": "clear",
+    "grip_parts": [
+     "tactile_pod_lid"
+    ],
+    "engagement": {
+     "pitch": 0.4,
+     "insert_top": 2.0,
+     "engaged": 3.0,
+     "tip_below_insert": 0.0,
+     "verdict": [
+      "OK",
+      ""
+     ],
+     "required_min": 3.0,
+     "shortest_ok": 5
+    }
+   }
+  },
+  {
+   "id": "R_tactile_pod_lid_1",
+   "source": "request",
+   "screw": "M2x5 SHCS",
+   "nut": "M2 insert",
+   "washer": null,
+   "status": "warn",
+   "seat_world": [
+    -238.5331,
+    16.7229,
+    23.48
+   ],
+   "axis_world": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "nut_offset": 2.0,
+   "note": "tactile readout pod lid (M2 heat-set insert in the corner post)",
+   "problems": [
+    "WARN: the screw passes through tactile_pod_lid only: it joins nothing"
+   ],
+   "resolve": {
+    "snap": {
+     "bore_dia": 3.0,
+     "bore_part": "tactile_pod",
+     "lateral_shift": 0.0,
+     "tilt_deg": 0.0
+    }
+   },
+   "request": {
+    "file": "freecad/regions/fasteners_tactile.json",
+    "index": 2
+   },
+   "checks": {
+    "head_space": "clear",
+    "hole": "clear",
+    "head_seat": [
+     "tactile_pod_lid"
+    ],
+    "counterbore_depth": 0.0,
+    "head_top_vs_surface": 2.0,
+    "insert_hole": "clear",
+    "insert_wall": [
+     "tactile_pod"
+    ],
+    "tip_space": "clear",
+    "grip_parts": [
+     "tactile_pod_lid"
+    ],
+    "engagement": {
+     "pitch": 0.4,
+     "insert_top": 2.0,
+     "engaged": 3.0,
+     "tip_below_insert": 0.0,
+     "verdict": [
+      "OK",
+      ""
+     ],
+     "required_min": 3.0,
+     "shortest_ok": 5
+    }
+   }
+  },
+  {
+   "id": "R_tactile_pod_lid_2",
+   "source": "request",
+   "screw": "M2x5 SHCS",
+   "nut": "M2 insert",
+   "washer": null,
+   "status": "warn",
+   "seat_world": [
+    -426.0448,
+    -28.0022,
+    23.48
+   ],
+   "axis_world": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "nut_offset": 2.0,
+   "note": "tactile readout pod lid (M2 heat-set insert in the corner post)",
+   "problems": [
+    "WARN: the screw passes through tactile_pod_lid only: it joins nothing"
+   ],
+   "resolve": {
+    "snap": {
+     "bore_dia": 3.0,
+     "bore_part": "tactile_pod",
+     "lateral_shift": 0.0,
+     "tilt_deg": 0.0
+    }
+   },
+   "request": {
+    "file": "freecad/regions/fasteners_tactile.json",
+    "index": 3
+   },
+   "checks": {
+    "head_space": "clear",
+    "hole": "clear",
+    "head_seat": [
+     "tactile_pod_lid"
+    ],
+    "counterbore_depth": 0.0,
+    "head_top_vs_surface": 2.0,
+    "insert_hole": "clear",
+    "insert_wall": [
+     "tactile_pod"
+    ],
+    "tip_space": "clear",
+    "grip_parts": [
+     "tactile_pod_lid"
+    ],
+    "engagement": {
+     "pitch": 0.4,
+     "insert_top": 2.0,
+     "engaged": 3.0,
+     "tip_below_insert": 0.0,
+     "verdict": [
+      "OK",
+      ""
+     ],
+     "required_min": 3.0,
+     "shortest_ok": 5
+    }
+   }
+  },
+  {
+   "id": "R_tactile_pod_lid_3",
+   "source": "request",
+   "screw": "M2x5 SHCS",
+   "nut": "M2 insert",
+   "washer": null,
+   "status": "warn",
+   "seat_world": [
+    -416.9692,
+    40.3984,
+    23.48
+   ],
+   "axis_world": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "nut_offset": 2.0,
+   "note": "tactile readout pod lid (M2 heat-set insert in the corner post)",
+   "problems": [
+    "WARN: the screw passes through tactile_pod_lid only: it joins nothing"
+   ],
+   "resolve": {
+    "snap": {
+     "bore_dia": 3.0,
+     "bore_part": "tactile_pod",
+     "lateral_shift": 0.0,
+     "tilt_deg": 0.0
+    }
+   },
+   "request": {
+    "file": "freecad/regions/fasteners_tactile.json",
+    "index": 4
+   },
+   "checks": {
+    "head_space": "clear",
+    "hole": "clear",
+    "head_seat": [
+     "tactile_pod_lid"
+    ],
+    "counterbore_depth": 0.0,
+    "head_top_vs_surface": 2.0,
+    "insert_hole": "clear",
+    "insert_wall": [
+     "tactile_pod"
+    ],
+    "tip_space": "clear",
+    "grip_parts": [
+     "tactile_pod_lid"
+    ],
+    "engagement": {
+     "pitch": 0.4,
+     "insert_top": 2.0,
+     "engaged": 3.0,
+     "tip_below_insert": 0.0,
+     "verdict": [
+      "OK",
+      ""
+     ],
+     "required_min": 3.0,
+     "shortest_ok": 5
+    }
+   }
+  },
+  {
+   "id": "R_thumb_yaw_keeper",
+   "source": "request",
+   "screw": "M2x14 SHCS",
+   "nut": "M2 nyloc",
+   "washer": null,
+   "status": "fail",
+   "seat_world": [
+    -170.4965,
+    29.8389,
+    -18.3
+   ],
+   "axis_world": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "nut_offset": 10.4,
+   "note": "R1 yaw bearing keeper: chord through the cover3 turret, runs in the turntable rim groove (lift retention + yaw hard stops). Fixed to cover3.",
+   "problems": [
+    "FAIL: head space: less than 4.2 mm dia / 2.0 mm free around the head, blocked by first_thumb_hinge <1> (0.004 mm3)",
+    "FAIL: nut pocket/space: less than 4.4 AF (0.2 mm/side) or blocked, by first_thumb_hinge <1> (0.023 mm3)",
+    "WARN: tip 0.80 mm past the nyloc (2.0 threads; 1.5 with a 3.0 mm tall nut)"
+   ],
+   "resolve": {
+    "snap": {
+     "bore_dia": 2.4,
+     "bore_part": "driver_side_palm_cover3 <1>",
+     "lateral_shift": 0.0,
+     "tilt_deg": 0.0
+    },
+    "nut_flats": "aligned to pocket"
+   },
+   "request": {
+    "file": "freecad/regions/fasteners_thumb.json",
+    "index": 1
+   },
+   "checks": {
+    "head_space": [
+     "first_thumb_hinge <1> (0.004 mm3)"
+    ],
+    "hole": "clear",
+    "head_seat": [
+     "driver_side_palm_cover3 <1>",
+     "first_thumb_hinge <1>"
+    ],
+    "counterbore_depth": 2.0,
+    "head_top_vs_surface": -0.0,
+    "nut_space": [
+     "first_thumb_hinge <1> (0.023 mm3)"
+    ],
+    "nut_seat": [
+     "driver_side_palm_cover3 <1>",
+     "first_thumb_hinge <1>"
+    ],
+    "tip_space": "clear",
+    "grip_parts": [
+     "driver_side_palm_cover3 <1>",
+     "first_thumb_hinge <1>"
+    ],
+    "engagement": {
+     "pitch": 0.4,
+     "nut_face": 10.4,
+     "nut_top": 13.2,
+     "protrusion": 0.8,
+     "threads_past": 2.0,
+     "protrusion_worst": 0.6,
+     "threads_past_worst": 1.5,
+     "verdict": [
+      "WARN",
+      "tip 0.80 mm past the nyloc (2.0 threads; 1.5 with a 3.0 mm tall nut)"
+     ],
+     "required_min": 0.8,
+     "shortest_ok": 14
+    }
+   }
+  },
+  {
+   "id": "R_thumb_R2_pin",
+   "source": "request",
+   "screw": "M2x8 SHCS",
+   "nut": "M2 nyloc",
+   "washer": null,
+   "status": "warn",
+   "seat_world": [
+    -175.0106,
+    30.2691,
+    -0.4677
+   ],
+   "axis_world": [
+    0.72493,
+    -0.68882,
+    0.0
+   ],
+   "nut_offset": 2.0,
+   "note": "R2 +s trunnion: clamped in the carrier arm (nyloc in the inner-face pocket); the 3.2 mm tip past the nut IS the pivot pin in the cross (blind dia 2.4 hole). Length is intentional.",
+   "problems": [
+    "WARN: head stands 1.00 mm proud of the surrounding surface (counterbore 1.00 deep, head 2.0)",
+    "WARN: the screw passes through first_thumb_hinge <1> only: it joins nothing",
+    "WARN: screw 2.0 mm longer than needed (tip 3.20 past the nut); M2x6 SHCS would do"
+   ],
+   "resolve": {
+    "snap": {
+     "bore_dia": 2.4,
+     "bore_part": "second_thumb_hinge <1>",
+     "lateral_shift": 0.0,
+     "tilt_deg": 0.001
+    },
+    "nut_flats": "aligned to pocket"
+   },
+   "request": {
+    "file": "freecad/regions/fasteners_thumb.json",
+    "index": 2
+   },
+   "checks": {
+    "head_space": "clear",
+    "hole": "clear",
+    "head_seat": [
+     "first_thumb_hinge <1>"
+    ],
+    "counterbore_depth": 1.0,
+    "head_top_vs_surface": 1.0,
+    "nut_space": "clear",
+    "nut_seat": [
+     "first_thumb_hinge <1>"
+    ],
+    "tip_space": "clear",
+    "grip_parts": [
+     "first_thumb_hinge <1>"
+    ],
+    "engagement": {
+     "pitch": 0.4,
+     "nut_face": 2.0,
+     "nut_top": 4.8,
+     "protrusion": 3.2,
+     "threads_past": 8.0,
+     "protrusion_worst": 3.0,
+     "threads_past_worst": 7.5,
+     "verdict": [
+      "WARN",
+      "screw 2.0 mm longer than needed (tip 3.20 past the nut); M2x6 SHCS would do"
+     ],
+     "required_min": 0.8,
+     "shortest_ok": 6
+    }
+   }
+  },
+  {
+   "id": "R_thumb_R3_keeper",
+   "source": "request",
+   "screw": "M2x14 SHCS",
+   "nut": "M2 hex",
+   "washer": null,
+   "status": "ok",
+   "seat_world": [
+    -158.1833,
+    19.8146,
+    3.1187
+   ],
+   "axis_world": [
+    -0.72493,
+    0.68882,
+    -0.0
+   ],
+   "nut_offset": 12.0,
+   "note": "R3 roll keeper: across the gimbal cross, runs in the roll-shaft groove (axial retention + roll hard stops). Fixed to the cross; head on the -s face, hex nut on the +s face.",
+   "problems": [],
+   "resolve": {
+    "snap": {
+     "bore_dia": 2.4,
+     "bore_part": "second_thumb_hinge <1>",
+     "lateral_shift": 0.0,
+     "tilt_deg": 0.001
+    },
+    "nut_flats": "aligned to pocket"
+   },
+   "request": {
+    "file": "freecad/regions/fasteners_thumb.json",
+    "index": 3
+   },
+   "checks": {
+    "head_space": "clear",
+    "hole": "clear",
+    "head_seat": [
+     "second_thumb_hinge <1>"
+    ],
+    "counterbore_depth": 2.2,
+    "head_top_vs_surface": -0.2,
+    "nut_space": "clear",
+    "nut_seat": [
+     "second_thumb_hinge <1>"
+    ],
+    "tip_space": "clear",
+    "grip_parts": [
+     "third_thumb_hinge <1>",
+     "second_thumb_hinge <1>"
+    ],
+    "engagement": {
+     "pitch": 0.4,
+     "nut_face": 12.0,
+     "nut_top": 13.6,
+     "protrusion": 0.4,
+     "threads_past": 1.0,
+     "verdict": [
+      "OK",
+      ""
+     ],
+     "required_min": 0.4,
+     "shortest_ok": 14
+    }
+   }
+  },
+  {
+   "id": "R_thumb_R4_bolt",
+   "source": "request",
+   "screw": "M2x14 SHCS",
+   "nut": "M2 nyloc",
+   "washer": null,
+   "status": "ok",
+   "seat_world": [
+    -155.8314,
+    34.5685,
+    4.1727
+   ],
+   "axis_world": [
+    0.33411,
+    -0.32161,
+    -0.88597
+   ],
+   "nut_offset": 9.5,
+   "note": "R4 pivot: thumb metacarpal cheeks + roll-shaft tongue (J0-style through-bolt).",
+   "problems": [],
+   "resolve": {
+    "snap": {
+     "bore_dia": 2.4,
+     "bore_part": "third_thumb_hinge <1>",
+     "lateral_shift": 0.0,
+     "tilt_deg": 0.001
+    },
+    "nut_flats": "aligned to pocket"
+   },
+   "request": {
+    "file": "freecad/regions/fasteners_thumb.json",
+    "index": 4
+   },
+   "checks": {
+    "head_space": "clear",
+    "hole": "clear",
+    "head_seat": [
+     "Metacarpal Bone_V02 <4>"
+    ],
+    "counterbore_depth": 2.2,
+    "head_top_vs_surface": -0.2,
+    "nut_space": "clear",
+    "nut_seat": [
+     "Metacarpal Bone_V02 <4>"
+    ],
+    "tip_space": "clear",
+    "grip_parts": [
+     "third_thumb_hinge <1>",
+     "Metacarpal Bone_V02 <4>"
+    ],
+    "engagement": {
+     "pitch": 0.4,
+     "nut_face": 9.5,
+     "nut_top": 12.3,
+     "protrusion": 1.7,
+     "threads_past": 4.25,
+     "protrusion_worst": 1.5,
+     "threads_past_worst": 3.75,
+     "verdict": [
+      "OK",
+      ""
+     ],
+     "required_min": 0.8,
+     "shortest_ok": 14
+    }
+   }
+  },
+  {
+   "id": "R_thumb_R5_bolt",
+   "source": "request",
+   "screw": "M2x16 SHCS",
+   "nut": "M2 nyloc",
+   "washer": null,
+   "status": "fail",
+   "seat_world": [
+    -133.5276,
+    57.5151,
+    3.6051
+   ],
+   "axis_world": [
+    0.33411,
+    -0.32161,
+    -0.88597
+   ],
+   "nut_offset": 10.225,
+   "note": "R5 pivot: thumb metacarpal distal clevis + thumb proximal tongue (J0-style through-bolt).",
+   "problems": [
+    "FAIL: nut not seated: no material under the nut bearing face",
+    "WARN: the screw passes through Proximal Phalanx Bone_V02 <3> only: it joins nothing",
+    "WARN: screw 2.0 mm longer than needed (tip 2.97 past the nut); M2x14 SHCS would do"
+   ],
+   "resolve": {
+    "snap": {
+     "bore_dia": 2.4,
+     "bore_part": "Proximal Phalanx Bone_V02 <3>",
+     "lateral_shift": 0.0,
+     "tilt_deg": 0.001
+    },
+    "seat_shift": 0.775,
+    "nut_flats": "aligned to pocket"
+   },
+   "request": {
+    "file": "freecad/regions/fasteners_thumb.json",
+    "index": 5
+   },
+   "checks": {
+    "head_space": "clear",
+    "hole": "clear",
+    "head_seat": [
+     "Proximal Phalanx Bone_V02 <3>"
+    ],
+    "counterbore_depth": 2.775,
+    "head_top_vs_surface": -0.775,
+    "nut_space": "clear",
+    "nut_seat": [],
+    "tip_space": "clear",
+    "grip_parts": [
+     "Proximal Phalanx Bone_V02 <3>"
+    ],
+    "engagement": {
+     "pitch": 0.4,
+     "nut_face": 10.225,
+     "nut_top": 13.025,
+     "protrusion": 2.975,
+     "threads_past": 7.44,
+     "protrusion_worst": 2.775,
+     "threads_past_worst": 6.94,
+     "verdict": [
+      "WARN",
+      "screw 2.0 mm longer than needed (tip 2.97 past the nut); M2x14 SHCS would do"
+     ],
+     "required_min": 0.8,
+     "shortest_ok": 14
+    }
+   }
+  },
+  {
+   "id": "R_thumb_R6_bolt",
+   "source": "request",
+   "screw": "M2x16 SHCS",
+   "nut": "M2 nyloc",
+   "washer": null,
+   "status": "fail",
+   "seat_world": [
+    -107.5843,
+    78.3465,
+    -4.7829
+   ],
+   "axis_world": [
+    -0.33411,
+    0.32161,
+    0.88597
+   ],
+   "nut_offset": 10.2,
+   "note": "R6 pivot: thumb distal clevis + thumb proximal tongue (J0-style through-bolt).",
+   "problems": [
+    "FAIL: nut not seated: no material under the nut bearing face",
+    "WARN: the screw passes through Proximal Phalanx Bone_V02 <3> only: it joins nothing",
+    "WARN: screw 2.0 mm longer than needed (tip 3.00 past the nut); M2x14 SHCS would do"
+   ],
+   "resolve": {
+    "snap": {
+     "bore_dia": 2.4,
+     "bore_part": "Proximal Phalanx Bone_V02 <3>",
+     "lateral_shift": 0.0,
+     "tilt_deg": 0.001
+    },
+    "seat_shift": 0.8
+   },
+   "request": {
+    "file": "freecad/regions/fasteners_thumb.json",
+    "index": 6
+   },
+   "checks": {
+    "head_space": "clear",
+    "hole": "clear",
+    "head_seat": [
+     "Proximal Phalanx Bone_V02 <3>"
+    ],
+    "counterbore_depth": 0.0,
+    "head_top_vs_surface": 2.0,
+    "nut_space": "clear",
+    "nut_seat": [],
+    "tip_space": "clear",
+    "grip_parts": [
+     "Proximal Phalanx Bone_V02 <3>"
+    ],
+    "engagement": {
+     "pitch": 0.4,
+     "nut_face": 10.2,
+     "nut_top": 13.0,
+     "protrusion": 3.0,
+     "threads_past": 7.5,
+     "protrusion_worst": 2.8,
+     "threads_past_worst": 7.0,
+     "verdict": [
+      "WARN",
+      "screw 2.0 mm longer than needed (tip 3.00 past the nut); M2x14 SHCS would do"
+     ],
+     "required_min": 0.8,
+     "shortest_ok": 14
+    }
+   }
+  },
+  {
+   "id": "R_thumb_T3_mount_1",
+   "source": "request",
+   "screw": "M1.6x3 SHCS",
+   "nut": null,
+   "washer": null,
+   "status": "fail",
+   "seat_world": [
+    -169.7965,
+    21.0389,
+    -23.5
+   ],
+   "axis_world": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "nut_offset": null,
+   "note": "T3 N20 gearbox face to the cup floor (tapped M1.6 holes of the gearbox front plate; if absent, glue the gearbox face to the floor).",
+   "problems": [
+    "FAIL: clearance hole: less than 2.0 mm dia (0.2 mm/side) along the screw in T3_motor (1.993 mm3)",
+    "WARN: no nut: the screw must thread into a pilot hole (M1.6: dia 1.3-1.4) over >= 3.2 mm; not checkable from the model"
+   ],
+   "resolve": {
+    "snap": {
+     "bore_dia": 2.0,
+     "bore_part": "driver_side_palm_cover3 <1>",
+     "lateral_shift": 0.0,
+     "tilt_deg": 0.0
+    }
+   },
+   "request": {
+    "file": "freecad/regions/fasteners_thumb.json",
+    "index": 7
+   },
+   "checks": {
+    "head_space": "clear",
+    "hole": [
+     "T3_motor (1.993 mm3)"
+    ],
+    "head_seat": [
+     "driver_side_palm_cover3 <1>"
+    ],
+    "counterbore_depth": 1.8,
+    "head_top_vs_surface": -0.2,
+    "grip_parts": [
+     "driver_side_palm_cover3 <1>",
+     "T3_motor"
+    ],
+    "engagement": {
+     "pitch": 0.35,
+     "verdict": [
+      "WARN",
+      "no nut: the screw must thread into a pilot hole (M1.6: dia 1.3-1.4) over >= 3.2 mm; not checkable from the model"
+     ]
+    }
+   }
+  },
+  {
+   "id": "R_thumb_T3_mount_2",
+   "source": "request",
+   "screw": "M1.6x3 SHCS",
+   "nut": null,
+   "washer": null,
+   "status": "fail",
+   "seat_world": [
+    -160.7965,
+    21.0389,
+    -23.5
+   ],
+   "axis_world": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "nut_offset": null,
+   "note": "T3 N20 gearbox face to the cup floor (tapped M1.6 holes of the gearbox front plate; if absent, glue the gearbox face to the floor).",
+   "problems": [
+    "FAIL: clearance hole: less than 2.0 mm dia (0.2 mm/side) along the screw in T3_motor (1.993 mm3)",
+    "WARN: no nut: the screw must thread into a pilot hole (M1.6: dia 1.3-1.4) over >= 3.2 mm; not checkable from the model"
+   ],
+   "resolve": {
+    "snap": {
+     "bore_dia": 2.0,
+     "bore_part": "driver_side_palm_cover3 <1>",
+     "lateral_shift": 0.0,
+     "tilt_deg": 0.0
+    }
+   },
+   "request": {
+    "file": "freecad/regions/fasteners_thumb.json",
+    "index": 8
+   },
+   "checks": {
+    "head_space": "clear",
+    "hole": [
+     "T3_motor (1.993 mm3)"
+    ],
+    "head_seat": [
+     "driver_side_palm_cover3 <1>"
+    ],
+    "counterbore_depth": 1.8,
+    "head_top_vs_surface": -0.2,
+    "grip_parts": [
+     "driver_side_palm_cover3 <1>",
+     "T3_motor"
+    ],
+    "engagement": {
+     "pitch": 0.35,
+     "verdict": [
+      "WARN",
+      "no nut: the screw must thread into a pilot hole (M1.6: dia 1.3-1.4) over >= 3.2 mm; not checkable from the model"
+     ]
+    }
+   }
+  }
+ ],
+ "elapsed_s": 73.6
+}

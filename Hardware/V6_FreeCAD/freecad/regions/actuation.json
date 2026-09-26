@@ -1,0 +1,600 @@
+[
+ {
+  "part": "palm_index",
+  "frame": "local",
+  "box": [
+   -3.8,
+   5.2,
+   -8.0,
+   94.6,
+   35.3,
+   8.0
+  ],
+  "what": "actuation: index motor magazine (fused to the palm bone) + tray + 4 N20 (A=J1, B=J2 tier 1; C=J3, D=J0 tier 2) + spools"
+ },
+ {
+  "part": "palm_index",
+  "frame": "local",
+  "box": [
+   79.3,
+   7.5,
+   5.0,
+   92.3,
+   19.9,
+   11.9
+  ],
+  "what": "actuation: IA encoder PCB tab + 6-pin connector + 8 mm plug keep-out (mates along +x); the cable drops from here toward -Z world through the gap beside the magazine"
+ },
+ {
+  "part": "palm_index",
+  "frame": "local",
+  "box": [
+   38.3,
+   7.5,
+   5.0,
+   51.3,
+   19.9,
+   11.9
+  ],
+  "what": "actuation: IB encoder PCB tab + 6-pin connector + 8 mm plug keep-out (mates along +x); the cable drops from here toward -Z world through the gap beside the magazine"
+ },
+ {
+  "part": "palm_index",
+  "frame": "local",
+  "box": [
+   77.8,
+   20.9,
+   -11.9,
+   90.8,
+   33.3,
+   -5.0
+  ],
+  "what": "actuation: IC encoder PCB tab + 6-pin connector + 8 mm plug keep-out (mates along +x); the cable drops from here toward -Z world through the gap beside the magazine"
+ },
+ {
+  "part": "palm_index",
+  "frame": "local",
+  "box": [
+   33.3,
+   20.9,
+   5.0,
+   46.3,
+   33.3,
+   11.9
+  ],
+  "what": "actuation: ID encoder PCB tab + 6-pin connector + 8 mm plug keep-out (mates along +x); the cable drops from here toward -Z world through the gap beside the magazine"
+ },
+ {
+  "part": "palm_index",
+  "frame": "local",
+  "box": [
+   86.6,
+   7.5,
+   -7.0,
+   104.0,
+   16.6,
+   5.6
+  ],
+  "what": "actuation: under-J0 tendon guide + free flexor span to the base bone (sweeps +-15 deg with J0): keep clear"
+ },
+ {
+  "part": "palm_index",
+  "frame": "local",
+  "box": [
+   0.8,
+   3.6,
+   -7.9,
+   71.0,
+   7.6,
+   7.9
+  ],
+  "what": "actuation: tendon lanes in the back half (A/B at y 5.8, z -+1.6; D tunnels y 5.9, z +-6.3) + tunnel roof strips (y 3.6..5.2, cut round the TPU peg holes) - below the pillars zone"
+ },
+ {
+  "part": "palm_index",
+  "frame": "local",
+  "box": [
+   69.0,
+   -0.8,
+   -11.2,
+   97.4,
+   8.3,
+   11.2
+  ],
+  "what": "actuation: J0 loop ramps into the V5 lateral wing channels (dia 1.5), exits at the wing notches; cheeks (|z| 5..8.5, 6.95..8.5 in the tongue sweep x > 83.1), J0-slot rear fill x 81.5..83.2, slot floor y 4.7"
+ },
+ {
+  "part": "palm_middle",
+  "frame": "local",
+  "box": [
+   -3.8,
+   5.2,
+   -8.0,
+   94.6,
+   35.3,
+   8.0
+  ],
+  "what": "actuation: middle motor magazine (fused to the palm bone) + tray + 4 N20 (A=J1, B=J2 tier 1; C=J3, D=J0 tier 2) + spools"
+ },
+ {
+  "part": "palm_middle",
+  "frame": "local",
+  "box": [
+   79.3,
+   7.5,
+   5.0,
+   92.3,
+   19.9,
+   11.9
+  ],
+  "what": "actuation: MA encoder PCB tab + 6-pin connector + 8 mm plug keep-out (mates along +x); the cable drops from here toward -Z world through the gap beside the magazine"
+ },
+ {
+  "part": "palm_middle",
+  "frame": "local",
+  "box": [
+   38.3,
+   7.5,
+   5.0,
+   51.3,
+   19.9,
+   11.9
+  ],
+  "what": "actuation: MB encoder PCB tab + 6-pin connector + 8 mm plug keep-out (mates along +x); the cable drops from here toward -Z world through the gap beside the magazine"
+ },
+ {
+  "part": "palm_middle",
+  "frame": "local",
+  "box": [
+   77.8,
+   20.9,
+   5.0,
+   90.8,
+   33.3,
+   11.9
+  ],
+  "what": "actuation: MC encoder PCB tab + 6-pin connector + 8 mm plug keep-out (mates along +x); the cable drops from here toward -Z world through the gap beside the magazine"
+ },
+ {
+  "part": "palm_middle",
+  "frame": "local",
+  "box": [
+   33.3,
+   20.9,
+   5.0,
+   46.3,
+   33.3,
+   11.9
+  ],
+  "what": "actuation: MD encoder PCB tab + 6-pin connector + 8 mm plug keep-out (mates along +x); the cable drops from here toward -Z world through the gap beside the magazine"
+ },
+ {
+  "part": "palm_middle",
+  "frame": "local",
+  "box": [
+   86.6,
+   7.5,
+   -7.0,
+   104.0,
+   16.6,
+   5.6
+  ],
+  "what": "actuation: under-J0 tendon guide + free flexor span to the base bone (sweeps +-15 deg with J0): keep clear"
+ },
+ {
+  "part": "palm_middle",
+  "frame": "local",
+  "box": [
+   0.8,
+   3.6,
+   -7.9,
+   71.0,
+   7.6,
+   7.9
+  ],
+  "what": "actuation: tendon lanes in the back half (A/B at y 5.8, z -+1.6; D tunnels y 5.9, z +-6.3) + tunnel roof strips (y 3.6..5.2, cut round the TPU peg holes) - below the pillars zone"
+ },
+ {
+  "part": "palm_middle",
+  "frame": "local",
+  "box": [
+   69.0,
+   -0.8,
+   -11.2,
+   97.4,
+   8.3,
+   11.2
+  ],
+  "what": "actuation: J0 loop ramps into the V5 lateral wing channels (dia 1.5), exits at the wing notches; cheeks (|z| 5..8.5, 6.95..8.5 in the tongue sweep x > 83.1), J0-slot rear fill x 81.5..83.2, slot floor y 4.7"
+ },
+ {
+  "part": "palm_ring",
+  "frame": "local",
+  "box": [
+   -3.8,
+   5.2,
+   -8.0,
+   94.6,
+   35.3,
+   8.0
+  ],
+  "what": "actuation: ring motor magazine (fused to the palm bone) + tray + 4 N20 (A=J1, B=J2 tier 1; C=J3, D=J0 tier 2) + spools"
+ },
+ {
+  "part": "palm_ring",
+  "frame": "local",
+  "box": [
+   79.3,
+   7.5,
+   5.0,
+   92.3,
+   19.9,
+   11.9
+  ],
+  "what": "actuation: RA encoder PCB tab + 6-pin connector + 8 mm plug keep-out (mates along +x); the cable drops from here toward -Z world through the gap beside the magazine"
+ },
+ {
+  "part": "palm_ring",
+  "frame": "local",
+  "box": [
+   38.3,
+   7.5,
+   5.0,
+   51.3,
+   19.9,
+   11.9
+  ],
+  "what": "actuation: RB encoder PCB tab + 6-pin connector + 8 mm plug keep-out (mates along +x); the cable drops from here toward -Z world through the gap beside the magazine"
+ },
+ {
+  "part": "palm_ring",
+  "frame": "local",
+  "box": [
+   77.8,
+   20.9,
+   5.0,
+   90.8,
+   33.3,
+   11.9
+  ],
+  "what": "actuation: RC encoder PCB tab + 6-pin connector + 8 mm plug keep-out (mates along +x); the cable drops from here toward -Z world through the gap beside the magazine"
+ },
+ {
+  "part": "palm_ring",
+  "frame": "local",
+  "box": [
+   33.3,
+   20.9,
+   5.0,
+   46.3,
+   33.3,
+   11.9
+  ],
+  "what": "actuation: RD encoder PCB tab + 6-pin connector + 8 mm plug keep-out (mates along +x); the cable drops from here toward -Z world through the gap beside the magazine"
+ },
+ {
+  "part": "palm_ring",
+  "frame": "local",
+  "box": [
+   86.6,
+   7.5,
+   -7.0,
+   104.0,
+   16.6,
+   5.6
+  ],
+  "what": "actuation: under-J0 tendon guide + free flexor span to the base bone (sweeps +-15 deg with J0): keep clear"
+ },
+ {
+  "part": "palm_ring",
+  "frame": "local",
+  "box": [
+   0.8,
+   3.6,
+   -7.9,
+   71.0,
+   7.6,
+   7.9
+  ],
+  "what": "actuation: tendon lanes in the back half (A/B at y 5.8, z -+1.6; D tunnels y 5.9, z +-6.3) + tunnel roof strips (y 3.6..5.2, cut round the TPU peg holes) - below the pillars zone"
+ },
+ {
+  "part": "palm_ring",
+  "frame": "local",
+  "box": [
+   69.0,
+   -0.8,
+   -11.2,
+   97.4,
+   8.3,
+   11.2
+  ],
+  "what": "actuation: J0 loop ramps into the V5 lateral wing channels (dia 1.5), exits at the wing notches; cheeks (|z| 5..8.5, 6.95..8.5 in the tongue sweep x > 83.1), J0-slot rear fill x 81.5..83.2, slot floor y 4.7"
+ },
+ {
+  "part": "palm_pinky",
+  "frame": "local",
+  "box": [
+   -3.8,
+   5.2,
+   -8.0,
+   94.6,
+   35.3,
+   8.0
+  ],
+  "what": "actuation: pinky motor magazine (fused to the palm bone) + tray + 4 N20 (A=J1, B=J2 tier 1; C=J3, D=J0 tier 2) + spools"
+ },
+ {
+  "part": "palm_pinky",
+  "frame": "local",
+  "box": [
+   79.3,
+   7.5,
+   5.0,
+   92.3,
+   19.9,
+   11.9
+  ],
+  "what": "actuation: PA encoder PCB tab + 6-pin connector + 8 mm plug keep-out (mates along +x); the cable drops from here toward -Z world through the gap beside the magazine"
+ },
+ {
+  "part": "palm_pinky",
+  "frame": "local",
+  "box": [
+   38.3,
+   7.5,
+   5.0,
+   51.3,
+   19.9,
+   11.9
+  ],
+  "what": "actuation: PB encoder PCB tab + 6-pin connector + 8 mm plug keep-out (mates along +x); the cable drops from here toward -Z world through the gap beside the magazine"
+ },
+ {
+  "part": "palm_pinky",
+  "frame": "local",
+  "box": [
+   77.8,
+   20.9,
+   5.0,
+   90.8,
+   33.3,
+   11.9
+  ],
+  "what": "actuation: PC encoder PCB tab + 6-pin connector + 8 mm plug keep-out (mates along +x); the cable drops from here toward -Z world through the gap beside the magazine"
+ },
+ {
+  "part": "palm_pinky",
+  "frame": "local",
+  "box": [
+   33.3,
+   20.9,
+   5.0,
+   46.3,
+   33.3,
+   11.9
+  ],
+  "what": "actuation: PD encoder PCB tab + 6-pin connector + 8 mm plug keep-out (mates along +x); the cable drops from here toward -Z world through the gap beside the magazine"
+ },
+ {
+  "part": "palm_pinky",
+  "frame": "local",
+  "box": [
+   86.6,
+   7.5,
+   -7.0,
+   104.0,
+   16.6,
+   5.6
+  ],
+  "what": "actuation: under-J0 tendon guide + free flexor span to the base bone (sweeps +-15 deg with J0): keep clear"
+ },
+ {
+  "part": "palm_pinky",
+  "frame": "local",
+  "box": [
+   0.8,
+   3.6,
+   -7.9,
+   71.0,
+   7.6,
+   7.9
+  ],
+  "what": "actuation: tendon lanes in the back half (A/B at y 5.8, z -+1.6; D tunnels y 5.9, z +-6.3) + tunnel roof strips (y 3.6..5.2, cut round the TPU peg holes) - below the pillars zone"
+ },
+ {
+  "part": "palm_pinky",
+  "frame": "local",
+  "box": [
+   69.0,
+   -0.8,
+   -11.2,
+   97.4,
+   8.3,
+   11.2
+  ],
+  "what": "actuation: J0 loop ramps into the V5 lateral wing channels (dia 1.5), exits at the wing notches; cheeks (|z| 5..8.5, 6.95..8.5 in the tongue sweep x > 83.1), J0-slot rear fill x 81.5..83.2, slot floor y 4.7"
+ },
+ {
+  "part": "base_bone",
+  "frame": "local",
+  "box": [
+   12.3,
+   -2.2,
+   -8.5,
+   13.7,
+   2.2,
+   5.5
+  ],
+  "what": "actuation: flexor riser slot (3 tendons) from the underside, behind the J1 bore"
+ },
+ {
+  "part": "base_bone",
+  "frame": "local",
+  "box": [
+   -2.0,
+   -1.2,
+   1.0,
+   13.1,
+   1.2,
+   9.0
+  ],
+  "what": "actuation: flexor groove over the J1 head (floor R 6.4)"
+ },
+ {
+  "part": "base_bone",
+  "frame": "local",
+  "box": [
+   16.2,
+   -8.0,
+   -8.5,
+   17.4,
+   8.0,
+   -1.4
+  ],
+  "what": "actuation: J0 loop knot anchors (lateral dia 1.2 + dia 2.6 pockets from below)"
+ },
+ {
+  "part": "metacarpal",
+  "frame": "local",
+  "box": [
+   -1.0,
+   -1.1,
+   -5.7,
+   65.0,
+   1.1,
+   8.5
+  ],
+  "what": "actuation: V5 dia-2 tendon channels (y~0, z +4.7 palm / -4.6 back), open-roof flexor slots at the knuckles, knot pockets (x 19), distal M1.6 anchor"
+ },
+ {
+  "part": "metacarpal_pinky",
+  "frame": "local",
+  "box": [
+   -1.0,
+   -1.1,
+   -5.7,
+   65.0,
+   1.1,
+   8.5
+  ],
+  "what": "actuation: V5 dia-2 tendon channels (y~0, z +4.7 palm / -4.6 back), open-roof flexor slots at the knuckles, knot pockets (x 19), distal M1.6 anchor"
+ },
+ {
+  "part": "proximal",
+  "frame": "local",
+  "box": [
+   -1.0,
+   -1.1,
+   -5.7,
+   65.0,
+   1.1,
+   8.5
+  ],
+  "what": "actuation: V5 dia-2 tendon channels (y~0, z +4.7 palm / -4.6 back), open-roof flexor slots at the knuckles, knot pockets (x 19), distal M1.6 anchor"
+ },
+ {
+  "part": "proximal_middle",
+  "frame": "local",
+  "box": [
+   -1.0,
+   -1.1,
+   -5.7,
+   65.0,
+   1.1,
+   8.5
+  ],
+  "what": "actuation: V5 dia-2 tendon channels (y~0, z +4.7 palm / -4.6 back), open-roof flexor slots at the knuckles, knot pockets (x 19), distal M1.6 anchor"
+ },
+ {
+  "part": "proximal_pinky",
+  "frame": "local",
+  "box": [
+   -1.0,
+   -1.1,
+   -5.7,
+   65.0,
+   1.1,
+   8.5
+  ],
+  "what": "actuation: V5 dia-2 tendon channels (y~0, z +4.7 palm / -4.6 back), open-roof flexor slots at the knuckles, knot pockets (x 19), distal M1.6 anchor"
+ },
+ {
+  "part": "distal",
+  "frame": "local",
+  "box": [
+   -1.0,
+   -1.1,
+   -5.7,
+   65.0,
+   1.1,
+   8.5
+  ],
+  "what": "actuation: V5 dia-2 tendon channels (y~0, z +4.7 palm / -4.6 back), open-roof flexor slots at the knuckles, knot pockets (x 19), distal M1.6 anchor"
+ },
+ {
+  "part": "thumb_metacarpal",
+  "frame": "local",
+  "box": [
+   -1.0,
+   -1.1,
+   -5.7,
+   65.0,
+   1.1,
+   8.5
+  ],
+  "what": "actuation: V5 dia-2 tendon channels (y~0, z +4.7 palm / -4.6 back), open-roof flexor slots at the knuckles, knot pockets (x 19), distal M1.6 anchor"
+ },
+ {
+  "part": "thumb_proximal",
+  "frame": "local",
+  "box": [
+   -1.0,
+   -1.1,
+   -5.7,
+   65.0,
+   1.1,
+   8.5
+  ],
+  "what": "actuation: V5 dia-2 tendon channels (y~0, z +4.7 palm / -4.6 back), open-roof flexor slots at the knuckles, knot pockets (x 19), distal M1.6 anchor"
+ },
+ {
+  "part": "thumb_distal",
+  "frame": "local",
+  "box": [
+   -1.0,
+   -1.1,
+   -5.7,
+   65.0,
+   1.1,
+   8.5
+  ],
+  "what": "actuation: V5 dia-2 tendon channels (y~0, z +4.7 palm / -4.6 back), open-roof flexor slots at the knuckles, knot pockets (x 19), distal M1.6 anchor"
+ },
+ {
+  "part": "world",
+  "frame": "world",
+  "box": [
+   -192.1,
+   -9.3,
+   -64.2,
+   -179.5,
+   26.0,
+   -12.2
+  ],
+  "what": "actuation: T1 N20 pocket in cover3 (from below), floor + spool well (tendon leaves horizontally toward -Y / the gimbal), plug keep-out below"
+ },
+ {
+  "part": "world",
+  "frame": "world",
+  "box": [
+   -154.2,
+   -3.1,
+   -65.8,
+   -141.6,
+   32.2,
+   -13.8
+  ],
+  "what": "actuation: T2 N20 pocket in cover3 (from below), floor + spool well (tendon leaves horizontally toward -Y / the gimbal), plug keep-out below"
+ }
+]
