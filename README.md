@@ -16,7 +16,7 @@ Well, here's where I might change your mind regarding that!
 ## Features
 
 - **Flexible TPU palm mechanics**, allowing for hybrid soft robotics that allow for actual grasping around curved objects in comparison to current traditional robotic palm mechanics
-- 16 motors allowing for **16 DOF hand dexerity**, 3 DOF for each finger and 4 DOF on the thumb
+- 19 motors allowing for **19 DOF hand dexerity**, 4 DOF for each finger and 3 DOF on the thumb
 - Straightforward 3D printing and assembly with **only 5-10 3D printed parts** to be assembled together for more plug-and-play use dynamics
 - Mechanics and electronics **entirely constrained** inside the palm, allowing for full end-effector modularity with all current and future robotic manipulators
 - To utilize a modified L3-F-TOUCH sensing module for the fingers and palm and a stereo raspberry pi camera system for sensor fusion data to train reliable deep reinforcement learning 
@@ -33,7 +33,7 @@ Well, here's where I might change your mind regarding that!
 The simulation work now lives in this repo — see [`Simulation/`](Simulation/):
 
 - **Full physics model of the hand in NVIDIA Newton** (MuJoCo-Warp solver): the flexible
-  TPU palm modeled as 8 spring palm bones with 3 closed kinematic loops, 22 finger DOFs,
+  TPU palm modeled as 8 spring palm bones with 3 closed kinematic loops, 19 finger DOFs,
   self-colliding shells, and **15-pad tactile sensing**
 - **Arm-mounted grasp demo** (Franka FR3) with an honest `--check` gate — a pass requires a
   clean approach, multi-pad tactile contact, and a real lift, not a cube wedged in the shell
@@ -60,7 +60,7 @@ The simulation work now lives in this repo — see [`Simulation/`](Simulation/):
 
 ## Project Details
 
-- **<$500 cost to build**
+- **<~$250 cost to build**
 - **Fully open source hardware and software** under the GPL 3.0 and CERN-OHL pair license :)
 
 ## Coming Soon^TM
