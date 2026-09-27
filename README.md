@@ -19,7 +19,7 @@ Well, here's where I might change your mind regarding that!
 - 19 motors allowing for **20 DOF hand dexerity**, 4 DOF for each finger and 4 DOF on the thumb
 - Straightforward 3D printing and assembly with **only 5-10 3D printed parts** to be assembled together for more plug-and-play use dynamics
 - Mechanics and electronics **entirely constrained** inside the palm, allowing for full end-effector modularity with all current and future robotic manipulators
-- Full integration of https://flexitac.github.io as NEW FULLY ENCOMPASSING TOUCH SENSING for the grand cost of... 2 dollars and 59 cents!
+- Full integration inspired by https://flexitac.github.io as NEW FULLY ENCOMPASSING TOUCH SENSING for the grand cost of... 2 dollars and 59 cents!
 - **Universal Robot Attachment** system that can be 3D printed to interface with any robot arm's end effector attachment system
 - **Multi-modal sensor fusion** integrating:
   - Intel® RealSense™ Depth Camera D455
@@ -48,9 +48,13 @@ The simulation work now lives in this repo — see [`Simulation/`](Simulation/):
 
 ## Related Resources
 
-- [L3-F-TOUCH shown](https://youtu.be/ASt3WRFcAxU?si=XV7Dn4dw2RqogxgP)
-- [General Concept of touch module](https://youtu.be/qtQ4rK66vlE?si=lcGbKkfz59pFsFFY)
-- [Simulation environment to be possibly integrated](https://github.com/facebookresearch/tacto)
+Some old links:
+~~- [L3-F-TOUCH shown](https://youtu.be/ASt3WRFcAxU?si=XV7Dn4dw2RqogxgP)~~
+~~- [General Concept of touch module](https://youtu.be/qtQ4rK66vlE?si=lcGbKkfz59pFsFFY)~~
+~~- [Simulation environment to be possibly integrated](https://github.com/facebookresearch/tacto)~~
+
+Sensors inspired by:
+https://flexitac.github.io
 
 ## Applications
 
