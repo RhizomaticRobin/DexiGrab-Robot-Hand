@@ -16,7 +16,7 @@ Well, here's where I might change your mind regarding that!
 ## Features
 
 - **Flexible TPU palm mechanics**, allowing for hybrid soft robotics that allow for actual grasping around curved objects in comparison to current traditional robotic palm mechanics
-- 19 motors allowing for **19 DOF hand dexerity**, 4 DOF for each finger and 3 DOF on the thumb
+- 19 motors allowing for **20 DOF hand dexerity**, 4 DOF for each finger and 4 DOF on the thumb
 - Straightforward 3D printing and assembly with **only 5-10 3D printed parts** to be assembled together for more plug-and-play use dynamics
 - Mechanics and electronics **entirely constrained** inside the palm, allowing for full end-effector modularity with all current and future robotic manipulators
 - Full integration of https://flexitac.github.io as NEW FULLY ENCOMPASSING TOUCH SENSING for the grand cost of... 2 dollars and 59 cents!
